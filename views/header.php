@@ -4,8 +4,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="UTF-8">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CLAMP | Natural Language Processing (NLP) Software</title>
-        <meta name="description" content="CLAMP, Natural Language Processing Software">
+        <title><?php echo isset($pageTitle) ? $pageTitle . " | " : "" ?>CLAMP | Natural Language Processing (NLP) Software</title>
+        <meta name="description" content="CLAMP, Clinical Natural Language Processing Software For Medical and Healthcare Annotation. Text mining and machine learning for clinical notes. NLP system with advanced machine learning tools. <?php echo isset($pageDescription) ? $pageDescription . " | " : "" ?>">
         <meta name="keywords" content="clinical natural language processing software,
               clinical natural language processing tool,
               clinical natural language processing,
@@ -138,10 +138,10 @@
                     <div class="container">
                         <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                             <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
-                                <li class="active navitem"><a href="index.php">Home</a></li>
-                                <li class="navitem"><a href="get_clamp.php">Download</a></li>
-                                <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
-                                <li class="navitem"><a href="doc.php">Documentation</a></li>
+                                <li class="active navitem"><a href="/">Home</a></li>
+                                <li class="navitem"><a href="get-clamp">Download</a></li>
+                                <li class="navitem"><a href="tutorial">Tutorial</a></li>
+                                <li class="navitem"><a href="documentation">Documentation</a></li>
                                 <li class="navitem"><a href="http://uthealth-ccb.github.io/clamp-support/" target="_blank" target="_blank">Support</a></li>
                             </ul>
                         </nav>

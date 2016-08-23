@@ -34,7 +34,7 @@
         <hr />
 
         <div class="col-lg-6">            
-            <form id="requestForm" action="./get_clamp.php" method="post" class="form-horizontal">
+            <form id="requestForm" action="./get-clamp.php" method="post" class="form-horizontal">
                 <br />
                 <div class="form-group">
                     <h2>CLAMP Request Form</h2>

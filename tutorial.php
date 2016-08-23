@@ -1,3 +1,4 @@
+<?php $pageTitle = "NLP Tutorial" ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
 <div class="container page-container">

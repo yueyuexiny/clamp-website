@@ -1,8 +1,11 @@
+<?php $pageTitle = "Software Documentation" ?>
+<?php $pageDescription = "Natural Language Processing Tool Documentation. Read Clinical Annotation Manual. To Learn More About Medical Bio-Informatics NLP Tool, Read Starter Guide." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
 <div class="container page-container">
+    <br />
     <div class="section-header">
-        <h1>CLAMP Documentation</h1>
+        <h1>Documentation</h1>
     </div>
 
     <div class="row">
