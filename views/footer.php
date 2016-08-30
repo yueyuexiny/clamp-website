@@ -49,10 +49,10 @@
         <div class="row">
             <div class="col-md-2">
                 <div class="hidden-xs hidden-sm">
-                    <img src="img/SBMI-logo.png" />
+                    <img src="img/SBMI-logo.png" alt="UTHealth Logo" />
                 </div>
                 <div class="visible-xs visible-sm text-center" style="margin-bottom: 20px;">
-                    <img src="img/SBMI-logo.png" />
+                    <img src="img/SBMI-logo.png" alt="UTHealth Logo" />
                 </div>                
             </div>
             <div class="col-md-10">

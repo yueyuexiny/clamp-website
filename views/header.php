@@ -117,7 +117,7 @@
                 <div class="container">
                     <div class="clearfix">
                         <div class="pull-left">
-                            <img class="logo" src="img/logo.png" width="50">
+                            <img class="logo" src="img/logo.png" width="50" alt="CLAMP Logo">
                         </div>
                         <div class="pull-left">
                             <h3 class="logo">CLAMP</h3>
