@@ -43,6 +43,11 @@
             </div>
         </div>
 
+    </div>
+</section>
+<section class="feature-box light-bg">        
+    <div class="container">
+
         <div class="highlight-box">
             <h2>Machine learning and hybrid approaches</h2>
             <div class="clearfix">                
@@ -53,6 +58,11 @@
                 <img src="/img/feature2.jpg" alt="" class="pull-left" alt="Feature Image 2" />
             </div>                    
         </div>
+
+    </div>
+</section>
+<section class="feature-box dark-bg">        
+    <div class="container">
 
         <div class="highlight-box">
             <h2>Annotation and corpora management</h2>
@@ -65,6 +75,11 @@
             </div>
         </div>
 
+    </div>
+</section>
+<section class="feature-box light-bg">        
+    <div class="container">
+
         <div class="highlight-box">
             <h2>Customized pipelines</h2>
             <div class="clearfix">
@@ -76,6 +91,11 @@
             </div>
         </div>
 
+    </div>
+</section>
+<section class="feature-box dark-bg">        
+    <div class="container">
+
         <div class="highlight-box">
             <h2>Knowledge sources and sample clinical text</h2>
             <div class="clearfix">
@@ -86,6 +106,11 @@
                 </p>
             </div>                    
         </div>
+
+    </div>
+</section>
+<section class="feature-box light-bg">        
+    <div class="container">
 
         <div class="highlight-box">
             <h2>Interoperability and Scalability</h2>

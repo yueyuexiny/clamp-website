@@ -1,8 +1,15 @@
-<section class="contact-box">
+<section class="feature-box dark-bg"> 
+    <div class="container">
+        <h2>About Us</h2>        
+        <p>
+            The CLAMP is a natural language processing (NLP) tool, based on several award-winning methods and applications developed in University of Texas Health Science Center at Houston, School of Biomedical Informatics.
+        </p>    
+    </div>
+</section>
+
+<section class="feature-box contact-box">
     <div class="container">        
-        <div class="section-header">
-            <h2>Contact Us</h2>
-        </div>
+        <h2>Contact Us</h2>        
         
         <div class="row">
             <div class="col-lg-4">

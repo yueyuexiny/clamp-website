@@ -511,14 +511,7 @@ ul.nav.navbar-nav.navbar-right.main-nav-list li a {
 /* Contact Us Box */
 
 .contact-box {
-    background: #EFEFEF;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: #CFCFCF;
-    border-bottom-color: #CFCFCF;
-    padding: 60px 0;
+    background: #EFEFEF; 
 }
 
 .separator-one .green-btn {
@@ -630,7 +623,7 @@ label.error {
 /*FEATURE SECTION*/
 
 .feature-box {
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 .feature-box > h2 {
@@ -664,6 +657,10 @@ label.error {
 .dark-bg h6, 
 .dark-bg p {
     color: #fff;
+}
+
+.light-bg {
+    background-color: #E0E0E0;
 }
 
 .feature-box .description p {
