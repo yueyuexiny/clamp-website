@@ -139,9 +139,9 @@
                         <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                             <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
                                 <li class="active navitem"><a href="/">Home</a></li>
-                                <li class="navitem"><a href="get-clamp">Download</a></li>
-                                <li class="navitem"><a href="tutorial">Tutorial</a></li>
-                                <li class="navitem"><a href="documentation">Documentation</a></li>
+                                <li class="navitem"><a href="get-clamp.php">Download</a></li>
+                                <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
+                                <li class="navitem"><a href="documentation.php">Documentation</a></li>
                                 <li class="navitem"><a href="http://uthealth-ccb.github.io/clamp-support/" target="_blank" target="_blank">Support</a></li>
                             </ul>
                         </nav>

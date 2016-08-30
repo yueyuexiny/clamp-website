@@ -211,7 +211,7 @@
                             </li>
                         </ol>                        
                         <p>CLAMP-CMD is free to use.</p>
-                        <p>For CLAMP-GUI, we may charge a fee, depending on the type of license. For more information, visit <a href="/get_clamp.php">download page</a>.</p>                        
+                        <p>For CLAMP-GUI, we may charge a fee, depending on the type of license. For more information, visit <a href="/get-clamp.php">download page</a>.</p>                        
                     </div>
                 </div>
             </div>
