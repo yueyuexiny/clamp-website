@@ -11,18 +11,24 @@
             </p>
             <div class="row">
                 <div class="col-md-4">
-                    <img height="250" src="/img/pipeline1.jpg" alt="Pipeline Image 1" />
-                    <h3>Create Pipeline</h3>
-                    <p>Define Custom Pipelines For Different Tasks On Different Data Sources.</p>                    
+                    <div class="text-center">
+                        <img width="250" src="/img/pipeline1.jpg" alt="Pipeline Image 1"/>
+                    </div>
+                    <h3>High Performance</h3>
+                    <p>CLAMP components are built on proven methods in many clinical NLP challenges.</p>                    
                 </div>
                 <div class="col-md-4">
-                    <img height="250" src="/img/pipeline2.jpg" alt="Pipeline Image 2" />
-                    <h3>Select Components</h3>
+                    <div class="text-center">
+                        <img width="250" src="/img/pipeline2.jpg" alt="Pipeline Image 2" />
+                    </div>
+                    <h3>Customizable</h3>
                     <p>Choose From Various Choices of NLP and Machine Learning Components.</p>
                 </div>
                 <div class="col-md-4">
-                    <img height="250" src="/img/pipeline3.jpg" alt="Pipeline Image 3" />
-                    <h3>Run The Pipeline!</h3>
+                    <div class="text-center">
+                        <img width="250" src="/img/pipeline3.jpg" alt="Pipeline Image 3" />
+                    </div>
+                    <h3>Enterprise Features</h3>
                     <p>Annotate Target Documents, Generate Models, and Process Clinical Notes.</p>
                 </div>
             </div>            
@@ -122,5 +128,14 @@
                 <img src="/img/feature6.jpg" alt="" class="pull-left" alt="Feature Image 6" />
             </div>
         </div>
+    </div>
+</section>
+
+<section class="feature-box dark-bg"> 
+    <div class="container">
+        <h2>About Us</h2>        
+        <p>
+            The CLAMP is a natural language processing (NLP) tool, based on several award-winning methods and applications developed in University of Texas Health Science Center at Houston, School of Biomedical Informatics.
+        </p>    
     </div>
 </section>

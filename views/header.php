@@ -120,12 +120,13 @@
                             <img class="logo" src="img/logo.png" width="50" alt="CLAMP Logo">
                         </div>
                         <div class="pull-left">
-                            <h3 class="logo">CLAMP</h3>
-                            <p class="logo">Clinical Language Annotation, Modeling, and Processing Toolkit</p>
+                            <h3 class="logo hidden-xs">CLAMP</h3>
+                            <h2 class="logo visible-xs">CLAMP</h2>
+                            <p class="logo hidden-xs">Clinical Language Annotation, Modeling, and Processing Toolkit</p>
                         </div>
                     </div>
                 </div>
-                <div class="navbar-header responsive-logo">
+                <div class="navbar-header responsive-logo visible-xs">
                     <button aria-expanded="true" class="navbar-toggle" type="button" data-toggle="collapse"
                             data-target="#bs-navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>

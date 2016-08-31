@@ -377,7 +377,7 @@ hr {
 }
 
 .navbar-header {
-    background: #0A6099;
+    background: #636161;
 }
 
 .dropdown-menu {
@@ -409,6 +409,11 @@ hr {
     margin: 20px 10px 20px 0;
 }
 
+#main-nav h2.logo {
+    margin-top: 45px;
+    line-height: 5px;
+}
+
 #main-nav h3.logo {
     margin-top: 30px;
     line-height: 5px;
@@ -417,6 +422,10 @@ hr {
 #main-nav p.logo {
     margin-top: 5px;
     font-weight: bold;
+}
+
+.navbar-nav {
+    margin: 0;
 }
 
 .navbar-nav>li {
@@ -465,7 +474,7 @@ ul.nav.navbar-nav.navbar-right.main-nav-list li a {
 .navbar-toggle {
     border: 0;
     background-color: #808080;
-    margin-top: 23px;
+    margin-top: 10px;
 }
 
 .navbar-toggle:hover,
@@ -617,6 +626,47 @@ label.error {
     -webkit-animation-delay: 0.15s;
     -moz-animation-delay: 0.15s;
     animation-delay: 0.15s;
+}
+
+#Home-Intro {
+    min-height: 90vh;
+}
+
+#Home-Intro .description img {
+    width: 60%;
+}
+
+@media (max-width:1366px) {
+    #Home-Intro {
+        padding-top: 8vh;
+        padding-bottom: 40px;
+    }
+
+    #Home-Intro .section-header h1 {
+        font-size: 6vh;
+        line-height: 6vh;
+        margin-bottom: 2vh;
+    }
+    #Home-Intro .section-header h2 {
+        font-size: 3vh;
+        line-height: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    #Home-Intro div.description > p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #Home-Intro .description img {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    #Home-Intro .description h3 {
+        font-size: 3vh;
+        line-height: 2vh;
+    }
 }
 
 
