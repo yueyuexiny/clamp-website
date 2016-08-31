@@ -76,19 +76,17 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-        <meta property="fb:page_id" content="<?php echo 'http://' . strtolower($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); ?>">
+        
         <meta property="og:title" content="CLAMP | Natural Language Processing (NLP) Software">    
 
-        <link rel="shortcut icon" href="./img/clamp_icon/16.png">
-        <link rel="canonical" href="<?php echo 'http://' . strtolower($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); ?>"/>
+        <link rel="shortcut icon" href="./img/clamp_icon/16.png">        
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/owl.css">
         <link rel="stylesheet" href="css/jquery.css">
         <link rel="stylesheet" href="css/animate.css">    
         <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/styles-2016-08-17.css">
+        <link rel="stylesheet" href="css/styles-2016-08-30.css">
 
         <script src="js/jquery.js"></script> 
 
