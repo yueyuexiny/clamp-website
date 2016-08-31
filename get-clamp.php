@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
             $isFormValid = true;
         }
     }
-    if ($isFormValid) {        
+    if ($isFormValid) {
         write_to_spreadsheet();
         $command = '<script type="text/javascript">alert("You request has been received and we will contact you soon.")</script>';
     } else {
@@ -109,7 +109,7 @@ function write_to_spreadsheet() {
     $subject = "New Request from CLAMP website";
 
     //$to ='Ruiling.Liu@uth.tmc.edu';
-    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';    
+    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';
     $message = '
 		<html>
 		<head>
@@ -143,4 +143,3 @@ function write_to_spreadsheet() {
 
     mail($to, $subject, $message, $headers);
 }
-?>
