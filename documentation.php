@@ -262,7 +262,7 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                href="#collapseSeven">
-                                <strong>What is a License number?</strong>
+                                <strong>What is a license number?</strong>
                             </a>
                         </h4>
                     </div>
