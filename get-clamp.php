@@ -105,11 +105,11 @@ function write_to_spreadsheet() {
             $v = 'mac';
             break;
     }
-    // Send email
+    // Send email to CLAMP team
     $subject = "New Request from CLAMP website";
 
     //$to ='Ruiling.Liu@uth.tmc.edu';
-    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';
+    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu,clampnlp@gmail.com';
     $message = '
 		<html>
 		<head>
@@ -142,4 +142,26 @@ function write_to_spreadsheet() {
     $headers .='X-Mailer: PHP/' . phpversion();
 
     mail($to, $subject, $message, $headers);
+
+    // Acknowledgement email to user
+    $subject_user = "Thank you for requesting a CLAMP Download";
+    $to_user = $email;
+    $message_user = 'Dear user,<br><br>
+        Thank you for submitting a download request on CLAMP website. Your request has been received. Our team will be in touch with you shortly.<br><br>
+        <br><br>
+        Thank you and have a great day!<br><br>
+        Best,<br>
+        The CLAMP team';
+
+    $headers_user = "From:" . strip_tags("clampnlp@gmail.com") . "\r\n";
+    $headers_user .= "Reply-To:" . strip_tags($to) . "\r\n";
+    $headers_user .= 'MIME-Version: 1.0' . "\r\n";
+    $headers_user .= 'Content-type: text/html;
+
+		charset=iso-8859-1' . "\r\n";
+    $headers_user .='X-Mailer: PHP/' . phpversion();
+
+    mail($to_user, $subject_user, $message_user, $headers_user);
+
+
 }
