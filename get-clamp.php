@@ -130,7 +130,6 @@ function email_team(){
     $body = '
     <html>
     <head>
-    <title>Some title</title>
     </head>
     <body>
     <table border="1">
@@ -165,8 +164,7 @@ function email_user(){
         'X-Mailer: PHP/' . phpversion();
 
     $body_sms = 'Dear '.$_POST['inputFName'].',<br><br>
-        This is to confirm that your request to download CLAMP software
-        Thank you for submitting a download request on CLAMP website. Your request has been received. Our team will be in touch with you shortly.<br><br>
+        This is to confirm that your request to download CLAMP software has been received. It will be reviewed by our team and we will be in touch with you soon.<br><br>
         Thank you and have a great day!<br><br>
         Best,<br>
         The CLAMP team';
