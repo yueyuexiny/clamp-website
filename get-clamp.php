@@ -21,6 +21,7 @@ use Google\Spreadsheet\ServiceRequestFactory;
 
 $isFormValid = false;
 if (isset($_POST['submit'])) {
+
     if (isset($_POST['g-recaptcha-response'])) {
         $recaptcha = new \ReCaptcha\ReCaptcha($secret);
         // Make the call to verify the response and also pass the user's IP address
@@ -29,14 +30,19 @@ if (isset($_POST['submit'])) {
             $isFormValid = true;
         }
     }
+
     if ($isFormValid) {
         write_to_spreadsheet();
+        email_team($_POST);
+        email_user($_POST);
         $command = '<script type="text/javascript">alert("You request has been received and we will contact you soon.")</script>';
     } else {
         $command = '<script type="text/javascript">alert("You must select recaptcha command.")</script>';
     }
 }
 include dirname(__FILE__) . '/views/download/requestform.php';
+
+
 
 function write_to_spreadsheet() {
     $serviceRequest = new DefaultServiceRequest(getGoogleTokenFromKeyFile());
@@ -56,11 +62,6 @@ function write_to_spreadsheet() {
     date_default_timezone_set('America/Chicago');
 
     $timestamp = date("Y-m-d h:i:s");
-    $firstname = $_POST['inputFName'];
-    $lastname = $_POST['inputLName'];
-    $email = $_POST['inputEmail'];
-    $jobtitle = $_POST['inputJobTitle'];
-    $organization = $_POST['inputOrganization'];
 
     $organizationtype = $_POST['orgType'];
     $orgTypeOther = $_POST ["orgTypeOther"];
@@ -73,24 +74,20 @@ function write_to_spreadsheet() {
     if ($useTypeOther == 'Other') {
         $useType = $useTypeOther;
     }
-
     $clampversion = $_POST['clampType'];
-    $projectdetails = $_POST['inputDetails'];
-    $consent = $_POST['consent'];
-
 
     // Write to Google Spreadsheet
     $row = array('timestamp' => $timestamp,
-        'firstname' => $firstname,
-        'lastname' => $lastname,
-        'email' => $email,
-        'organization' => $organization,
+        'firstname' => $_POST['inputFName'],
+        'lastname' => $_POST['inputLName'],
+        'email' => $_POST['inputEmail'],
+        'organization' => $_POST['inputOrganization'],
         'pleasechoosethebestdescriptionofyourinstitutionorganizationtype.' => $organizationtype,
         'howwouldclampbeusedatyourorganization' => $useType,
         'pleaseselecttheversionofclampthatyouwouldliketoreceive' => $clampversion,
-        'pleaseprovidemoredetailsaboutyourproject' => $projectdetails,
-        'doyouconsenttotheuseofyournameandaffiliationasauserofoursystem' => $consent,
-        'jobtitle' => $jobtitle);
+        'pleaseprovidemoredetailsaboutyourproject' => $_POST['inputDetails'],
+        'doyouconsenttotheuseofyournameandaffiliationasauserofoursystem' => $_POST['consent'],
+        'jobtitle' => $_POST['inputJobTitle']);
     $listFeed->insert($row);
 
     // Generate download link
@@ -105,63 +102,74 @@ function write_to_spreadsheet() {
             $v = 'mac';
             break;
     }
-    // Send email to CLAMP team
+}
+
+function email_team(){
+    $email = $_POST['inputEmail'];
+
+    $organizationtype = $_POST['orgType'];
+    $orgTypeOther = $_POST ["orgTypeOther"];
+    if ($organizationtype == 'Other') {
+        $organizationtype = $orgTypeOther;
+    }
+
+    $useType = $_POST["useType"];
+    $useTypeOther = $_POST['useTypeOther'];
+    if ($useTypeOther == 'Other') {
+        $useType = $useTypeOther;
+    }
+
     $subject = "New Request from CLAMP website";
+    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';
+    $headers = 'MIME-Version: 1.0' . "\r\n" .
+        'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
+        'From:' . strip_tags($email)  . "\r\n" .
+        'Reply-To:' . strip_tags($email) . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
-    //$to ='Ruiling.Liu@uth.tmc.edu';
-    $to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu,clampnlp@gmail.com';
-    $message = '
-		<html>
-		<head>
-		<title>Some title</title>
-		</head>
-		<body>
-		<table border="1">
-		<tr><td>First Name</td><td>' . $firstname . '</td></tr>
-		<tr><td>Last Name</td><td>' . $lastname . '</td></tr>
-		<tr><td>Email</td><td>' . $email . '</td></tr>
-		<tr><td>Organization</td><td>' . $organization . '</td></tr>
-		<tr><td>Job Title</td><td>' . $jobtitle . '</td></tr>
-		<tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
-		<tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
-		<tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $clampversion . '</td></tr>
-		<tr><td>Please provide more details about your project</td><td>' . $projectdetails . '</td></tr>
-		<tr><td>Do you consent to the use of your name as a user of our system?</td><td>' . $consent . '</td></tr>
-		</table>
-		
-		</body>
-		</html>
-		';
+    $body = '
+    <html>
+    <head>
+    <title>Some title</title>
+    </head>
+    <body>
+    <table border="1">
+    <tr><td>First Name</td><td>' . $_POST['inputFName'] . '</td></tr>
+    <tr><td>Last Name</td><td>' . $_POST['inputLName'] . '</td></tr>
+    <tr><td>Email</td><td>' . $email . '</td></tr>
+    <tr><td>Organization</td><td>' . $_POST['inputOrganization'] . '</td></tr>
+    <tr><td>Job Title</td><td>' . $_POST['inputJobTitle'] . '</td></tr>
+    <tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
+    <tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
+    <tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $_POST['clampType'] . '</td></tr>
+    <tr><td>Please provide more details about your project</td><td>' . $_POST['inputDetails'] . '</td></tr>
+    <tr><td>Do you consent to the use of your name as a user of our system?</td><td>' . $_POST['consent'] . '</td></tr>
+    </table>
 
-    $headers = "From:" . strip_tags($email) . "\r\n";
-    $headers .= "Reply-To:" . strip_tags($email) . "\r\n";
-    $headers .= 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html;
-		
-		charset=iso-8859-1' . "\r\n";
-    $headers .='X-Mailer: PHP/' . phpversion();
+    </body>
+    </html>
+    ';
 
-    mail($to, $subject, $message, $headers);
+    mail($to, $subject, $body, $headers);
+}
 
-    // Acknowledgement email to user
-    $subject_user = "Thank you for requesting a CLAMP Download";
-    $to_user = $email;
-    $message_user = 'Dear user,<br><br>
+function email_user(){
+    $to_sms= $_POST['inputEmail'];
+    $from_email= 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';
+    $subject = "Thank you for requesting a CLAMP Download";;
+
+    $headers2 = 'MIME-Version: 1.0' . "\r\n" .
+        'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
+        'From:' . strip_tags($from_email) . "\r\n" .
+        'Reply-To:' . strip_tags($from_email) ."\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    $body_sms = 'Dear '.$_POST['inputFName'].',<br><br>
+        This is to confirm that your request to download CLAMP software
         Thank you for submitting a download request on CLAMP website. Your request has been received. Our team will be in touch with you shortly.<br><br>
-        <br><br>
         Thank you and have a great day!<br><br>
         Best,<br>
         The CLAMP team';
 
-    $headers_user = "From:" . strip_tags("clampnlp@gmail.com") . "\r\n";
-    $headers_user .= "Reply-To:" . strip_tags($to) . "\r\n";
-    $headers_user .= 'MIME-Version: 1.0' . "\r\n";
-    $headers_user .= 'Content-type: text/html;
-
-		charset=iso-8859-1' . "\r\n";
-    $headers_user .='X-Mailer: PHP/' . phpversion();
-
-    mail($to_user, $subject_user, $message_user, $headers_user);
-
-
+    mail($to_sms, $subject, $body_sms, $headers2);
 }
