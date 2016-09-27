@@ -42,30 +42,30 @@
 
                 <div class="row" style="margin: 0 -30px;">
                     <div class="col-md-6">
-                        <label for="inputFName">First Name <label style="color: red;">*</label></label>
+                        <label for="inputFName">First Name <label style="color: #b50000;">*</label></label>
                         <input type="text" class="form-control input-md" id="inputFName" name="inputFName" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputLName">Last Name <label style="color: red;">*</label></label>
+                        <label for="inputLName">Last Name <label style="color: #b50000;">*</label></label>
                         <input type="text" class="form-control input-md" id="inputLName" name="inputLName" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputEmail">Email address <label style="color: red;">*</label></label>
+                        <label for="inputEmail">Email address <label style="color: #b50000;">*</label></label>
                         <input type="email" class="form-control input-md" id="inputEmail" name="inputEmail" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputJobTitle">Job Title <label style="color: red;">*</label></label>
+                        <label for="inputJobTitle">Job Title <label style="color: #b50000;">*</label></label>
                         <input type="text" class="form-control input-md" id="inputJobTitle" name="inputJobTitle" required>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputOrganization">Organization <label style="color: red;">*</label></label>
+                    <label for="inputOrganization">Organization <label style="color: #b50000;">*</label></label>
                     <input type="text" class="form-control input-md" id="inputOrganization" name="inputOrganization" required>
                 </div>
                 <div class="form-group">
                     <label>Please choose the best description of your institution/organization type. <label
-                            style="color: red;">*</label></label>
+                            style="color: #b50000;">*</label></label>
                     <div>
                         <div>
                             <label class="radio-inline"> <input type="radio" name="orgType" value="Commercial" checked required>Commercial</label>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label>How would CLAMP be used at your organization? <label style="color: red;">*</label></label>
+                    <label>How would CLAMP be used at your organization? <label style="color: #b50000;">*</label></label>
                     <div>
                         <div>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Operational" checked required>Operational</label>
@@ -94,13 +94,13 @@
 
                 <div class="form-group">
                     <label for="inputDetails">Please provide more details about your project (at least 250 characters) <label
-                            style="color: red;">*</label> </label>
+                            style="color: #b50000;">*</label> </label>
                     <textarea class="form-control" id="inputDetails" rows="5" name="inputDetails" required="" minlength="250"></textarea>
                 </div>
 
                 <div class="form-group">
                     <label>Please select the version of CLAMP that you would like to receive
-                        <span style="color: red;">*</span>
+                        <span style="color: #b50000;">*</span>
                     </label>
                     <div>
                         <label class="radio-inline">
@@ -127,7 +127,7 @@
                         the name of your institution to publicize where CLAMP is being used.
                     </label>
 
-                    <label>Do you consent to the use of your name and affiliation as a user of our system? <label style="color: red;">*</label></label>
+                    <label>Do you consent to the use of your name and affiliation as a user of our system? <label style="color: #b50000;">*</label></label>
                     <div>
                         <label class="radio-inline"> <input type="radio" name="consent" value="Yes" checked required>Yes</label>
                         <label class="radio-inline"> <input type="radio" name="consent" value="No">No</label>
