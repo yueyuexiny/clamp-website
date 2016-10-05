@@ -37,19 +37,19 @@
                                     </h3>
                                 </div>
                                 <div id="console-manual" class="manual-list clearfix">
-                                    <a href="#">
+                                    <a href="#nlp-components">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>NLP Component</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#run-pipeline">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Build and Run a Pipeline</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#annotate-corpus">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Annotate Corpus</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#model-development">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Machine learning model development</strong>
                                     </a>
@@ -88,19 +88,19 @@
                                     </h3>
                                 </div>
                                 <div id="gui-manual" class="manual-list">
-                                    <a href="#">
+                                    <a href="#nlp-components">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>NLP Component</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#run-pipeline">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Build and Run a Pipeline</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#annotate-corpus">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Annotate Corpus</strong>
                                     </a>
-                                    <a href="#">
+                                    <a href="#model-development">
                                         <span class="glyphicon glyphicon-list-alt"></span>
                                         <strong>Machine learning model development</strong>
                                     </a>
@@ -113,6 +113,24 @@
         </div>
 
         <div>
+            
+            <?php /* These containers are temporary placed until we develop the documentation and replace them. */ ?>
+            <div id="nlp-components">
+                
+            </div>
+            
+            <div id="run-pipeline">
+                
+            </div>
+            
+            <div id="annotate-corpus">
+                
+            </div>
+            
+            <div id="model-development">
+                
+            </div>
+            
             <h3 class="documentation" style="margin-bottom: 10px">
                 <span class="glyphicon glyphicon-question-sign"></span> FAQ
             </h3>
