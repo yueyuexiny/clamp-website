@@ -88,7 +88,8 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/styles-2016-09-01.css">
 
-        <script src="js/jquery.js"></script> 
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
 
         <!-- Google Analytics -->
         <script type="text/javascript">
