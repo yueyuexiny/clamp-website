@@ -84,7 +84,7 @@
                                 <div class="documentation-row clearfix">
                                     <h3 class="documentation">
                                         <span class="glyphicon glyphicon-book"></span>
-                                        User Manual
+                                        User Manual <a style="font-size: 15px" href="./res/CLAMP-Manual2016-FINAL.pdf" target="_blank">(Download PDF file...)</a>
                                     </h3>
                                 </div>
                                 <div id="gui-manual" class="manual-list">
