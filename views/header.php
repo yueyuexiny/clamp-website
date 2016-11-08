@@ -86,7 +86,7 @@
         <link rel="stylesheet" href="css/jquery.css">
         <link rel="stylesheet" href="css/animate.css">    
         <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/styles-2016-09-27.css">
+        <link rel="stylesheet" href="css/styles-2016-11-08.css">
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -139,6 +139,7 @@
                         <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                             <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
                                 <li class="active navitem"><a href="/">Home</a></li>
+                                <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="get-clamp.php">Download</a></li>
                                 <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
                                 <li class="navitem"><a href="documentation.php">Documentation</a></li>
