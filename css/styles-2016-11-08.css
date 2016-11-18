@@ -440,7 +440,7 @@ ul.nav.navbar-nav.navbar-right.main-nav-list li a {
 .navbar-nav>li>a:hover {
     color: #FFFFFF;
     outline: none;
-    background-color: #4EB1F3;
+    background-color: #0d76bb;
     padding-top: 5px;
     padding-right: 8px;
     padding-bottom: 5px;
@@ -468,24 +468,24 @@ ul.nav.navbar-nav.navbar-right.main-nav-list li a {
 #navigation .navbar-inverse .navbar-nav .active a:focus,
 #navigation .navbar-nav.navbar-right li a:hover {
     color: #fff;
-    background-color: #4EB1F3;
+    background-color: #0d76bb;
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #4EB1F3;
+    background-color: #0d76bb;
 }
 
 .nav .open> a,
 .nav .open> a:focus,
 .nav .open> a:hover {
-    background-color: #4EB1F3;
+    background-color: #0d76bb;
 }
 
 .dropdown-menu> li> a:focus,
 .dropdown-menu> li> a:hover {
-    background-color: #4EB1F3;
+    background-color: #0d76bb;
 }
 
 .navbar-nav>li>a {
@@ -591,7 +591,7 @@ textarea {
 }
 
 label.error {
-    color: red;
+    color: #c30000;
 }
 
 .text-animation {

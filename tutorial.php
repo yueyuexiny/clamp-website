@@ -46,7 +46,7 @@
 
                         <div>
                             <span class="label label-primary">Tutorial</span>
-                            <span class="label label-success">Lab Test</span>
+                            <span class="label" style="background-color: #387f38">Lab Test</span>
                         </div>
                     </div>
                 </div>

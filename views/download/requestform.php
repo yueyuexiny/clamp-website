@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="inputOrganization">Organization <label style="color: #b50000;">*</label></label>
+                    <label for="inputOrganization">Full Name of the Organization <label style="color: #b50000;">*</label></label>
                     <input type="text" class="form-control input-md" id="inputOrganization" name="inputOrganization" required>
                 </div>
                 <div class="form-group">
