@@ -86,7 +86,7 @@
         <link rel="stylesheet" href="css/jquery.css">
         <link rel="stylesheet" href="css/animate.css">    
         <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/styles-2016-11-08.css">
+        <link rel="stylesheet" href="css/styles-2016-11-22.css">
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>

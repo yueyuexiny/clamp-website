@@ -837,6 +837,6 @@ ol.ordered-list li {
 
 @media (min-width: 1000px){
     #customers-logo img {
-        width: 80%;
+        width: 100%;
     }
 }
