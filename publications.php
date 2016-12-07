@@ -10,7 +10,7 @@
 
     <div>
         <p>
-            The following are challenge papers from CLAMP group on clinical notes:
+            The following are the publications of the challenge participation from the CLAMP group:
         </p>        
     </div>
     
