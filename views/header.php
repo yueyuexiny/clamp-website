@@ -77,20 +77,24 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         
-        <meta property="og:title" content="CLAMP | Natural Language Processing (NLP) Software">    
+        <meta property="og:title" content="CLAMP | Natural Language Processing (NLP) Software">
 
-        <link rel="shortcut icon" href="./img/clamp_icon/16.png">        
+        <link rel="shortcut icon" href="./img/clamp_icon/16.png">
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/owl.css">
         <link rel="stylesheet" href="css/jquery.css">
-        <link rel="stylesheet" href="css/animate.css">    
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/styles-2016-11-22.css">
+        <link rel="stylesheet" href="css/manual.css">
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
-
+        <script src="js/manual.js"></script>
+        <!-- added for the manual-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <!-- Google Analytics -->
         <script type="text/javascript">
             (function (i, s, o, g, r, a, m) {
@@ -143,7 +147,16 @@
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
                                 <li class="navitem"><a href="get-clamp.php">Download</a></li>
                                 <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
-                                <li class="navitem"><a href="documentation.php">Documentation</a></li>
+                                <li class="navitem"><a href="faq.php">Faq</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="navitem" data-toggle="dropdown"
+                                       aria-haspopup="true" aria-expanded="true" id="dropdownMenu1">Manual <span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a class=submenu href="documentation.php">Download PDF</a></li>
+                                        <li><a class=submenu href="manual.php">GUI version</a></li>
+                                    </ul>
+                                </li>
                                 <li class="navitem"><a href="http://uthealth-ccb.github.io/clamp-support/" target="_blank" target="_blank">Support</a></li>
                             </ul>
                         </nav>
