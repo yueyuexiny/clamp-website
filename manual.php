@@ -187,7 +187,7 @@
                             Here is an example of what you will see when running the command in Windows:
                         </p>
                         <figure class="figure-manual">
-                            <img src="img/manual/system.PNG" alt="System Requirenment" width="498"
+                            <img src="img/manual/system.png" alt="System Requirenment" width="498"
                                  height="142">
                             <figcaption>Running the code in windows</figcaption>
                         </figure>
@@ -229,7 +229,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/run_clamp.PNG" alt="Clamp Welcome Tab" width="314"
+                                <img src="img/manual/run_clamp.png" alt="Clamp Welcome Tab" width="314"
                                      height="155">
                                 <figcaption>Clamp welcome tab</figcaption>
                             </figure>
@@ -248,7 +248,7 @@
                             this is an executable file while in Mac, this is an application.
                         </p>
                         <figure class="figure-manual">
-                            <img src="img/manual/pachake_desc.PNG" alt="Clamp Package Description" width="501"
+                            <img src="img/manual/pachake_desc.png" alt="Clamp Package Description" width="501"
                                  height="152">
                             <figcaption>Clamp GUI</figcaption>
                         </figure>
@@ -464,7 +464,7 @@
                             utilized in various applications.</p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/nlp_components_1.PNG" alt="NLP Components" width="318"
+                                <img src="img/manual/nlp_components_1.png" alt="NLP Components" width="318"
                                      height="312">
                                 <figcaption>Schema of NLP Components</figcaption>
                             </figure>
@@ -494,7 +494,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/sentence_detector.PNG" alt="Sentence Detector" width="302"
+                                <img src="img/manual/sentence_detector.png" alt="Sentence Detector" width="302"
                                      height="367">
                                 <figcaption> Three sentence detectors and their configuration files
                                 </figcaption>
@@ -533,7 +533,7 @@
                                             <li>Click on the open button
                                                 <div>
                                                     <figure class="figure-manual">
-                                                        <img src="img/manual/sentence_detector_2.PNG"
+                                                        <img src="img/manual/sentence_detector_2.png"
                                                              alt="Sentence Detector"
                                                              width="478"
                                                              height="350">
@@ -554,7 +554,7 @@
                                 </ol>
                                 <div>
                                     <figure class="figure-manual">
-                                        <img src="img/manual/sentence_detector_2.PNG" alt="Sentence Detector"
+                                        <img src="img/manual/sentence_detector_2.png" alt="Sentence Detector"
                                              width="478"
                                              height="350">
                                         <figcaption>How to replace the abbreviation file</figcaption>
@@ -612,7 +612,7 @@
                                             <li>Click on the open button
                                                 <div>
                                                     <figure class="figure-manual">
-                                                        <img src="img/manual/sentence_openNlp.PNG"
+                                                        <img src="img/manual/sentence_openNlp.png"
                                                              alt="Sentence Detector_OpenNlp"
                                                              width="634"
                                                              height="402">
@@ -652,7 +652,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/tokenizer.PNG" alt="Three tokenizers and their configuration files"
+                                <img src="img/manual/tokenizer.png" alt="Three tokenizers and their configuration files"
                                      width="356"
                                      height="436">
                                 <figcaption> Three tokenizers and their configuration files
@@ -679,7 +679,7 @@
                                             <li>Click on the open button
                                                 <div>
                                                     <figure class="figure-manual">
-                                                        <img src="img/manual/tokenizer_default_file.PNG"
+                                                        <img src="img/manual/tokenizer_default_file.png"
                                                              alt="Sentence Detector"
                                                              width="494"
                                                              height="315">
@@ -711,7 +711,7 @@
                                             <li>Click on the open button
                                                 <div>
                                                     <figure class="figure-manual">
-                                                        <img src="img/manual/nlp_tokenizer.PNG"
+                                                        <img src="img/manual/nlp_tokenizer.png"
                                                              alt=" OpenNLP_Tokenizer"
                                                              width="473"
                                                              height="304">
@@ -754,7 +754,7 @@
 
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/postagger.PNG"
+                                <img src="img/manual/postagger.png"
                                      alt=" OpenNLP_Tokenizer"
                                      width="342" height="408">
                                 <figcaption>DF_OpenNLP_pos_tagger and its configuration files</figcaption>
@@ -779,7 +779,7 @@
 
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/chunker.PNG"
+                                <img src="img/manual/chunker.png"
                                      alt=" OpenNLP_Tokenizer"
                                      width="359" height="422">
                                 <figcaption>DF_OpenNLP_chunker and its configuration files</figcaption>
@@ -817,7 +817,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/ner.PNG"
+                                <img src="img/manual/ner.png"
                                      alt="Three named entity recognizers and their configuration files"
                                      width="406"
                                      height="466">
@@ -964,7 +964,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/asser_ide.PNG"
+                                <img src="img/manual/asser_ide.png"
                                      alt="Assertion identifier and its configuration file">
                                 <figcaption>Assertion identifier and its configuration file
                                 </figcaption>
@@ -998,7 +998,7 @@
                                         <li>Click the Save button at the top of the page
                                             <div>
                                                 <figure class="figure-manual">
-                                                    <img src="img/manual/asser_curr.PNG"
+                                                    <img src="img/manual/asser_curr.png"
                                                          alt="Edit the current dictionary file">
                                                     <figcaption>Edit the current dictionary file</figcaption>
                                                 </figure>
@@ -1034,7 +1034,7 @@
                                         <li>Click on the open button
                                             <div>
                                                 <figure class="figure-manual">
-                                                    <img src="img/manual/ruta_def.PNG"
+                                                    <img src="img/manual/ruta_def.png"
                                                          alt="Replace the Negation list file">
                                                     <figcaption>Replace Ruta default file</figcaption>
                                                 </figure>
@@ -1077,7 +1077,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/sec_header.PNG"
+                                <img src="img/manual/sec_header.png"
                                      alt="Section header identifier and its configuration file">
                                 <figcaption> Section header identifier and its configuration file</figcaption>
                             </figure>
@@ -1139,7 +1139,7 @@
 
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/umls.PNG"
+                                <img src="img/manual/umls.png"
                                      alt="Dictionary based UMLS encoder">
                                 <figcaption>Dictionary based UMLS encoder</figcaption>
                             </figure>
@@ -1222,7 +1222,7 @@
                     </p>
                     <div>
                         <figure class="figure-manual">
-                            <img src="img/manual/machine_ner.PNG" alt="Three tokenizers and their configuration files">
+                            <img src="img/manual/machine_ner.png" alt="Three tokenizers and their configuration files">
                             <figcaption>List of NER feature extractors
                             </figcaption>
                         </figure>
@@ -1358,7 +1358,7 @@
                                         <li>Click on the open button
                                             <div>
                                                 <figure class="figure-manual">
-                                                    <img src="img/manual/random_index.PNG"
+                                                    <img src="img/manual/random_index.png"
                                                          alt="How to replace the default file">
                                                     <figcaption>How to replace the default file</figcaption>
                                                 </figure>
@@ -1468,7 +1468,7 @@
                                         <li>Click the Save button at the top of the page
                                             <div>
                                                 <figure class="figure-manual">
-                                                    <img src="img/manual/words_reg_se.PNG"
+                                                    <img src="img/manual/words_reg_se.png"
                                                          alt="How to edit the default file">
                                                     <figcaption>How to edit the default file</figcaption>
                                                 </figure>
@@ -1528,7 +1528,7 @@
                                         "Clinical_concept_recognition".
                                         <div>
                                             <figure class="figure-manual">
-                                                <img src="img/manual/pipeline_clinicalconcept.PNG"
+                                                <img src="img/manual/pipeline_clinicalconcept.png"
                                                      alt="Creating a new NLP pipeline project">
                                                 <figcaption> Creating a new NLP pipeline project</figcaption>
                                             </figure>
@@ -1637,7 +1637,7 @@
                                     want to import.
                                     <div>
                                         <figure class="figure-manual">
-                                            <img src="img/manual/pipeline_dropdown.PNG"
+                                            <img src="img/manual/pipeline_dropdown.png"
                                                  alt="Drop-downContext menu for importing the input files">
                                             <figcaption> Drop-downContext menu for importing the input files
                                             </figcaption>
@@ -1667,7 +1667,7 @@
                                     the window, and the files inside the folder will be displayed on the right side.
                                     <div>
                                         <figure class="figure-manual">
-                                            <img src="img/manual/pipeline_wind_input.PNG"
+                                            <img src="img/manual/pipeline_wind_input.png"
                                                  alt=" Import resources from the local file system into an existing project">
                                             <figcaption> Import resources from the local file system into an existing
                                                 project
@@ -1707,7 +1707,7 @@
                         <p>Now, you can double click on the Input folder to see the imported files </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/clamp_pipeline_inputFolder.PNG"
+                                <img src="img/manual/clamp_pipeline_inputFolder.png"
                                      alt="Imported files under the Input folder">
                                 <figcaption> Imported files under the Input folder
                                 </figcaption>
@@ -1738,7 +1738,7 @@
                         shown in the figure below.</P>
                     <div>
                         <figure class="figure-manual">
-                            <img src="img/manual/run_clamp.PNG"
+                            <img src="img/manual/run_clamp.png"
                                  alt="Running the pipeline">
                             <figcaption>Running the pipeline
                             </figcaption>
@@ -1773,7 +1773,7 @@
                     </P>
                     <div>
                         <figure class="figure-manual">
-                            <img src="img/manual/annotated_text.PNG"
+                            <img src="img/manual/annotated_text.png"
                                  alt="View of text annotated with recognized clinical concepts">
                             <figcaption>View of text annotated with recognized clinical concepts
                             </figcaption>
@@ -1803,7 +1803,7 @@
                     </ol>
                     <div>
                         <figure class="figure-manual">
-                            <img src="img/manual/tab_delimited.PNG"
+                            <img src="img/manual/tab_delimited.png"
                                  alt="Tab delimited format of output files">
                             <figcaption>Tab delimited format of output files
                             </figcaption>
@@ -1829,7 +1829,7 @@
                     </P>
                     <div>
                         <figure class="figure-manual">
-                            <img src="img/manual/builtInLibrary.PNG"
+                            <img src="img/manual/builtInLibrary.png"
                                  alt="Built-in pipeline library in CLAMP">
                             <figcaption>Built-in pipeline library in CLAMP
                             </figcaption>
@@ -1994,7 +1994,7 @@
                                         as shown figure below.
                                         <div>
                                             <figure class="figure-manual">
-                                                <img src="img/manual/step1.PNG"
+                                                <img src="img/manual/step1.png"
                                                      alt="Step 1 to create a new project">
                                                 <figcaption>Step 1 to create a new project</figcaption>
                                             </figure>
@@ -2023,7 +2023,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/corpos_annotation.PNG"
+                                <img src="img/manual/corpos_annotation.png"
                                      alt="Creating a new Corpus Annotation project">
                                 <figcaption>Creating a new Corpus Annotation project</figcaption>
                             </figure>
@@ -2192,7 +2192,7 @@
                                         </p>
                                         <div>
                                             <figure class="figure-manual">
-                                                <img src="img/manual/annotation_entity.PNG"
+                                                <img src="img/manual/annotation_entity.png"
                                                      alt="The created element will be added to the Entity node">
                                                 <figcaption> The created element will be added to the Entity node
                                                 </figcaption>
@@ -2328,7 +2328,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/visualization_color.PNG"
+                                <img src="img/manual/visualization_color.png"
                                      alt="Change visualization of the annotated entity/relation">
                                 <figcaption>Change visualization of the annotated entity/relation</figcaption>
                             </figure>
@@ -2400,7 +2400,7 @@
                                         </p>
                                         <div>
                                             <figure class="figure-manual">
-                                                <img src="img/manual/preannotated_ne.PNG"
+                                                <img src="img/manual/preannotated_ne.png"
                                                      alt=" A file with pre-annotated named entities">
                                                 <figcaption> A file with pre-annotated named entities</figcaption>
                                             </figure>
@@ -2520,7 +2520,7 @@
                         </p>
                         <div>
                             <figure class="figure-manual">
-                                <img src="img/manual/annotation_pause.PNG"
+                                <img src="img/manual/annotation_pause.png"
                                      alt="Annotations on the training file will be paused during the model building process">
                                 <figcaption>Annotations on the training file will be paused during the model
                                     building process
