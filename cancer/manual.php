@@ -1,4 +1,4 @@
-<?php $pageTitle = "CLAMP Manual" ?>
+<?php $pageTitle = "Manual" ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
     <div class="container" xmlns="http://www.w3.org/1999/html">

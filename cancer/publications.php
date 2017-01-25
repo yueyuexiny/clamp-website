@@ -1,4 +1,4 @@
-<?php $pageTitle = "CLAMP Current Users" ?>
+<?php $pageTitle = "Publications" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
@@ -10,7 +10,7 @@
 
     <div>
         <p>
-            CLAMP-CA is built on award-winning methods. Our team has participated in a number of clinical NLP challenges and top ranked for various tasks (see below). Now we have integrated such proven methods into CLAMP and make them available to the community.
+            <?php echo $clampVersion?> is built on award-winning methods. Our team has participated in a number of clinical NLP challenges and top ranked for various tasks (see below). Now we have integrated such proven methods into <?php echo $clampVersion?> and make them available to the community.
         </p>        
     </div>
 

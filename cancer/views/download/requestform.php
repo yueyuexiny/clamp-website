@@ -10,7 +10,7 @@
 
         <div class="section-content">
             <p class="bold">
-                CLAMP is available in two versions:
+                <?php echo $clampVersion?> is available in two versions:
             </p><br>
             <p> 1) CLAMP-CMD, a command line program that implements the state-of-the-art techniques for extracting
                 clinical concepts from text; and </p>

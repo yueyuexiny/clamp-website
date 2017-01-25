@@ -4,7 +4,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="UTF-8">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title><?php echo isset($pageTitle) ? $pageTitle . " | " : "" ?>CLAMP | Natural Language Processing (NLP) Software</title>
+        <?php $clampVersion = "CLAMP-CA"?>
+        <title><?php echo isset($pageTitle) ? $pageTitle . " | " : "" ?><?php echo $clampVersion?> | Natural Language Processing (NLP) Software</title>
         <meta name="description" content="CLAMP, Clinical Natural Language Processing Software For Medical and Healthcare Annotation. Text mining and machine learning for clinical notes. NLP system with advanced machine learning tools. <?php echo isset($pageDescription) ? $pageDescription . " | " : "" ?>">
         <meta name="keywords" content="clinical natural language processing software,
               clinical natural language processing tool,
@@ -77,7 +78,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         
-        <meta property="og:title" content="CLAMP | Natural Language Processing (NLP) Software">
+        <meta property="og:title" content="<?php echo $clampVersion?> | Natural Language Processing (NLP) Software">
 
         <link rel="shortcut icon" href="./img/clamp_icon/16.png">
 
@@ -124,8 +125,8 @@
                             <img class="logo" src="img/logo.png" width="50" alt="CLAMP Logo">
                         </div>
                         <div class="pull-left">
-                            <h3 class="logo hidden-xs">CLAMP</h3>
-                            <h2 class="logo visible-xs">CLAMP</h2>
+                            <h3 class="logo hidden-xs"><?php echo $clampVersion?></h3>
+                            <h2 class="logo visible-xs"><?php echo $clampVersion?></h2>
                             <p class="logo hidden-xs">Clinical Language Annotation, Modeling, and Processing Toolkit</p>
                         </div>
                     </div>

@@ -1,10 +1,10 @@
-<?php $pageTitle = "NLP Tutorial" ?>
+<?php $pageTitle = "Tutorial" ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
     <div class="container page-container">
         <br />
         <div class="section-header">
-            <h1>CLAMP Tutorial</h1>
+            <h1><?php echo $clampVersion?> Tutorial</h1>
         </div>
 
         <h3>Presentations</h3>
@@ -12,7 +12,7 @@
             <ul>
                 <li>
                     <p>
-                        <strong>Hua Xu: 2015 AMIA NLP PreSymposia CLAMP Demo.</strong>
+                        <strong>Hua Xu: 2015 AMIA NLP PreSymposia <?php echo $clampVersion?> Demo.</strong>
                         <a href="./res/2015_AMIA_NLP_PreSymposia_CLAMP_Demo.pptx">Download Presentation...</a>
                     </p>
                 </li>
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="thumbnail">
-                        <h3>CLAMP Demo for Smoking Status</h3>
+                        <h3><?php echo $clampVersion?> Demo for Smoking Status</h3>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe width="420" height="315" src="https://www.youtube.com/embed/SYYyUgnv0uE" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="thumbnail">
-                        <h3>CLAMP Demo for Lab Test</h3>
+                        <h3><?php echo $clampVersion?> Demo for Lab Test</h3>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe width="420" height="315" src="https://www.youtube.com/embed/fvGeK1O16qg" frameborder="0" allowfullscreen></iframe>
                         </div>

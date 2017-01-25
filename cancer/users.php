@@ -1,4 +1,4 @@
-<?php $pageTitle = "CLAMP Current Users" ?>
+<?php $pageTitle = "Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
@@ -12,9 +12,9 @@
         <p>
             Many of the world’s most dynamic healthcare institutions, academic labs, and NLP users find CLAMP 
             make their annotation and NLP tasks more effective. 
-            Over 100 users in more than 50 sites already use CLAMP.
+            Over 100 users in more than 50 sites already use <?php echo $clampVersion?>.
         </p>
-        <p>These are some of the CLAMP users actively using it for their NLP and Machine Learning tasks.</p>
+        <p>These are some of the <?php echo $clampVersion?> users actively using it for their NLP and Machine Learning tasks.</p>
     </div>
 
 

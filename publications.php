@@ -1,4 +1,4 @@
-<?php $pageTitle = "CLAMP Current Users" ?>
+<?php $pageTitle = "Publications" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 

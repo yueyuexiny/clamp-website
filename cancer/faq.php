@@ -1,4 +1,4 @@
-<?php $pageTitle = "Clamp Faq" ?>
+<?php $pageTitle = "FAQ" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Read Clinical Annotation Manual. To Learn More About Medical Bio-Informatics NLP Tool, Read Starter Guide." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
@@ -17,7 +17,7 @@
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                    aria-expanded="true" aria-controls="collapseOne">
-                                    <strong>What is CLAMP? </strong>
+                                    <strong>What is <?php echo $clampVersion?>? </strong>
                                 </a>
                             </h4>
                         </div>
@@ -25,7 +25,7 @@
                              aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <p>
-                                    CLAMP is a comprehensive clinical Natural Language Processing software that enables
+                                    <?php echo $clampVersion?> is a comprehensive clinical Natural Language Processing software that enables
                                     recognition
                                     and automatic encoding of clinical information in narrative patient reports.
                                     In addition to running clinical concept extraction as well as annotation pipelines,
@@ -40,7 +40,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseFour">
-                                    <strong>How long does it take to download CLAMP?</strong>
+                                    <strong>How long does it take to download <?php echo $clampVersion?>?</strong>
                                 </a>
                             </h4>
                         </div>
@@ -48,7 +48,7 @@
                             <div class="panel-body">
                                 <p>
                                     The download time varies by location, and internet connection speed.
-                                    We recommend only use high-speed broadband connections to download CLAMP.
+                                    We recommend only use high-speed broadband connections to download <?php echo $clampVersion?>.
                                 </p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <strong>How do I install CLAMP?</strong>
+                                    <strong>How do I install <?php echo $clampVersion?>?</strong>
                                 </a>
                             </h4>
                         </div>
@@ -86,22 +86,22 @@
                              aria-labelledby="headingTwo">
                             <div class="panel-body">
                                 <p>
-                                    The CLAMP System is provided as a .zip file. After downloading the compressed file,
+                                    The <?php echo $clampVersion?> System is provided as a .zip file. After downloading the compressed file,
                                     unzip the package in the directory of choice and the system is ready for use. You
                                     can
-                                    run the system by double clicking on the startCLAMP icon to launch the GUI of CLAMP.
+                                    run the system by double clicking on the startCLAMP icon to launch the GUI of <?php echo $clampVersion?>.
                                     Installation instructions are the same for both Windows and Mac computers.
-                                    For the CLAMP command line version please refer to the "ReadMe" file.
+                                    For the <?php echo $clampVersion?> command line version please refer to the "ReadMe" file.
                                 </p>
                                 <br>
                                 <p>
                                     <strong>
-                                        Remember that in order to run clamp on your machine, you need to have
+                                        Remember that in order to run <?php echo $clampVersion?> on your machine, you need to have
                                         elevated (administrative) privileges on your machine.
-                                        When you run CLAMP on you Mac for the first time,
+                                        When you run <?php echo $clampVersion?> on you Mac for the first time,
                                         it asks for your permission to run it as "UnSafe" application.
-                                        This is because CLAMP is not downloaded from Apple Store.
-                                        You can simply allow your operating system to run CLAMP and use it on your
+                                        This is because <?php echo $clampVersion?> is not downloaded from Apple Store.
+                                        You can simply allow your operating system to run <?php echo $clampVersion?> and use it on your
                                         machine.
                                     </strong>
                                 </p>
@@ -114,7 +114,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseFive">
-                                    <strong>What are the prerequisites to run CLAMP?</strong>
+                                    <strong>What are the prerequisites to run <?php echo $clampVersion?>?</strong>
                                 </a>
                             </h4>
                         </div>
@@ -122,7 +122,7 @@
                              aria-labelledby="headingFive">
                             <div class="panel-body">
                                 <p>
-                                    The only prerequisite necessary to compile CLAMP is JRE 1.8 (Java Runtime
+                                    The only prerequisite necessary to compile <?php echo $clampVersion?> is JRE 1.8 (Java Runtime
                                     Environment).
                                     Please ensure that you have Java 8 or higher installed in your system.
                                 </p>
@@ -169,8 +169,8 @@
                         <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
                                 <p>
-                                    It is a number that will be provided for you by CLAMP technical team. You need this
-                                    number to activate the full version of CLAMP GUI version.
+                                    It is a number that will be provided for you by <?php echo $clampVersion?> technical team. You need this
+                                    number to activate the full version of <?php echo $clampVersion?> GUI version.
                                 </p>
 
                             </div>
@@ -182,7 +182,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseEight">
-                                    <strong>Where do I get a CLAMP serial number? </strong>
+                                    <strong>Where do I get a <?php echo $clampVersion?> serial number? </strong>
                                 </a>
                             </h4>
                         </div>
@@ -201,26 +201,26 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseNine">
-                                    <strong>What are the core building blocks of CLAMP? </strong>
+                                    <strong>What are the core building blocks of <?php echo $clampVersion?>? </strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseNine" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
                                 <p>
-                                    The high performance language processing framework in CLAMP consists of the
+                                    The high performance language processing framework in <?php echo $clampVersion?> consists of the
                                     following
                                     key building blocks:
                                 </p>
                                 <br/>
                                 <p>
                                     <strong class="text-primary">NLP Pipelines:</strong>
-                                    CLAMP components builds on a set of high performance NLP components that were proven
+                                    <?php echo $clampVersion?> components builds on a set of high performance NLP components that were proven
                                     in several clinical NLP challenges such as i2b2 , ShARe/CLEF , and SemEVAL.
                                 </p>
                                 <br/>
                                 <p><strong class="text-primary">Machine Learning and Hybrid Approaches:</strong>
-                                    The CLAMP framework provides alternative components for some tasks, utilizing rule
+                                    The <?php echo $clampVersion?> framework provides alternative components for some tasks, utilizing rule
                                     based
                                     methods and/or machine learning methods such as support vector machines, conditional
                                     random
@@ -242,14 +242,14 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseTen">
-                                    <strong>What components are included in CLAMP?</strong>
+                                    <strong>What components are included in <?php echo $clampVersion?>?</strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseTen" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
                                 <p>
-                                    Here is the list of the components that are included in CLAMP:
+                                    Here is the list of the components that are included in <?php echo $clampVersion?>:
                                 <p><strong class="text-primary">Sentence Detector</strong></p>
                                 <p><strong class="text-primary">Tokenizer</strong></p>
                                 <p><strong class="text-primary">POS Tagger</strong></p>
@@ -270,16 +270,16 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseEleven">
-                                    <strong>How are CLAMP files/folders organized? </strong>
+                                    <strong>How are <?php echo $clampVersion?> files/folders organized? </strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
                                 <p>
-                                    Since CLAMP is a stand-alone eclipse plugin, its folder structure is similar to
+                                    Since <?php echo $clampVersion?> is a stand-alone eclipse plugin, its folder structure is similar to
                                     other
-                                    eclipse plugins. For more information, check out CLAMP user manual at the top of the
+                                    eclipse plugins. For more information, check out <?php echo $clampVersion?> user manual at the top of the
                                     page.
                                 </p>
 
@@ -299,7 +299,7 @@
                         <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
                                 <p>
-                                    The CLAMP System was developed by Dr. Hua Xu's team group from
+                                    The <?php echo $clampVersion?> System was developed by Dr. Hua Xu's team group from
                                     the School of Biomedical Informatics at the University of Texas Health Science
                                     Center in
                                     Houston.

@@ -1,5 +1,5 @@
 <?php session_start(); ?>
-<?php $pageTitle = "Download Software" ?>
+<?php $pageTitle = "Download" ?>
 <?php $pageDescription = "Download Free NLP Tool. Get Academic Clinical Annotation Tool." ?>
 <?php include dirname(__FILE__) . '/views/header.php'; ?>
 <?php
