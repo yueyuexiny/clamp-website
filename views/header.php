@@ -88,6 +88,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/styles-2016-11-22.css">
         <link rel="stylesheet" href="css/manual.css">
+        <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -142,7 +143,7 @@
                     <div class="container">
                         <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                             <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
-                                <li class="active navitem"><a href="/">Home</a></li>
+                                <li class="active navitem"><a href="index.php">Home</a></li>
                                 <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
                                 <li class="navitem"><a href="get-clamp.php">Download</a></li>
