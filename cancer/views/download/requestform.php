@@ -18,9 +18,7 @@
                 building clinical NLP pipelines for your individual
                 applications.
                 <br/><br>
-                CLAMP-CMD is free to use. For CLAMP-GUI, we may charge a fee, depending on the type of license. It
-                is
-                free for academic use/research purposes.
+                CLAMP-CMD is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
                 the version you are requesting and activation code after review.
             </p>

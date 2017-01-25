@@ -145,7 +145,6 @@
                         <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                             <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
                                 <li class="active navitem"><a href="index.php">Home</a></li>
-                                <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
                                 <li class="navitem"><a href="get-clamp.php">Download</a></li>
                                 <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
