@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://clamp.uth.edu/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/get-clamp</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/tutorial</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/documentation</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/res/2015_AMIA_NLP_PreSymposia_CLAMP_Demo.pptx</loc>
+  <lastmod>2016-06-21T14:09:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/res/CLAMP_v1.1.3_README.pdf</loc>
+  <lastmod>2016-06-21T14:09:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://clamp.uth.edu/res/CLAMP_v.1.1.3_installation_guide.pdf</loc>
+  <lastmod>2016-06-21T14:09:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

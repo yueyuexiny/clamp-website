@@ -10,7 +10,7 @@
 
     <div>
         <p>
-            The following are the publications of the challenge participation from the CLAMP group:
+            CLAMP is built on award-winning methods. Our team has participated in a number of clinical NLP challenges and top ranked for various tasks (see below). Now we have integrated such proven methods into CLAMP and make them available to the community.
         </p>        
     </div>
 

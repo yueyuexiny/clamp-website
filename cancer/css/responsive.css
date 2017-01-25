@@ -1,0 +1,171 @@
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-right {
+        float: none !important;
+        margin: auto;
+        margin-left: 130px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* TOP BAR ELEMENTS */    
+    .responsive-logo {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+    .responsive-logo a {
+        float: none !important;
+    }
+
+    .responsive-nav {
+        text-align: center;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .responsive-nav li {
+        margin-bottom: 15px;
+        margin-top: 0 !important;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        margin: auto;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+}
+
+/*ina*/
+@media (max-width: 1024px) {
+    .aboutus {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 90%;
+    }
+
+    .bs-navbar-collapse {
+        border: 0;
+    }
+
+    .navbar-nav {
+        padding-left: 10px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .navbar-nav>li {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .header {
+        min-height: inherit;
+        padding-bottom: 50px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 70%;
+    }
+    .responsive-logo img {
+        width: 70%;
+    }
+
+    #main-nav {
+        min-height: 50px;
+    }
+
+    .focus,.videotutorial,.manual,.license, .feature,.contact{
+        padding-top: 25px;
+    }
+    .buttons {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+
+    h1 {
+        font-weight: normal;
+    }
+
+    h2 {
+        font-size: 6.5vw !important;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.3rem;
+    }
+
+    /* Nina */  
+    .focus,.videotutorial,.manual,.license, .feature,.contact {
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-weight: normal;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+}
+
+.section-lead {
+    color:#0A6099;
+    font-weight: bold;
+    margin-top: 50px;
+}
