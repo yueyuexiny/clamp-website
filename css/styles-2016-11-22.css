@@ -849,6 +849,7 @@ ol.ordered-list li {
 
 .just-padding {
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .list-group.list-group-root {
@@ -871,6 +872,7 @@ ol.ordered-list li {
 
 .list-group.list-group-root > .list-group > .list-group-item {
     padding-left: 30px;
+
 }
 
 .list-group.list-group-root > .list-group > .list-group > .list-group-item {
@@ -884,4 +886,8 @@ ol.ordered-list li {
 }
 .list-sub-header{
     font-weight: bold
+}
+
+.list-group-item {
+    font-size: 14px;
 }
