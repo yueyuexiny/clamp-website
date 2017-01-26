@@ -22,11 +22,18 @@
                 Please fill up the form below with your project information. We will send you the download link to
                 the version you are requesting and activation code after review.
             </p>
-            <br />
+            <br>
+
+            <p>
+                If you need the <b>CLAMP-CA version</b>, please visit: <a href="http://clamp.uth.edu/cancer/index.php"> http://clamp.uth.edu/cancer/index.php</a>
+            </p>
+            <br>
             <p class="normal-bold-text">
                 Please note: If you need the source code of CLAMP, please contact
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
             </p>
+
+
         </div>
 
         <hr />

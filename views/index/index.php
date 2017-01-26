@@ -1,4 +1,4 @@
-<section id="Home-Intro" class="feature-box">
+<section id="Home-Intro" class="feature-box" style="padding-bottom: 0px">
     <div class="container">    
         <div class="section-header">
             <h1>CLAMP</h1>
@@ -32,7 +32,11 @@
                     <p>Annotate Target Documents, Generate Models, and Process Clinical Notes.</p>
                 </div>
             </div>            
-        </div>    
+        </div>
+    </div>
+    <div style="height: 70px; background-color: #2b9af3; margin-top: 30px;padding: 20px;position: relative;">
+        <h3 style="color: white;text-align: center;">For cancer research >> <a target="_blank" href="./cancer/index.php">CLAMP-CA</a></h3>
+
     </div>
 </section>
 
