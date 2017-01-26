@@ -34,8 +34,8 @@
             </div>            
         </div>
     </div>
-    <div style="height: 70px; background-color: #2b9af3; margin-top: 30px;padding: 20px;position: relative;">
-        <h3 style="color: white;text-align: center;">For cancer research >> <a target="_blank" href="./cancer/index.php">CLAMP-CA</a></h3>
+    <div style="height: 70px; background-color: #2b9af3; margin-top: 30px;padding: 20px">
+        <h3 style="color: white;text-align: center;">For cancer research >> Try <a target="_blank" href="./cancer/index.php">CLAMP-CA</a></h3>
 
     </div>
 </section>
