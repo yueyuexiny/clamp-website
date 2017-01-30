@@ -25,7 +25,7 @@
             <br>
 
             <p style="color:#b50000 ">
-                If you need the <b>CLAMP-CA version</b>, please visit: <a href="http://localhost/clamp-web/cancer.php"> http://localhost/clamp-web/cancer.php</a>
+                If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://localhost/clamp-web/cancer.php"> http://localhost/clamp-web/cancer.php</a>
             </p>
             <br>
             <p class="normal-bold-text">
