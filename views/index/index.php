@@ -1,8 +1,16 @@
 <section id="Home-Intro" class="feature-box" style="padding-bottom: 0px">
-    <div class="container">    
+    <div class="alert alert-danger">
+        <div class="container">
+                <marquee behavior="scroll" direction="left" >
+                    <div class="glyphicon-ring glyphicon-red"> <span class="glyphicon glyphicon-bullhorn glyphicon-bordered"></span></div>
+                    1. For cancer research, please try <b><a target="_blank" href="./cancer/index.php">CLAMP-CANCER</a></b>
+                </marquee>
+            </div>
+    </div>
+    <div class="container">
         <div class="section-header">
-            <h1>CLAMP</h1>
-            <h2>Clinical Language Annotation, Modeling, and Processing Toolkit</h2>
+            <h2>CLAMP</h2>
+            <h3>Clinical Language Annotation, Modeling, and Processing Toolkit</h3>
         </div>
         <div class="description">
             <p class="text-center">
@@ -12,31 +20,27 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="text-center">
-                        <img width="250" src="./img/pipeline1.jpg" alt="Pipeline Image 1"/>
+                        <img width="150" src="./img/pipeline1.jpg" alt="Pipeline Image 1"/>
                     </div>
-                    <h3>High Performance</h3>
+                    <h4>High Performance</h4>
                     <p>CLAMP components are built on proven methods in many clinical NLP challenges.</p>                    
                 </div>
                 <div class="col-md-4">
                     <div class="text-center">
-                        <img width="250" src="./img/pipeline2.jpg" alt="Pipeline Image 2" />
+                        <img width="150" src="./img/pipeline2.jpg" alt="Pipeline Image 2" />
                     </div>
-                    <h3>Customizable</h3>
+                    <h4>Customizable</h4>
                     <p>Choose From Various Choices of NLP and Machine Learning Components.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="text-center">
-                        <img width="250" src="./img/pipeline3.jpg" alt="Pipeline Image 3" />
+                        <img width="150" src="./img/pipeline3.jpg" alt="Pipeline Image 3" />
                     </div>
-                    <h3>Enterprise Features</h3>
+                    <h4>Enterprise Features</h4>
                     <p>Annotate Target Documents, Generate Models, and Process Clinical Notes.</p>
                 </div>
             </div>            
         </div>
-    </div>
-    <div style="height: 70px; background-color: #2b9af3; margin-top: 30px;padding: 20px">
-        <h3 style="color: white;text-align: center;">For cancer research >> Try <a target="_blank" href="./cancer/index.php">CLAMP-CA</a></h3>
-
     </div>
 </section>
 

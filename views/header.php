@@ -150,7 +150,7 @@
                                     <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-download">Download <span class="caret"></span></a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu-download">
                                         <li><a class=submenu href="get-clamp.php"> CLAMP</a></li>
-                                        <li><a class=submenu href="./cancer/index.php"> CLAMP-CANCER</a></li>
+                                        <li><a class=submenu href="cancer.php"> CLAMP-CANCER</a></li>
                                     </ul>
                                 </li>
 

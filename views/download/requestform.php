@@ -24,8 +24,8 @@
             </p>
             <br>
 
-            <p>
-                If you need the <b>CLAMP-CA version</b>, please visit: <a href="http://clamp.uth.edu/cancer/index.php"> http://clamp.uth.edu/cancer/index.php</a>
+            <p style="color:#b50000 ">
+                If you need the <b>CLAMP-CA version</b>, please visit: <a href="http://localhost/clamp-web/cancer.php"> http://localhost/clamp-web/cancer.php</a>
             </p>
             <br>
             <p class="normal-bold-text">

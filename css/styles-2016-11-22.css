@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Black.ttf') format('truetype');
-    font-style: bold;
+    font-style: normal;
     font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: left;
+   /* text-align: left;*/
 }
 
 ul,
@@ -136,10 +136,12 @@ h2 {
 
 h3 {
     font-size: 28px;
+    text-align: center;
 }
 
 h4 {
     font-size: 22px;
+    text-align: center;
 }
 
 h5 {
@@ -155,7 +157,7 @@ h6 {
 }
 
 .footer-text-lg p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-text-xs p {
@@ -605,7 +607,7 @@ label.error {
 }
 
 #Home-Intro {
-    /*min-height: 90vh;*/
+    min-height: 90vh;
 }
 
 #Home-Intro .description img {
@@ -630,7 +632,7 @@ label.error {
     }
 
     #Home-Intro div.description > p {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
@@ -690,7 +692,7 @@ label.error {
 }
 
 .feature-box .description p {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 50px;
 }
 
@@ -711,7 +713,7 @@ label.error {
 .feature-box .description .row > div.col-md-4 p {
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -740,7 +742,7 @@ label.error {
 
 .highlight-box p {    
     width: 55%;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /* SECTION: FOOTER */
@@ -890,4 +892,38 @@ ol.ordered-list li {
 
 .list-group-item {
     font-size: 14px;
+}
+
+
+/**CSS FOR THE RING**/
+
+.glyphicon-ring {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid white;
+    color: white;
+    display: inline-table;
+    text-align: center;
+}
+/**CSS FOR ICON WITH NO BACKGROUND COLOR**/
+
+.glyphicon-ring .glyphicon-bordered {
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+}
+/**WITH AN ADDED BACKGROUND COLOR**/
+
+.glyphicon-white {
+    background: white;
+    color: black;
+    border: 4px solid black;
+}
+.glyphicon-teal {
+    background: teal;
+    color: orange;
+}
+.glyphicon-red {
+    background: red;
 }
