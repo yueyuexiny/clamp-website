@@ -1,4 +1,4 @@
-<?php $clampVersion = "CLAMP-CA"?>
+<?php $clampVersion = "CLAMP-CANCER"?>
 <?php include dirname(__FILE__) . '/views/header.php'; ?>
 
 <?php include dirname(__FILE__) . '/cancer/views/index/index.php'; ?>

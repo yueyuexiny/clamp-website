@@ -165,8 +165,7 @@
                                     </ul>
                                 </li>
 
-
-                                <li class="navitem"><a href="http://uthealth-ccb.github.io/clamp-support/" target="_blank" target="_blank">Support</a></li>
+                                <li class="navitem"><a href="support.php">Support</a></li>
                             </ul>
                         </nav>
                     </div>

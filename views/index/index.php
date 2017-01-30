@@ -10,7 +10,7 @@
     <div class="container">
         <div class="section-header">
             <h2>CLAMP</h2>
-            <h3>Clinical Language Annotation, Modeling, and Processing Toolkit</h3>
+            <h4>Clinical Language Annotation, Modeling, and Processing Toolkit</h4>
         </div>
         <div class="description">
             <p class="text-center">
