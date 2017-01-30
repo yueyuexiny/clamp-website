@@ -927,3 +927,7 @@ ol.ordered-list li {
 .glyphicon-red {
     background: red;
 }
+
+panel-title{
+    font-weight: normal;
+}

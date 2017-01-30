@@ -1,7 +1,7 @@
 <!-- =========================
      Get CLAMP
    ============================== -->
-<div class="download">
+<div class="download" style="margin-top: 30px">
     <div class="container page-container">
         <div class="section-content">
             <p>

@@ -13,10 +13,10 @@
         <div class="description">
             <div class="row">
                 <div class="col-md-3">
-                    <i class="fa fa-line-chart fa-5x center" style="color:#b50000 "></i>
+                    <i class="fa fa-line-chart fa-5x center" style="color:#3aa7aa "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3>High Performance</h3>
+                    <h3 style="color: #3aa7aa">High Performance</h3>
                     <p><?php echo $clampVersion;?> can extract comprehensive types of cancer-related information in pathology reports. (e.g., tumor characteristics, metatheses status, and biomarkers)</p>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     <i class="fa fa-handshake-o fa-5x" style="color:#b50000 "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3>User Friendly</h3>
+                    <h3 style="color:#b50000 ">User Friendly</h3>
                     <p>Users can build customized NLP pipelines for their specific needs</p>
                 </div>
 
@@ -45,22 +45,26 @@
 </section>
 
 
-<section class="feature-box light-bg">        
-    <div class="container">
+<div class="container">
+<section class="feature-box" style="border-top-style: solid;border-top-color: #F88C30">
 
-        <h3 class="download">
+
+        <h3 class="download" style="color: #F88C30">
            Download CLAMP-Cancer
         </h3>
         <?php include dirname(__FILE__) . '/../../../helper.php'; ?>
         <?php include dirname(__FILE__) . '/../download/requestform.php';?>
-    </div>
-</section>
 
-<section class="feature-box">
-    <div class="container">
-        <h3 class="download">
-            Download CLAMP-Cancer
+</section>
+</div>
+
+<div class="container">
+<section class="feature-box" style="border-top-style: solid;border-top-color: #75c181">
+
+        <h3 class="download" style="color: #75c181;">
+            Manual
         </h3>
-
-    </div>
+        <?php include dirname(__FILE__) . '/../manual/manual.php';?>
+    
 </section>
+</div>
