@@ -23,7 +23,7 @@
                         <img width="150" src="./img/pipeline1.jpg" alt="Pipeline Image 1"/>
                     </div>
                     <h4>High Performance</h4>
-                    <p>CLAMP components are built on proven methods in many clinical NLP challenges.</p>                    
+                    <p>CLAMP components are built on proven methods in many clinical NLP challenges.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="text-center">
