@@ -3,22 +3,9 @@
    ============================== -->
 <div class="download">
     <div class="container page-container">
-        <br />
-        <div class="section-header">
-            <h1>Download CLAMP</h1>
-        </div>
-
         <div class="section-content">
-            <p class="bold">
-                <?php echo $clampVersion?> is available in two versions:
-            </p><br>
-            <p> 1) CLAMP-CMD, a command line program that implements the state-of-the-art techniques for extracting
-                clinical concepts from text; and </p>
-            <p>2) CLAMP-GUI, which provides GUIs for efficiently
-                building clinical NLP pipelines for your individual
-                applications.
-                <br/><br>
-                CLAMP-CMD is free for academic use/research purposes.
+            <p>
+                CLAMP-Cancer is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
                 the version you are requesting and activation code after review.
             </p>
@@ -31,11 +18,11 @@
 
         <hr />
 
-        <div class="col-lg-6">
+        <div class="col-lg-8 col-sm-offset-2 center">
             <form id="requestForm" action="./get-clamp.php" method="post" class="form-horizontal">
                 <br />
                 <div class="form-group">
-                    <h2>CLAMP Request Form</h2>
+                    <h2>CLAMP-Cancer Request Form</h2>
                 </div>
 
                 <div class="row" style="margin: 0 -30px;">
@@ -102,18 +89,8 @@
                     </label>
                     <div>
                         <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-CMD (Commandline)" checked required>
-                            CLAMP-CMD (Commandline)
-                        </label>
-                        <br />
-                        <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-GUI (Windows)" required>
-                            CLAMP-GUI (Windows)
-                        </label>
-                        <br />
-                        <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-GUI (Mac OS X)" required>
-                            CLAMP-GUI (Mac OS X)
+                            <input type="radio" name="clampType" value="CLAMP-Cancer" checked required>
+                            CLAMP-Cancer
                         </label>
                     </div>
                 </div>
@@ -149,4 +126,3 @@ if (isset($command)){
     echo $command;
 }
 ?>
-<?php include dirname(__FILE__) . '/../footer.php'; ?>

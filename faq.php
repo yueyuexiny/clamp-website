@@ -1,4 +1,4 @@
-<?php $pageTitle = "Clamp Faq" ?>
+<?php $pageTitle = "Clamp FAQ" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Read Clinical Annotation Manual. To Learn More About Medical Bio-Informatics NLP Tool, Read Starter Guide." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 
