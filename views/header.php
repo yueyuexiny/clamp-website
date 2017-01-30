@@ -146,18 +146,26 @@
                                 <li class="active navitem"><a href="index.php">Home</a></li>
                                 <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
-                                <li class="navitem"><a href="get-clamp.php">Download</a></li>
-                                <li class="navitem"><a href="tutorial.php">Tutorial</a></li>
-                                <li class="navitem"><a href="faq.php">Faq</a></li>
                                 <li class="dropdown">
-                                    <a href="#" class="navitem" data-toggle="dropdown"
-                                       aria-haspopup="true" aria-expanded="true" id="dropdownMenu1">Manual <span
-                                                class="caret"></span></a>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                        <li><a class=submenu href="documentation.php">Download PDF</a></li>
-                                        <li><a class=submenu href="manual.php">GUI version</a></li>
+                                    <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-download">Download <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu-download">
+                                        <li><a class=submenu href="get-clamp.php"> CLAMP</a></li>
+                                        <li><a class=submenu href="./cancer/index.php"> CLAMP-CANCER</a></li>
                                     </ul>
                                 </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-doc">Documentation <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu-doc">
+                                        <li><a class=submenu href="tutorial.php">Tutorial</a></li>
+                                        <li><a class=submenu href="faq.php">FAQ</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="documentation.php">Manual - Download PDF</a></li>
+                                        <li><a href="manual.php">Manual - GUI version</a></li>
+                                    </ul>
+                                </li>
+
+
                                 <li class="navitem"><a href="http://uthealth-ccb.github.io/clamp-support/" target="_blank" target="_blank">Support</a></li>
                             </ul>
                         </nav>
