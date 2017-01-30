@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-header">
             <h2><?php echo $clampVersion?></h2>
-            <h4>Clinical Language Annotation, Modeling, and Processing Toolkit</h4>
+            <h4>Clinical Language <span style="color: #FE4365">Annotation</span>, <span style="color: #FC9D9A">Modeling</span>, and <span style="color:#83AF9B">Processing</span> Toolkit</h4>
 
             <p class="text-center" style="margin-top: 20px">
                 <?php echo $clampVersion?> a tool for quickly building customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interfaces that require less programming efforts
@@ -23,10 +23,10 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <i class="fa fa-handshake-o fa-5x" style="color:#b50000 "></i>
+                    <i class="fa fa-handshake-o fa-5x" style="color:#fb866a "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3 style="color:#b50000 ">User Friendly</h3>
+                    <h3 style="color:#fb866a ">User Friendly</h3>
                     <p>Users can build customized NLP pipelines for their specific needs</p>
                 </div>
 

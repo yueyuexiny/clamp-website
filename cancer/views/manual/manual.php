@@ -289,7 +289,7 @@
 </div>
 
 <script>
-    $("a").click(function(e) {
+    $(".panel a").click(function(e) {
         // prevent from going to the page
         e.preventDefault();
 
