@@ -20,7 +20,7 @@
                 <br/><br>
                 CLAMP-CMD is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review.
+                the version you are requesting and activation code after review. For industrial users, please fill up this form so we can send you an appropriate license.
             </p>
             <br>
 

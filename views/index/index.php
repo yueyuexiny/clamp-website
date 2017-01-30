@@ -3,7 +3,7 @@
         <div class="container">
                 <marquee behavior="scroll" direction="left" >
                     <div class="glyphicon-ring glyphicon-red"> <span class="glyphicon glyphicon-bullhorn glyphicon-bordered"></span></div>
-                    1. For cancer research, please try <b><a target="_blank" href="cancer.php">CLAMP-Cancer</a></b>
+                    1. For cancer research, please try <b><a href="cancer.php">CLAMP-Cancer</a></b>
                 </marquee>
             </div>
     </div>
