@@ -1,7 +1,7 @@
 <section id="Home-Intro" class="feature-box" style="padding-bottom: 0px">
     <div class="alert alert-danger">
         <div class="container">
-                <marquee behavior="scroll" direction="left" >
+                <marquee behavior="scroll" direction="left" scrollamount="2">
                     <div class="glyphicon-ring glyphicon-red"> <span class="glyphicon glyphicon-bullhorn glyphicon-bordered"></span></div>
                     1. For cancer research, please try <b><a href="cancer.php">CLAMP-Cancer</a></b>
                 </marquee>
