@@ -2,8 +2,11 @@
     <div class="alert alert-danger">
         <div class="container">
                 <marquee behavior="scroll" direction="left" scrollamount="2">
-                    <div class="glyphicon-ring glyphicon-red"> <span class="glyphicon glyphicon-bullhorn glyphicon-bordered"></span></div>
-                    1. For cancer research, please try <b><a href="cancer.php">CLAMP-Cancer</a></b>
+                   <div class="glyphicon-ring glyphicon-red"> <span class="glyphicon glyphicon-bullhorn glyphicon-bordered"></span></div>
+                    <span style="font-size: 16px"> <i class="glyphicon glyphicon-grain"> </i> 1. New release: please try <b><a href="cancer.php">CLAMP-Cancer</a>.</b>
+                             <i class="glyphicon glyphicon-grain"> </i>2. Stop by Booth # at HIMSS to know more about CLAMP software.
+                             <i class="glyphicon glyphicon-grain"> </i>3. Ranked No. 2 in a De-identification challenge.
+                    </span>
                 </marquee>
             </div>
     </div>
