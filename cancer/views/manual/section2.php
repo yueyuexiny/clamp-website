@@ -2,20 +2,20 @@
     <h3 class="section-header-manual" id="system_requirement">System Requirements</h3>
 
     <div class="section-body-manual">
-        <p> CLAMP is a stand-alone Java application based on the Eclipse platform technologies. CLAMP
+        <p> CLAMP-Cancer is a stand-alone Java application based on the Eclipse platform technologies. CLAMP-Cancer
             uses the Apache UIMA (Unstructured Information Management Architecture) framework. The
-            annotation module of CLAMP incorporates and enhances the brat rapid annotation tool . For
+            annotation module of CLAMP-Cancer incorporates and enhances the brat rapid annotation tool . For
             the other individual constituents, Apache OpenNLP toolkit, Liblinear and CRF Suite are
-            utilized in addition to in-house rule-based components. CLAMP also use the UIMA Ruta (Rule
+            utilized in addition to in-house rule-based components. CLAMP-Cancer also use the UIMA Ruta (Rule
             based Text Annotation) as a rule engine to help users specify rules.
-            CLAMP is distributed as a ready-to-use binary package that can either be executed at the
+            CLAMP-Cancer is distributed as a ready-to-use binary package that can either be executed at the
             command line or carries the associated Graphic User Interface (GUI). Our distribution
             package includes components for jar files, CRFSuite, and a Lucene index of all levels of
             UMLS data.
 
         </p>
         <p>
-            The only prerequisite necessary to compile CLAMP is JRE 1.8 (Java Runtime Environment).
+            The only prerequisite necessary to compile CLAMP-Cancer is JRE 1.8 (Java Runtime Environment).
             Please ensure that you have Java 8 or higher installed in your system. Run the following
             command in both Mac and Windows to check your version:
             <br/>
@@ -38,12 +38,12 @@
             encoding component of the system. The account can be created at
             <a href="https://uts.nlm.nih.gov/home.html">https://uts.nlm.nih.gov/home.html</a>. You will
             have to enter your UMLS username and password
-            when prompted by CLAMP in order to utilise the UMLS encoding component.
-            CLAMP also uses the computer’s default browsers to visualize the clinical documents. Since
+            when prompted by CLAMP-Cancer in order to utilise the UMLS encoding component.
+            CLAMP-Cancer also uses the computer’s default browsers to visualize the clinical documents. Since
             all browsers do not completely support all the aspects of the technologies used to implement
-            the visualization, limitations exist in term of running the CLAMP annotation module in the
+            the visualization, limitations exist in term of running the CLAMP-Cancer annotation module in the
             browsers. On the Windows OS, the Internet Explorer should be higher than IE9; On Macintosh
-            computers, Safari (all versions) works well with CLAMP.
+            computers, Safari (all versions) works well with CLAMP-Cancer.
 
         </p>
 
