@@ -11,7 +11,7 @@
                 <div class="col-md-4">
                     <div>
                         <img height="200" src="img/github.png" alt="CLAMP GitHub Page" class="img-circle img-thumbnail" style="margin-bottom: 20px">
-                        <h3>Discussion Forums</h3>
+                        <h3>Discussion Forum</h3>
                         <p class="p-left">Find and share solutions and ideas with your peers and CLAMP experts on our   <a href="https://github.com/UTHealth-CCB/clamp-support/issues" target="_blank" >GitHub page </a>.
                         </p>
                     </div>

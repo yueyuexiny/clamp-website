@@ -1,3 +1,5 @@
+<a href="#" class="back-to-top" style="display: none;">Back to Top</a>
+
 <section id="Home-Intro" class="feature-box">
     <div class="container">
         <div class="section-header">
@@ -25,10 +27,15 @@
                 </div>
                 <div class="col-md-8">
                     <h3 style="color:#fb866a ">User-Friendly Interface</h3>
-                    <p>Users can build customized NLP pipelines for their specific needs</p>
+                    <p>Users can build customized NLP pipelines for their specific needs using the friendly interfaces.</p>
                 </div>
 
+
+
             </div>
+            <a class="btn btn-primary btn-md" href="#download">Download CLAMP-Cancer</a>
+            <a class="btn btn-secondary btn-md" href="#manual">User Manual</a>
+
         </div>
         </div>
 
@@ -42,11 +49,10 @@
     </div>
 </section>
 
+<hr>
 
 <div class="container">
-<section class="feature-box" style="border-top-style: solid;border-top-color: #3aa7aa">
-
-
+<section class="feature-box" id="download">
         <h3 class="download" style="color: #3aa7aa">
            Download CLAMP-Cancer
         </h3>
@@ -56,8 +62,9 @@
 </section>
 </div>
 
+<hr>
 <div class="container">
-<section class="feature-box" style="border-top-style: solid;border-top-color: #75c181">
+<section class="feature-box" id="manual">
 
         <h3 class="download" style="color: #75c181;">
             Manual

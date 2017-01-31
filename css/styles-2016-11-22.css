@@ -974,3 +974,16 @@ ol.ordered-list li {
     line-height: 25px;
     margin-top: 30px;
 }
+
+.btn-primary{
+    background-color:#00a9e5;
+    border-color: #00a9e5;
+}
+
+.btn-secondary{
+    background-color:transparent;
+    border-color: #00a9e5;
+    color: #00a9e5;
+    margin-left: 20px;
+}
+
