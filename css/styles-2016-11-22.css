@@ -607,7 +607,8 @@ label.error {
 }
 
 #Home-Intro {
-    min-height: 90vh;
+    /*min-height: 90vh;*/
+    margin-bottom: 10px;
 }
 
 #Home-Intro .description img {

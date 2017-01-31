@@ -2,11 +2,9 @@
     <div class="container">
         <div class="section-header">
             <h2><?php echo $clampVersion?></h2>
-            <h4>Clinical Language <span style="color: #FE4365">Annotation</span>, <span style="color: #FC9D9A">Modeling</span>, and <span style="color:#83AF9B">Processing</span> Toolkit</h4>
-
-            <p class="text-center" style="margin-top: 20px">
-                <?php echo $clampVersion?> a tool for quickly building customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interfaces that require less programming efforts
-            </p>
+            <h5 class="text-center">
+                A tool for quickly building customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interfaces that require less programming efforts
+            </h5>
         </div>
         <div style="margin-top: 50px">
         <div class="col-md-6">
@@ -26,7 +24,7 @@
                     <i class="fa fa-handshake-o fa-5x" style="color:#fb866a "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3 style="color:#fb866a ">User Friendly</h3>
+                    <h3 style="color:#fb866a ">User-Friendly Interface</h3>
                     <p>Users can build customized NLP pipelines for their specific needs</p>
                 </div>
 
@@ -46,10 +44,10 @@
 
 
 <div class="container">
-<section class="feature-box" style="border-top-style: solid;border-top-color: #F88C30">
+<section class="feature-box" style="border-top-style: solid;border-top-color: #3aa7aa">
 
 
-        <h3 class="download" style="color: #F88C30">
+        <h3 class="download" style="color: #3aa7aa">
            Download CLAMP-Cancer
         </h3>
         <?php include dirname(__FILE__) . '/../../../helper.php'; ?>

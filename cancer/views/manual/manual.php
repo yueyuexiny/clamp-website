@@ -289,6 +289,12 @@
 </div>
 
 <script>
+    $(document).ready(function(){
+        $("#content").load("./cancer/views/manual/section1.php", function() {
+
+        });
+    });
+
     $(".panel a").click(function(e) {
         // prevent from going to the page
         e.preventDefault();
@@ -296,7 +302,9 @@
         // get the href
         var href = $(this).attr("href");
         $("#content").load(href, function() {
-            // do something after content has been loaded
+
         });
     });
+
+
     </script>
