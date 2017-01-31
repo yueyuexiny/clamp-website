@@ -160,8 +160,8 @@
                                         <li><a class=submenu href="tutorial.php">Tutorial</a></li>
                                         <li><a class=submenu href="faq.php">FAQ</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="documentation.php">Manual - Download PDF</a></li>
-                                        <li><a href="manual.php">Manual - GUI version</a></li>
+                                        <li><a href="documentation.php">Manual - Download</a></li>
+                                        <li><a href="manual.php">Manual - Online</a></li>
                                     </ul>
                                 </li>
 

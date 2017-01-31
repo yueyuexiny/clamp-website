@@ -27,34 +27,7 @@
                                     </h3>
                                 </div>
                             </li>
-
-                            <li>
-                                <hr/>
-                                <div class="documentation-row">
-                                    <h3 class="documentation">
-                                        <span class="glyphicon glyphicon-book"></span>
-                                        User Manual
-                                    </h3>
-                                </div>
-                                <div id="console-manual" class="manual-list clearfix">
-                                    <a href="#nlp-components">
-                                        <span class="glyphicon glyphicon-list-alt"></span>
-                                        <strong>NLP Component</strong>
-                                    </a>
-                                    <a href="#run-pipeline">
-                                        <span class="glyphicon glyphicon-list-alt"></span>
-                                        <strong>Build and Run a Pipeline</strong>
-                                    </a>
-                                    <a href="#annotate-corpus">
-                                        <span class="glyphicon glyphicon-list-alt"></span>
-                                        <strong>Annotate Corpus</strong>
-                                    </a>
-                                    <a href="#model-development">
-                                        <span class="glyphicon glyphicon-list-alt"></span>
-                                        <strong>Machine learning model development</strong>
-                                    </a>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
