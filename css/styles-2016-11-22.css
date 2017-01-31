@@ -928,6 +928,48 @@ ol.ordered-list li {
     background: red;
 }
 
-panel-title{
-    font-weight: normal;
+
+.border-right {
+    border-right: 1px solid #ccc;
+}
+
+
+/*
+* Support page
+*/
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.p-left{
+    text-align: left;
+    font-size:16px;
+    line-height: 25px;
+    margin-top: 30px;
 }
