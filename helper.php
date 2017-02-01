@@ -147,7 +147,7 @@ function email_team(){
 
 function email_user(){
     $to_sms= $_POST['inputEmail'];
-    $from_email= 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu';
+    $from_email= 'Anupama.E.Gururaj@uth.tmc.edu';
     $subject = "Thank you for requesting a CLAMP Download";;
 
     $headers2 = 'MIME-Version: 1.0' . "\r\n" .

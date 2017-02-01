@@ -19,7 +19,7 @@
         <hr />
 
         <div class="col-lg-8 col-sm-offset-2 center">
-            <form id="requestForm" action="./get-clamp.php" method="post" class="form-horizontal">
+            <form id="requestForm" action="./cancer.php#download" method="post" class="form-horizontal">
                 <br />
                 <div class="form-group">
                     <h2>CLAMP-Cancer Request Form</h2>
