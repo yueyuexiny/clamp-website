@@ -11,7 +11,7 @@
             </p>
             <br />
             <p class="normal-bold-text">
-                Please note: If you need the source code of CLAMP, please contact
+                Please note: If you need the source code of CLAMP-Cancer, please contact
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
             </p>
         </div>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label>How would CLAMP be used at your organization? <label style="color: #b50000;">*</label></label>
+                    <label>How would CLAMP-Cancer be used at your organization? <label style="color: #b50000;">*</label></label>
                     <div>
                         <div>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Operational" checked required>Operational</label>

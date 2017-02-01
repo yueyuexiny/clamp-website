@@ -5,7 +5,7 @@
         <div class="section-header">
             <h2><?php echo $clampVersion?></h2>
             <h5 class="text-center">
-                A tool for quickly building customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interfaces that require less programming efforts
+                A tool to quickly build customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interface with minimum programming knowledge.
             </h5>
         </div>
         <div style="margin-top: 50px">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-8">
                     <h3 style="color: #3aa7aa">High Performance</h3>
-                    <p><?php echo $clampVersion;?> can extract comprehensive types of cancer-related information in pathology reports. (e.g., tumor characteristics, metatheses status, and biomarkers)</p>
+                    <p><?php echo $clampVersion;?> can extract comprehensive types of cancer-related information in pathology reports. (e.g., tumor characteristics, metastasis status, biomarkers, etc.)</p>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-md-8">
                     <h3 style="color:#fb866a ">User-Friendly Interface</h3>
-                    <p>Users can build customized NLP pipelines for their specific needs using the friendly interfaces.</p>
+                    <p>You can build customized NLP pipelines for your specific needs using the CLAMP-Cancer GUI version.</p>
                 </div>
 
 

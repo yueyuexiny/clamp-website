@@ -5,7 +5,7 @@
         <div class="page-header">
             <h1 class="text-center">CLAMP Support</h1>
         </div>
-        <p class="lead text-center"></p>
+        <p class="lead text-center">CLAMP development and maintenance are supported by institutional funds. We will provide technical support to the license holders. For academic license holders, you will get limited email and phone support. For commercial license holders, you will get sufficient support to get CLAMP up and running.</p>
         <div class="container">
             <div class="row stylish-panel">
                 <div class="col-md-4">
