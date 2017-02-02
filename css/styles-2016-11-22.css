@@ -970,7 +970,7 @@ ol.ordered-list li {
 
 .p-left{
     text-align: left;
-    font-size:16px;
+    font-size:14px;
     line-height: 25px;
     margin-top: 30px;
 }
@@ -990,4 +990,9 @@ ol.ordered-list li {
 .glyphicon-grain{
     margin-left: 15px;
     margin-right: 5px;
+}
+
+.img-thumbnail{
+    padding: 20px;
+    height: 200px;
 }
