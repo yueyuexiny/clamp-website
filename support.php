@@ -47,11 +47,11 @@
                         <p class="p-left">
                             We will have  a CLAMP office hour on Mondays, every alternating week starting February 27th. The call-in information is provided below:<br><br>
                             Please join the meeting from your computer, tablet or smartphone.
-                            <a href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
+                            <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
                             You can also dial in using your phone.<br>
                             United States: +1 (872) 240-3311<br>
                             Access Code: 379-685-837<br><br>
-                            First GoToMeeting? Try a <a href="http://help.citrix.com/getready">test session</a>
+                            First GoToMeeting? Try a <a target="_blank" href="http://help.citrix.com/getready">test session</a>
                         </p>
                     </div>
                 </div>
