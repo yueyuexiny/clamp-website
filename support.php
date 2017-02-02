@@ -30,7 +30,12 @@
                     <div>
                         <img src="img/email.png" alt="CLAMP Emaill Address" class="img-circle img-thumbnail" style="margin-bottom: 20px">
                         <h4>Email</h4>
-                        <p class="p-left">For more detailed information, please refer to our Contact Us section below
+                        <p class="p-left">
+                            <strong>Research Coordinator</strong><br>
+                            Anupama E. Gururaj, PhD<br>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">anupama.e.gururaj@uth.tmc.edu</a>
+
                         </p>
                     </div>
                 </div>
@@ -39,7 +44,9 @@
                     <div>
                         <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
                         <h4>Office Hour</h4>
-                        <p class="p-left">Please join my meeting from your computer, tablet or smartphone.
+                        <p class="p-left">
+                            We will have  a CLAMP office hour on Mondays, every alternating week starting February 27th. The call-in information is provided below:<br><br>
+                            Please join the meeting from your computer, tablet or smartphone.
                             <a href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
                             You can also dial in using your phone.<br>
                             United States: +1 (872) 240-3311<br>
