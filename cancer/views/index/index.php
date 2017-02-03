@@ -3,7 +3,9 @@
 <section id="Home-Intro" class="feature-box">
     <div class="container">
         <div class="section-header">
-            <h2><?php echo $clampVersion?></h2>
+
+            <h2> <img src="./img/clamp-cancer.png" height="150px" alt="Second slide"><?php echo $clampVersion?></h2>
+
             <h5 class="text-center">
                 A tool to quickly build customized NLP pipelines for extracting cancer information from pathology reports, though user-friendly interface with minimum programming knowledge.
             </h5>
