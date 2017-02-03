@@ -54,11 +54,11 @@
                         <label for="inputLName">Last Name <label style="color: #b50000;">*</label></label>
                         <input type="text" class="form-control input-md" id="inputLName" name="inputLName" required>
                     </div>
-                    <div class="col-md-6">
-                        <label for="inputEmail">Email address <label style="color: #b50000;">*</label></label>
+                    <div class="col-md-12">
+                        <label for="inputEmail">Email address <label style="color: #b50000;">*</label> (If you are going to use it for research purposes, please provide your official email account)</label>
                         <input type="email" class="form-control input-md" id="inputEmail" name="inputEmail" required>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <label for="inputJobTitle">Job Title <label style="color: #b50000;">*</label></label>
                         <input type="text" class="form-control input-md" id="inputJobTitle" name="inputJobTitle" required>
                     </div>
