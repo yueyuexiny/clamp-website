@@ -883,9 +883,9 @@ ol.ordered-list li {
 }
 
 .list-header{
-    background-color:#E0F0E2;
-    border-color: #d6e9c6;
-    font-weight: bold
+    background-color:#00cccc;
+    border-color: #00cccc;
+    font-weight: bold;
 }
 .list-sub-header{
     font-weight: bold
@@ -972,7 +972,7 @@ ol.ordered-list li {
     text-align: left;
     font-size:14px;
     line-height: 25px;
-   
+
 }
 
 .btn-primary{

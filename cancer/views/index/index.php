@@ -13,20 +13,20 @@
         <div class="description">
             <div class="row">
                 <div class="col-md-3">
-                    <i class="fa fa-line-chart fa-5x center" style="color:#3aa7aa "></i>
+                    <i class="fa fa-line-chart fa-5x center" style="color:#0099cc "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3 style="color: #3aa7aa">High Performance</h3>
+                    <h3 style="color: #0099cc">High Performance</h3>
                     <p><?php echo $clampVersion;?> can extract comprehensive types of cancer-related information in pathology reports. (e.g., tumor characteristics, metastasis status, biomarkers, etc.)</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-3">
-                    <i class="fa fa-handshake-o fa-5x" style="color:#fb866a "></i>
+                    <i class="fa fa-handshake-o fa-5x" style="color:#75C181 "></i>
                 </div>
                 <div class="col-md-8">
-                    <h3 style="color:#fb866a ">User-Friendly Interface</h3>
+                    <h3 style="color:#75C181 ">User-Friendly Interface</h3>
                     <p>You can build customized NLP pipelines for your specific needs using the CLAMP-Cancer GUI version.</p>
                 </div>
 
@@ -53,7 +53,7 @@
 
 <div class="container">
 <section class="feature-box" id="download">
-        <h3 class="download" style="color: #3aa7aa">
+        <h3 class="download" style="color: #0099cc">
            Download CLAMP-Cancer
         </h3>
         <?php include dirname(__FILE__) . '/../../../helper.php'; ?>
