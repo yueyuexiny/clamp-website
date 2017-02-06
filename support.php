@@ -6,6 +6,28 @@
             <h1 class="text-center">CLAMP Support</h1>
         </div>
         <p class="lead text-center">CLAMP development and maintenance are supported by institutional funds. We will provide technical support to the license holders. For academic license holders, you will get limited email and phone support. For commercial license holders, you will get sufficient support to get CLAMP up and running.</p>
+
+
+        <div class="container">
+            <div class="row stylish-panel">
+                <div class="col-md-12">
+                    <div style="text-align: center">
+                        <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
+                        <h4>Office Hour <span style="vertical-align: super; color: #ff0000; font-style: italic"> New </span></h4>
+                            <p class="p-left">
+                            We will have  a CLAMP office hour on Mondays, every alternating week starting February 27th, 2017. The call-in information is provided below:<br><br>
+                            Please join the meeting from your computer, tablet or smartphone.
+                            <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
+                            You can also dial in using your phone.<br>
+                            United States: +1 (872) 240-3311<br>
+                            Access Code: 379-685-837<br><br>
+                            First GoToMeeting? Try a <a target="_blank" href="http://help.citrix.com/getready">test session</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row stylish-panel">
                 <div class="col-md-4">
@@ -43,25 +65,7 @@
             </div>
 
 
-            <div class="container">
-                <div class="row stylish-panel">
-                    <div class="col-md-12">
-                        <div style="text-align: center">
-                            <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
-                            <h4>Office Hour</h4>
-                            <p class="p-left">
-                                We will have  a CLAMP office hour on Mondays, every alternating week starting February 27th, 2017. The call-in information is provided below:<br><br>
-                                Please join the meeting from your computer, tablet or smartphone.
-                                <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
-                                You can also dial in using your phone.<br>
-                                United States: +1 (872) 240-3311<br>
-                                Access Code: 379-685-837<br><br>
-                                First GoToMeeting? Try a <a target="_blank" href="http://help.citrix.com/getready">test session</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                </div>
+
     </div>
         </div>
     <!-- /container -->
