@@ -37,6 +37,7 @@
             </div>
             <a class="btn btn-primary btn-md" href="#download">Download CLAMP-Cancer</a>
             <a class="btn btn-secondary btn-md" href="#manual">User Manual</a>
+            <a class="btn btn-green btn-md" target="_blank" href="./support.php">Support</a>
 
         </div>
         </div>
