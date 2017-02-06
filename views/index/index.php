@@ -1,73 +1,56 @@
+<div class="row">
+    <!-- Carousel -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!-- <ol class="carousel-indicators">
+             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+         </ol> -->
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Static Header -->
+                <div class="header-text hidden-xs">
+                    <div class="col-md-12 text-center">
+                        <img src="./img/clamp-cancer.png" height="100px" alt="Second slide">
+                        <span class="ad">New Release! Please try <a target="_blank" href="cancer.php">CLAMP-Cancer</a></span>
+                        <br>
+                    </div>
+                </div><!-- /header-text -->
+            </div>
+            <div class="item">
+                <!-- Static Header -->
+                <div class="header-text hidden-xs">
+                    <div class="col-md-12 text-center">
+                        <img src="./img/himss.png" height="100px" alt="Second slide">
+                        <span class="ad">Stop by Booth #5588 at HIMSS to know more about CLAMP software.</span>
+                    </div>
+                </div><!-- /header-text -->
+            </div>
+            <div class="item">
+                <!-- Static Header -->
+                <div class="header-text hidden-xs">
+                    <div class="col-md-12 text-center">
+                        <img src="./img/challenge.png" height="100" alt="Third slide" >
+                        <span class="ad">Ranked No. 2 in 2016 CEGS N-GRID, de-identification challenge.</span>
+                    </div>
+                </div><!-- /header-text -->
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div><!-- /carousel -->
+</div>
+
 <section id="Home-Intro" class="feature-box" style="padding-bottom: 0px">
 
-        <div class="row">
-            <!-- Carousel -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
 
-
-                        <!-- Static Header -->
-                        <div class="header-text hidden-xs">
-                            <div class="col-md-12 text-center">
-                                    <img src="./img/clamp-cancer.png" height="200px" alt="Second slide">
-                                <br><br>
-                                <h3>
-                                    <span>New Release! Please try <a target="_blank" href="cancer.php">CLAMP-Cancer</a></span>
-                                </h3>
-                                <br>
-                                <div style="margin-bottom: 30px">
-                                    </div>
-                            </div>
-                        </div><!-- /header-text -->
-                    </div>
-                    <div class="item">
-                        <!-- Static Header -->
-                        <div class="header-text hidden-xs">
-                            <div class="col-md-12 text-center">
-                                   <img src="./img/himss.png" height="200px" alt="Second slide">
-                                <br><br>
-                                <h3>
-                                    <span>Stop by Booth #5588 at HIMSS to know more about CLAMP software.</span>
-                                </h3>
-                                <br>
-                                <div style="margin-bottom: 30px">
-                                </div>
-                            </div>
-                        </div><!-- /header-text -->
-                    </div>
-                    <div class="item">
-                        <!-- Static Header -->
-                        <div class="header-text hidden-xs">
-                            <div class="col-md-12 text-center">
-                                <img src="./img/challenge.png" height="200" alt="Third slide" >
-                                <br><br>
-                                <h3>
-                                    <span>Ranked No. 2 in a De-identification challenge.</span>
-                                </h3>
-                                <br>
-                                <div style="margin-bottom: 30px">
-                                </div>
-                            </div>
-                        </div><!-- /header-text -->
-                    </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div><!-- /carousel -->
-        </div>
 
 
 
