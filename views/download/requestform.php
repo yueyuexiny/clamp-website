@@ -18,16 +18,16 @@
                 building clinical NLP pipelines for your individual
                 applications.
                 <br/><br>
-                CLAMP-CMD is free for academic use/research purposes.
+                CLAMP is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review. For industrial users, please fill up this form so we can send you an appropriate license.
+                the version you are requesting and activation code after review. For commercial users, please fill up this form so we can send you an appropriate license.
             </p>
             <br>
 
             <p style="color:#b50000 ">
-                If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://localhost/clamp-web/cancer.php"> http://localhost/clamp-web/cancer.php</a>
+                If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://localhost/clamp-web/cancer.php"> http://clamp.uth.edu/cancer.php</a>
             </p>
-            <br>
+            <br>http://clamp.uth.edu/cancer.php
             <p class="normal-bold-text">
                 Please note: If you need the source code of CLAMP, please contact
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
