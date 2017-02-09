@@ -70,6 +70,7 @@
                             <label class="radio-inline"> <input type="radio" name="useType" value="Research" required> Research</label>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Educational" required> Educational</label>
                         </div>
+                        <br>
                         <div>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Other" required> Other</label>
                             <label for="useTypeOther" class="sr-only">Specify other use</label><input class="text-inline input-md" type="text" data-other="useType" name="useTypeOther" id="useTypeOther">
@@ -89,8 +90,12 @@
                     </label>
                     <div>
                         <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-Cancer" checked required>
-                            CLAMP-Cancer
+                            <input type="radio" name="clampType" value="CLAMP-Cancer-Win" checked required>
+                            CLAMP-Cancer (Windows)
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="clampType" value="CLAMP-Cancer-Mac" checked required>
+                            CLAMP-Cancer (Mac OS X)
                         </label>
                     </div>
                 </div>

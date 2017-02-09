@@ -20,14 +20,14 @@
                 <br/><br>
                 CLAMP is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review. For commercial users, please fill up this form so we can send you an appropriate license.
+                the version you are requesting and activation code after review. For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.
             </p>
             <br>
 
             <p style="color:#b50000 ">
                 If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://clamp.uth.edu/cancer.php"> http://clamp.uth.edu/cancer.php</a>
             </p>
-            <br>http://clamp.uth.edu/cancer.php
+            <br>
             <p class="normal-bold-text">
                 Please note: If you need the source code of CLAMP, please contact
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
