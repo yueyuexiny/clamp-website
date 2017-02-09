@@ -93,8 +93,9 @@
                             <input type="radio" name="clampType" value="CLAMP-Cancer-Win" checked required>
                             CLAMP-Cancer (Windows)
                         </label>
+                        <br>
                         <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-Cancer-Mac" checked required>
+                            <input type="radio" name="clampType" value="CLAMP-Cancer-Mac"required>
                             CLAMP-Cancer (Mac OS X)
                         </label>
                     </div>
