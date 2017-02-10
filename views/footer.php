@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <section class="feature-box contact-box">
     <div class="container">        
         <h2>Contact Us</h2>        
@@ -44,7 +50,7 @@
             <div class="text-center">
             <h4>Follow Us</h4><br>
             <a target="_blank" title="follow me on twitter" href="https://twitter.com/clampnlp"><img alt="follow me on twitter" src="./img/twitter-512.png" height="45px" border=0></a>
-            <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/clamp.toolkit.5"><img alt="follow me on facebook" src="./img/facebook-512.png" height="60px" border=0></a>
+            <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/clamp.toolkit"><img alt="follow me on facebook" src="./img/facebook-512.png" height="60px" border=0></a>
             <a target="_blank" title="find us on LinkedIn" href=" https://www.linkedin.com/in/clamp-toolkit-4b90a4137/"><img alt="follow me on LinkedIn" src="./img/linkedin-512.png" height="50px" border=0></a>
 </div>
         </div>

@@ -192,11 +192,64 @@
     </div>
 </section>
 
-<section class="feature-box dark-bg"> 
+
+
+<section class="feature-box dark-bg">
     <div class="container">
-        <h2>About Us</h2>        
+        <h2>About Us</h2>
         <p>
             The CLAMP is a natural language processing (NLP) tool, based on several award-winning methods and applications developed in University of Texas Health Science Center at Houston, School of Biomedical Informatics.
-        </p>    
+        </p>
     </div>
 </section>
+
+
+
+<div id="fb-root"></div>
+
+
+
+<section class="feature-box">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                <div class="box">
+                    <div class="box-icon">
+                        <span class="fa fa-4x fa-twitter"></span>
+                    </div>
+                    <div class="info">
+                        <h4 class="text-center">Follow Us On Twitter</h4>
+                        <a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/clampnlp">Tweets by clampnlp</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-lg-offset-1">
+                        <div class="box">
+                            <div class="box-icon">
+                                <span class="fa fa-4x fa-facebook"></span>
+                            </div>
+                            <div class="info">
+                                <h4 class="text-center">Find Us On Facebook</h4>
+                                <div class="fb-page" data-href="https://www.facebook.com/CLAMP-Toolkit-1894815827420926/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/CLAMP-Toolkit-1894815827420926/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CLAMP-Toolkit-1894815827420926/">CLAMP Toolkit</a></blockquote></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="col-md-6" >
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+</section>
+
+
