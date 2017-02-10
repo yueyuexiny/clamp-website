@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Please select the version of CLAMP that you would like to receive
+                    <label>Please select the version of CLAMP-Cancer that you would like to receive
                         <span style="color: #b50000;">*</span>
                     </label>
                     <div>
@@ -104,8 +104,8 @@
                 <div class="form-group">
                     <label class="text-danger">
                         We respect your privacy and will not share your personal
-                        information except as needed for access to CLAMP. If you elect, we may share
-                        the name of your institution to publicize where CLAMP is being used.
+                        information except as needed for access to CLAMP-Cancer. If you elect, we may share
+                        the name of your institution to publicize where CLAMP-Cancer is being used.
                     </label>
 
                     <label>Do you consent to the use of your name and affiliation as a user of our system? <label style="color: #b50000;">*</label></label>
