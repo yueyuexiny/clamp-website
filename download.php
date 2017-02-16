@@ -91,6 +91,13 @@ if(isset($_POST['email'])){
             break;
         case 'win':
             $clampfile = "ClampWin_1.2.1.zip";
+            break;
+        case 'cancer-win':
+            $clampfile = "ClampCancerWin_1.2.1.zip";
+            break;
+        case 'cancer-mac':
+            $clampfile = "ClampCancerMac_1.2.1.zip";
+            break;
     }
     header("location:".$clampfile);
 }else{

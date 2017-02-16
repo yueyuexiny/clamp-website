@@ -17,6 +17,12 @@
                     case 'mac':
                         echo 'CLAMP-GUI (Mac OS X)';
                         break;
+                    case 'cancer-win':
+                        echo "CLAMP-Cancer (Microsoft Windows)";
+                        break;
+                    case 'cancer-mac':
+                        echo "CLAMP-Cancer (Mac OS X)";
+                        break;
                 }
                 ?> Version</h2>
         </div>
