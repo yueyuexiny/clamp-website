@@ -1,6 +1,14 @@
 <?php $pageTitle = "CLAMP Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
+<?php
+        $now=strtotime("today");
+        echo $now." - ";
+        $start_date = strtotime("27 February 2017");
+        do{
+                $start_date = strtotime("next Monday",strtotime("next Monday",$start_date));
+        } while($start_date < $now || (($start_date==$now) && date("H")>="12"));
+?>
     <div class="container">
         <div class="page-header">
             <h1 class="text-center">CLAMP Support</h1>
@@ -15,7 +23,7 @@
                         <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
                         <h4>Office Hour <span style="vertical-align: super; color: #ff0000; font-style: italic"> New </span></h4>
                             <p class="p-left">
-                            We will have  a CLAMP office hour on Mondays, every alternating week starting February 27th, 2017, 11.00 am -12.00 noon (CST). The call-in information is provided below:<br><br>
+                            We will have CLAMP office hour on Mondays, every alternating week<br><br>The next CLAMP office hour is on <?=date("F dS , Y",$start_date);?>, 11.00 am -12.00 noon (CST).<br><br>The call-in information is provided below:<br><br>
                             Please join the meeting from your computer, tablet or smartphone.
                             <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
                             You can also dial in using your phone.<br>
