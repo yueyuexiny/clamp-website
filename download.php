@@ -102,21 +102,25 @@ if(isset($_POST['email'])){
     header("location:".$clampfile);
 }else{
 
-    include dirname(__FILE__) . '/views/header.php';
+
 
     if(!isset($_GET['v'])){
-        echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid CLAMP version</label>";
+        //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid CLAMP version</label>";
+        header('Location: get-clamp.php');
     }
     if(isset($_GET['email'])){
         $values = read_from_spreadsheet($_GET['email']);
 
         if($values==false){
-            echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+            //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+            header('Location: get-clamp.php');
         }else{
+            include dirname(__FILE__) . '/views/header.php';
             include dirname(__FILE__) . '/views/download/download.php';
         }
     }else{
-        echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+        //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+        header('Location: get-clamp.php');
     }
 }
 ?>
