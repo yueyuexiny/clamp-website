@@ -51,25 +51,34 @@
 <section id="Home-Intro" class="feature-box" style="padding-bottom: 0px">
 
 
+    <div class="container" style="margin-top: 50px;margin-bottom: 100px">
 
-
-
-
-
-
-
-
-
-    <div class="container">
-        <div class="section-header">
-            <h2>CLAMP</h2>
-            <h4>Clinical Language Annotation, Modeling, and Processing Toolkit</h4>
-        </div>
-        <div class="description">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-header">
+                    <h2>CLAMP</h2>
+                    <h4>Clinical Language Annotation, Modeling, and Processing Toolkit</h4>
+                </div>
             <p class="text-center">
                 CLAMP is a comprehensive clinical Natural Language Processing (NLP) software 
                 that enables recognition and automatic encoding of clinical information in narrative patient reports.
             </p>
+                </div>
+
+            <div class="col-md-5 col-md-offset-1" >
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/iHweIo65hKY?ecver=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+    <hr>
+    
+    <div class="container">
+        <div class="description">
             <div class="row">
                 <div class="col-md-4">
                     <div class="text-center">
