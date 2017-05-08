@@ -33,6 +33,8 @@ function readfile_chunked($filename, $retbytes = TRUE) {
 	}
 
 	return $status;
+	
+	
 }
 
 
