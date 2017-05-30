@@ -70,7 +70,6 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/XaOey5sUqR0?ecver=1" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-
             </div>
 
         </div>
