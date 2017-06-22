@@ -100,7 +100,7 @@
                         </label>
                     </div>
                 </div>
-				 <div class="form-group">
+		 <div class="form-group">
                         <a href="license_agreement.txt" target="_blank">Please click here to see CLAMP License Agreement</a>
                 </div>
                 <div class="form-group">

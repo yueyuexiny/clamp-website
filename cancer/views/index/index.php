@@ -57,7 +57,7 @@
 <div class="container">
 <section class="feature-box" id="download">
         <h3 class="download" style="color: #0099cc">
-           Download CLAMP-Cancer
+           Download CLAMP-Cancer 
         </h3>
         <?php include dirname(__FILE__) . '/../../../helper.php'; ?>
         <?php include dirname(__FILE__) . '/../download/requestform.php';?>
