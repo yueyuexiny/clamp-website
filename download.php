@@ -84,19 +84,19 @@ if(isset($_POST['email'])){
 
     switch($_POST['v']){
         case 'cmd':
-            $clampfile = "ClampCMD_1.2.1.zip";
+            $clampfile = "ClampCmd_1.2.2.zip";
             break;
         case 'mac':
-            $clampfile = "ClampMac_1.2.1.zip";
+            $clampfile = "ClampMac_1.2.2.zip";
             break;
         case 'win':
-            $clampfile = "ClampWin_1.2.1.zip";
+            $clampfile = "ClampWin_1.2.2.zip";
             break;
         case 'cancer-win':
-            $clampfile = "ClampCancerWin_1.2.1.zip";
+            $clampfile = "ClampCancerWin_1.2.2.zip";
             break;
         case 'cancer-mac':
-            $clampfile = "ClampCancerMac_1.2.1.zip";
+            $clampfile = "ClampCancerMac_1.2.2.zip";
             break;
     }
     header("location:".$clampfile);
