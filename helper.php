@@ -141,7 +141,7 @@ function email_team(){
 
     </body>
     </html>
-    ';
+    '; 
 
     mail($to, $subject, $body, $headers);
 }
