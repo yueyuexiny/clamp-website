@@ -97,7 +97,7 @@ function write_to_spreadsheet() {
     }
 }
 
-function email_team(){
+function email_team(){ 
     $email = $_POST['inputEmail'];
 
     $organizationtype = $_POST['orgType'];
@@ -146,7 +146,7 @@ function email_team(){
 
     </body>
     </html>
-    ';
+    '; 
 
     mail($to, $subject, $body, $headers);
 }
