@@ -23,8 +23,8 @@
                 <!-- Static Header -->
                 <div class="header-text hidden-xs">
                     <div class="col-md-12 text-center">
-                        <img src="./img/himss.png" height="100px" alt="Second slide">
-                        <span class="ad">Stop by Booth #5588 at HIMSS to know more about CLAMP software.</span>
+                        <img src="./img/himss_logo.png" height="100px" alt="Second slide">
+                        <span class="ad">Stop by Booth #702 at HIMSS at San Antonio to know more about CLAMP software.</span>
                     </div>
                 </div><!-- /header-text -->
             </div>
@@ -67,10 +67,10 @@
 
             <div class="col-md-5 col-md-offset-1" >
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OPQskNJdQ4w?ecver=1" frameborder="0" allowfullscreen></iframe>
-
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/iHweIo65hKY?ecver=1" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
+
             </div>
 
         </div>
