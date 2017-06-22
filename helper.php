@@ -97,7 +97,7 @@ function write_to_spreadsheet() {
     }
 }
 
-function email_team(){ 
+function email_team(){
     $email = $_POST['inputEmail'];
 
     $organizationtype = $_POST['orgType'];
