@@ -1,128 +1,91 @@
 <?php
-
-require_once('vendor/autoload.php');
-require_once('spreadSheet.php');
 date_default_timezone_set('America/Chicago');
+define('CHUNK_SIZE', 1024*1024);
+include("config.php");
 
 
-//initialize the service request factory
-use Google\Spreadsheet\DefaultServiceRequest;
-use Google\Spreadsheet\ServiceRequestFactory;
 
+$conn = new mysqli ( $host, $username, $password, $db );
 
-/*error_reporting(-1);
-ini_set('display_errors', 'On');
-set_error_handler("var_dump");
-*/
-
-function read_from_spreadsheet($email){
-
-    $serviceRequest = new DefaultServiceRequest(getGoogleTokenFromKeyFile());
-    ServiceRequestFactory::setInstance($serviceRequest);
-
-    // retrieve a list of spreadsheets
-    $spreadsheetService = new Google\Spreadsheet\SpreadsheetService();
-    $spreadsheetFeed = $spreadsheetService->getSpreadsheets();
-    $spreadsheet = $spreadsheetFeed->getByTitle('CLAMP Request Form (Responses)');
-
-
-    // Get a single worksheet by title
-    $worksheetFeed = $spreadsheet->getWorksheets();
-    $worksheet = $worksheetFeed->getByTitle('Form Responses 1');
-
-
-    $sq = 'email ="'. $email .'"';
-    $listFeed = $worksheet->getListFeed(["sq"=>$sq]);
-
-    $entries = $listFeed->getEntries();
-    if(count($entries)>0){
-        $listEntry = $entries[0];
-        $values = $listEntry->getValues();
-
-        return $values;
-    }else{
-        return false;
-    }
+if ($conn->connect_error) {
+	die ( "Connection failed: " . $conn->connect_error );
 }
 
 
-function update_spreadsheet($email){
+function read_from_database($conn,$email,$id){
 
-    $serviceRequest = new DefaultServiceRequest(getGoogleTokenFromKeyFile());
-    ServiceRequestFactory::setInstance($serviceRequest);
-
-    // retrieve a list of spreadsheets
-    $spreadsheetService = new Google\Spreadsheet\SpreadsheetService();
-    $spreadsheetFeed = $spreadsheetService->getSpreadsheets();
-    $spreadsheet = $spreadsheetFeed->getByTitle('CLAMP Request Form (Responses)');
-
-
-    // Get a single worksheet by title
-    $worksheetFeed = $spreadsheet->getWorksheets();
-    $worksheet = $worksheetFeed->getByTitle('Form Responses 1');
+	$sql="SELECT REQUEST_ID FROM request_form WHERE REQUEST_ID='".$id."' and EMAIL='".$email."'";
+	$res = $conn->query ( $sql );
+	$row = $res->fetch_assoc ();
+	if($row==false || $row->num_rows<1){
+		return false;
+	}
+	else {
+		return true;
+	}
+}
 
 
-    $sq = 'email ="'. $email .'"';
-    $listFeed = $worksheet->getListFeed(["sq"=>$sq]);
+function update_database($conn,$email,$id){
+	//$sql="UPDATE REQUEST_FORM SET AGREEMENT='Yes, I agree', DOWNLOAD_TIME='".date("Y-m-d H:i:s")."' where REQUEST_ID='".$id."' and EMAIL='".$email."'";
+	$sql="UPDATE request_form SET AGREEMENT='Yes, I agree', DOWNLOAD_TIME='".date("Y-m-d H:i:s")."' where REQUEST_ID=? and EMAIL=?";
+	$stmt=$conn->prepare($sql);
+	$stmt->bind_param('is',$id,$email);
+	$rslt=$stmt->execute();
+	$stmt->close();
+	
+}
 
-    $entries = $listFeed->getEntries();
-    if(count($entries)>0){
-        $listEntry = $entries[0];
-
-        $values = $listEntry->getValues();
-
-        $values["licenseagreement"] = "Yes, I agree";
-        $values["downloadtime"] = date("Y-m-d H:i:s");
-        $listEntry->update($values);
-    }
+function getFileNameFromDatabase($conn,$v){
+	$sql="SELECT FILE_NAME FROM clamp_files WHERE FILE_TYPE='$v'";
+	$res = $conn->query ( $sql );
+	$row = $res->fetch_assoc ();
+	return $row['FILE_NAME'];
+	
 }
 
 
 if(isset($_POST['email'])){
-    // Update license agreement field in Google Spreadsheet
-    update_spreadsheet($_POST['email']);
-
-    switch($_POST['v']){
-        case 'cmd':
-            $clampfile = "ClampCmd_1.2.2.zip";
-            break;
-        case 'mac':
-            $clampfile = "ClampMac_1.2.2.zip";
-            break;
-        case 'win':
-            $clampfile = "ClampWin_1.2.2.zip";
-            break;
-        case 'cancer-win':
-            $clampfile = "ClampCancerWin_1.2.2.zip";
-            break;
-        case 'cancer-mac':
-            $clampfile = "ClampCancerMac_1.2.2.zip";
-            break;
-    }
-    header("location:".$clampfile);
+	// Update license agreement field in Google Spreadsheet
+	update_database($conn,$_POST['email'], $_POST['id']);
+	$clampfile=getFileNameFromDatabase($conn,$_POST['v']);
+	include("downloader.php");
 }else{
 
 
 
-    if(!isset($_GET['v'])){
-        //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid CLAMP version</label>";
-        header('Location: get-clamp.php');
-    }
-    if(isset($_GET['email'])){
-        $values = read_from_spreadsheet($_GET['email']);
-
-        if($values==false){
-            //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
-            header('Location: get-clamp.php');
-        }else{
-            include dirname(__FILE__) . '/views/header.php';
-            include dirname(__FILE__) . '/views/download/download.php';
-        }
-    }else{
-        //echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
-        header('Location: get-clamp.php');
-    }
+	if(!isset($_GET['v'])){
+		//echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid CLAMP version</label>";
+		header('Location: get-clamp.php');
+	}
+	if(isset($_GET['email'])){
+		$id = $_GET ['id'];
+		$email=$_GET ['email'];
+		$clampversion_r=$_GET ['v'];
+		//$sql="SELECT REQUEST_ID FROM REQUEST_FORM WHERE REQUEST_ID='".$id."' and EMAIL='".$email."'";
+		$sql="SELECT REQUEST_ID FROM request_form WHERE REQUEST_ID=? and EMAIL=? and VRS=?";
+		$stmt=$conn->prepare($sql);
+		$stmt->bind_param('iss',$id,$email,$clampversion_r);
+		$stmt->execute();
+		$stmt->store_result();
+		$rows=$stmt->num_rows;
+		$stmt->close();
+		
+		if($rows<1){
+			//echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+			
+			
+			header('Location: get-clamp.php');
+		}else{
+			include dirname(__FILE__) . '/views/header.php';
+			include dirname(__FILE__) . '/views/download/download.php';
+		}
+	}else{
+		//echo "<label style='margin-top: 400px;margin-bottom: 400px'>Invalid email address</label>";
+		header('Location: get-clamp.php');
+	}
 }
+$conn->close();
 ?>
 
     <script>

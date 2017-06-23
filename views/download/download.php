@@ -34,6 +34,7 @@
                 <h3 style="margin-top: 50px">License Agreement</h3>
                 <input type="hidden" name="email" value="<?php echo $_GET['email']?>">
                 <input type="hidden" name="v" value="<?php echo $_GET['v']?>">
+                <input type="hidden" name="id" value="<?php echo $_GET['id']?>">
     	<textarea class="form-control" rows="10" style="font-size: 11px;margin-top: 30px;margin-bottom: 50px" id="licence" readonly>SOFTWARE RESEARCH LICENSE
 Faculty at The University of Texas Health Science Center at Houston (University) have developed certain Software and Documentation that University wishes  to make available for non-commercial academic, research, experimental or personal use only. This license is designed to provide permission to use the software for these limited purposes. Distribution or any use other than as described above, including any commercial use, requires a separate license from University.
 The terms of this Software Research License (SRL) apply to the Software, Documentation, Derivative Works, and source code. The accompanying source code is made available only under the terms of this SRL. BY CLICKING THE ACCEPT BUTTON, OR BY INSTALLING OR USING THE SOURCE CODE, YOU ARE CONSENTING TO BE BOUND BY THIS SRL. IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS LICENSE, DO NOT CLICK THE ACCEPT BUTTON, AND DO NOT INSTALL OR USE ANY PART OF THE SOURCE CODE, SOFTWARE, OR DOCUMENTATION.

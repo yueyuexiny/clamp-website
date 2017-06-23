@@ -80,7 +80,7 @@
         <meta property="og:title" content="CLAMP | Natural Language Processing (NLP) Software">
 
         <link rel="shortcut icon" href="./img/clamp_icon/16.png">
-
+		<link rel="stylesheet" href="css/admin.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/owl.css">
         <link rel="stylesheet" href="css/jquery.css">
@@ -121,6 +121,33 @@
                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
+            
+<?php 
+if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
+?>
+    <link rel="stylesheet" href="css/datepicker.css">
+	<script type="text/javascript" src="js/mootools.v1.11.js"></script>
+	<script type="text/javascript" src="js/DatePicker.js"></script>
+
+	<script type="text/javascript">
+// 	$(function() {
+// 		$('input.DatePicker').each( function(el){
+// 			new DatePicker(el);
+// 		}); 
+// 	});
+		window.addEvent('domready', function(){
+		
+			$$('input.DatePicker').each( function(el){
+				new DatePicker(el);
+			});
+		
+		});
+	</script>
+<?php	
+}
+?>        
+  	          
+    
     </head>
 
     <body>

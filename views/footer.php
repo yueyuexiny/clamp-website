@@ -82,13 +82,18 @@
         </div>
     </div>
 </footer>
-
+<?php 
+if (strpos($_SERVER['REQUEST_URI'], "list.php") == false){
+?>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/vegas.js"></script>
 <script src="js/jquery.knob.js"></script>
 <script src="js/jquery.validate.js"></script>
 <script src="js/additional-methods.js"></script>
-<script src="js/scripts-2016-6-29.js"></script>    
+<script src="js/scripts-2016-6-29.js"></script>  
+<?php 
+}
+?>  
 </body>
 </html>

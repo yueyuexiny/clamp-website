@@ -1,6 +1,6 @@
 <?php 
-$fakeFileName= "clamp.zip";
-$file = "downloads/".$clampfile;
+$fakeFileName=$clampfile;
+$file = "downloads/0D0A/".$clampfile;
 header("Content-Type: application/octet-stream");
 header("Content-Disposition: attachment; filename=$fakeFileName");
 
@@ -9,10 +9,11 @@ readfile_chunked($file);
 function readfile_chunked($filename, $retbytes = TRUE) {
 	$buffer = '';
 	$cnt    = 0;
-	$handle = fopen($filename, 'rb');
+	$handle = @fopen($filename, 'rb');
 
-	if ($handle === false) {
-		return false;
+	if ($handle == false) {
+		header('Location: 404.html');
+		
 	}
 
 	while (!feof($handle)) {
@@ -32,7 +33,7 @@ function readfile_chunked($filename, $retbytes = TRUE) {
 		return $cnt; // return num. bytes delivered like readfile() does.
 	}
 
-	return $status;
+	return $status; 
 	
 	
 }

@@ -1,8 +1,9 @@
 <?php 
-$host="localhost";
-$db="clamp_web";
-$username="root";
-$password="";
+$host="129.106.31.121";
+$db="LICENSE_TEST";
+$username="ftiryaki";
+$password="tiryaki98";
+
 
 $projectMembers=array(
 		'Anupama Gururaj'	=>	'Anupama.E.Gururaj@uth.tmc.edu',
