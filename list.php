@@ -95,7 +95,7 @@ $date2="<input id=\"date2\" name=\"date2\" type=\"text\" class=\"DatePicker\" al
 			
 <table width='100%' height='70%'><tr><td align='middle' valign='top'><p>
 <table border='1' class='table table-hover' style='width:50%;'>
-<tr><td align='left' valign='top' colspan='8' style='font-weight:bold' bgcolor='E6E6FA'>
+<tr><td align='left' valign='top' colspan='9' style='font-weight:bold' bgcolor='E6E6FA'>
 			<table>
 			<tr><td>Approve Status : &nbsp; <select name='approveStatus'>
 			<option value='0' <?php echo($_POST["approveStatus"]=="0" ? "selected":"")?>>All</option>
@@ -120,7 +120,8 @@ echo "<tr style='cursor: pointer; background-color: #0f0f0f; color: #ffffff'><td
 		<td onclick=javascript:orderer('".$nextSwitch."','CLAMP_VERSION')>CLAMP VERSION</td>
 		<td onclick=javascript:orderer('".$nextSwitch."','REQUEST_TIME')>REQUEST TIME</td>
 		<td onclick=javascript:orderer('".$nextSwitch."','REQUEST_APPROVED')>APPROVED</td>
-		<td onclick=javascript:orderer('".$nextSwitch."','DOWNLOAD_TIME')>DOWNLOAD TIME</td><tr>";
+		<td onclick=javascript:orderer('".$nextSwitch."','DOWNLOAD_TIME')>DOWNLOAD TIME</td>
+		<td >NOTES</td><tr>";
 while($row = $res->fetch_assoc()) {
 	$count++;
 	$approved=$row['REQUEST_APPROVED']=="Yes" ? "&#10004":"&nbsp;";
@@ -132,7 +133,8 @@ while($row = $res->fetch_assoc()) {
 						<td>".$row['CLAMP_VERSION']."</td>
 						<td>".$row['REQUEST_TIME']."</td>
 						<td>".$approved."</td>
-						<td>".$row['DOWNLOAD_TIME']."</td><tr>";
+						<td>".$row['DOWNLOAD_TIME']."</td>
+						<td>".$row['NOTE']."</td><tr>";
 }
 echo "</table>";
 echo "</td></tr></table>";
