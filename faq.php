@@ -10,7 +10,7 @@
                 <h3 class="documentation" style="margin-bottom: 10px">
                     <span class="glyphicon glyphicon-question-sign"></span> FAQ
                 </h3>
-                <div class="clearfix panel-group" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="accordion">
 
                     <div class="panel">
                         <div class="panel-heading" role="tab" id="headingOne">
@@ -34,7 +34,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="panel">
                         <div class="panel-heading" role="tab" id="headingFour">
                             <span class="panel-title">
@@ -286,6 +285,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingThirteen">
+                            <span class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseThirteen">
+                                    <strong>Where do the annotated documents included in CLAMP come form?</strong>
+                                </a>
+                            </span>
+                        </div>
+                        <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel">
+                            <div class="panel-body">
+                                <p>
+                                    The pre-annotated notes are crawled from
+                                    <a href="http://www.mtsamples.com/">http://www.mtsamples.com</a>
+                                    that has lots of publicly available de-identified notes.
+                                    But only 'discharge summary' and 'general medicine' are included in CLAMP.
+                                    We annotated all the 'problem', 'treatment' and 'test' mentions in the notes, based on the I2B2 2010 NER guideline.
+                                    <a href="https://www.i2b2.org/NLP/Relations/assets/Concept%20Annotation%20Guideline.pdf">
+                                        i2b2 Concept Annotation Guideline
+                                    </a>
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="panel">
                         <div class="panel-heading" role="tab" id="headingTwelve">
@@ -313,7 +338,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
-    </div>
 
 <?php include_once dirname(__FILE__) . '/views/footer.php'; ?>
