@@ -397,7 +397,7 @@ Thanks<br>
 										<tr>
 											<td align="right" valign="top"><b>Activation Code : </b></td>
 											<td><input type="text" size="50" name="activationCode"
-												value="<?php echo $row['ACTIVATION_CODE']?>" onchange="importMailVars();"></td>
+												value="" onchange="importMailVars();"><?php if(strlen($row['ACTIVATION_CODE'])>0){echo "Previous: ".$row['ACTIVATION_CODE'];}?></td>
 										</tr>
 										<tr>
 											<td colspan="2">&nbsp;</td>
