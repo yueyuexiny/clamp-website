@@ -1,6 +1,7 @@
 <?php
 include ("requestformadmin.php");
 include ("config.php");
+require 'PHPMailerAutoload.php';
 global $sqlString;
 
 $now=strtotime("today");
@@ -83,15 +84,20 @@ include_once dirname ( __FILE__ ) . '/views/header.php';
 
 
 function sendMailToUser($to,$subject,$body){
-	$header =	'MIME-Version: 1.0' . "\r\n" .
-				'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
-				'From:clampnlp@gmail.com' . "\r\n" .
-				'Reply-To:clampnlp@gmail.com' ."\r\n" .
-				'X-Mailer: PHP/' . phpversion();
 	
-	$mailResult=mail($to, $subject, $body, $header);
-	
-	if($mailResult){
+	$mail = new PHPMailer;
+	$mail->isSMTP();
+    	$mail->Host = 'smtp.uth.tmc.edu';
+    	$mail->SMTPAuth = false;
+    	$mail->Port = 25;
+    	$mail->setFrom('clampnlp@gmail.com');
+    	$mail->addAddress($to);
+    	$mail->addReplyTo('clampnlp@gmail.com');
+    	$mail->isHTML(true);
+    	$mail->Subject = $subject;
+    	$mail->Body = $body;
+    	
+	if($mail->send()){
 		echo "<script>alert('Mail is accepted for delivery')</script>";
 	}
 	else{
@@ -101,15 +107,20 @@ function sendMailToUser($to,$subject,$body){
 
 
 function sendPlainMailToUser($to,$subject,$body){
-	$header =	'MIME-Version: 1.0' . "\r\n" .
-			'Content-type:text/plain;charset=iso-8859-1' . "\r\n" .
-			'From:clampnlp@gmail.com' . "\r\n" .
-			'Reply-To:clampnlp@gmail.com' ."\r\n" .
-			'X-Mailer: PHP/' . phpversion();
+	
+	$mail = new PHPMailer;
+        $mail->isSMTP();
+        $mail->Host = 'smtp.uth.tmc.edu';
+        $mail->SMTPAuth = false;
+        $mail->Port = 25;
+        $mail->setFrom('clampnlp@gmail.com');
+        $mail->addAddress($to);
+        $mail->addReplyTo('clampnlp@gmail.com');
+        $mail->isHTML(false);
+        $mail->Subject = $subject;
+        $mail->Body = $body;
 
-	$mailResult=mail($to, $subject, $body, $header);
-
-	if($mailResult){
+	if($mail->send()){
 		echo "<script>alert('Mail is accepted for delivery')</script>";
 	}
 	else{
@@ -386,7 +397,7 @@ Thanks<br>
 										<tr>
 											<td align="right" valign="top"><b>Activation Code : </b></td>
 											<td><input type="text" size="50" name="activationCode"
-												value="" onchange="importMailVars();"></td>
+												value="<?php echo $row['ACTIVATION_CODE']?>" onchange="importMailVars();"></td>
 										</tr>
 										<tr>
 											<td colspan="2">&nbsp;</td>
