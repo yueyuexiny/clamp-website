@@ -46,7 +46,11 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
     </form>
         <p>
         <br>
-        <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe>
+        
+        <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="cd.html" name="demoFrame" id="demoFrame"></iframe>
+</div>
+        <!-- iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe-->
     	</p>
     	</center>
         </div>
