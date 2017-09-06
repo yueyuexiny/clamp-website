@@ -7,13 +7,7 @@
         
         </div>
         <center>
-        <script>
-        function submitForm(){
-        	document.demoForm.submit();
-
-            
-        }
-        </script>
+       
         <form action="clampdemoposter.php" method="POST" target="demoFrame" name="demoForm">
         <textarea cols="50" rows="20" name="demotext">Sample Type / Medical Specialty:  Discharge Summary
 Sample Name: Psychiatric Discharge Summary - 1
@@ -44,17 +38,44 @@ Keywords:
 discharge summary, adhd, adderall, attention deficit hyperactivity disorder, mood swings, odd, oppositional and defiant behavior, zoloft, adolescent, homicidal ideation, impulsive behavior, oppositional behavior, psychoeducational, psychotropic medications, oppositional and defiant, depressed, psychiatric, axis,
 </textarea><p>
 
-        <input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton">
+        <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
+        
+        <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Submit Text</button>
         
         </p>
     </form>
         <p>
         <br>
-        <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame"></iframe>
+        <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe>
     	</p>
     	</center>
         </div>
         <p>&nbsp;</p>
+         <script>
+        function submitForm(){
+        	document.demoForm.submit();
+
+            
+        }
+
+
+        $('#demoFrame').on("load", function() {
+            theButton=parent.document.getElementById("load");
+            theButton.innerText="Submit Text";
+            theButton.disabled=false;
+            theButton.style.background="green";
+        	
+        });
+
+        $('.btn').on('click', function() {
+            
+        	var $this = $(this);
+        	var theForm = $(this).closest("form");
+        	$this.button('loading');
+        	theForm.submit();  
+         
+        });
+        </script>
         
     <!-- /container -->
 <?php include_once dirname(__FILE__) . '/views/footer.php'; ?>
