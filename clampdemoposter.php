@@ -18,5 +18,4 @@ $context  = stream_context_create($opts);
 
 $result = file_get_contents('http://localhost:9999/clampdemo', false, $context);
 echo $result;
-
 ?>
