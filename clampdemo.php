@@ -14,7 +14,7 @@
             
         }
         </script>
-        <form action="http://clamp.uth.edu:9999/clampdemo" method="POST" target="demoFrame" name="demoForm">
+        <form action="clampdemoposter.php" method="POST" target="demoFrame" name="demoForm">
         <textarea cols="50" rows="20" name="demotext">Sample Type / Medical Specialty:  Discharge Summary
 Sample Name: Psychiatric Discharge Summary - 1
 Description:  Discharge summary of a patient with mood swings and oppositional and defiant behavior.
