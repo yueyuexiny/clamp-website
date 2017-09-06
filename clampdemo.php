@@ -60,10 +60,8 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 
 
         $('#demoFrame').on("load", function() {
-            theButton=parent.document.getElementById("load");
-            theButton.innerText="Submit Text";
-            theButton.disabled=false;
-            theButton.style.background="green";
+            $('#load').text("Submit Text");
+            $('#load').prop("disabled",false);
             $('#load').removeClass("disabled");
         	
         });
