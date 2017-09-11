@@ -53,6 +53,10 @@ if ($conn->connect_error) {
 $count=0;
 $sql = "select * from $from $whereClause order by $field $thisSwitch";
 
+$sqlDistinctUsers="select count(distinct(EMAIL)) $from $whereClause order by $field $thisSwitch";
+$resDistinctUsers = $conn->query($sqlDistinctUsers);
+$rowDistinctUsers = $resDistinctUsers->fetch_row();
+$countDistinctUsers=$rowDistinctUsers[0];
 
 
 $res = $conn->query($sql);
@@ -108,7 +112,7 @@ $date2="<input id=\"date2\" name=\"date2\" type=\"text\" class=\"DatePicker\" al
 			<td>Date : &nbsp; </td>
 			<td>(</td><td><?php echo $date1?></td><td> &nbsp; - &nbsp; </td><td><?php echo $date2?></td><td>)</td>
 			<td> &nbsp; &nbsp; &nbsp; <input type='submit' value='SEARCH'/></td>
-			<td> &nbsp; &nbsp; &nbsp; [ <?php echo $numRows?>  Users ]</td>
+			<td> &nbsp; &nbsp; &nbsp; [ <?php echo $numRows?>  Users ] &nbsp; &nbsp; &nbsp; [ <?php echo $countDistinctUsers?>  Unique Users ]</td>
 			</tr>
 			</table>
 			</td></tr>
