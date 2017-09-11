@@ -53,8 +53,8 @@ if ($conn->connect_error) {
 $count=0;
 $sql = "select * from $from $whereClause order by $field $thisSwitch";
 
-// $sqlDistinctUsers="select count(distinct(EMAIL)) $from $whereClause order by $field $thisSwitch";
-// var_dump($sqlDistinctUsers);
+$sqlDistinctUsers="select count(distinct(EMAIL)) $from $whereClause order by $field $thisSwitch";
+var_dump($sqlDistinctUsers);
 // $resDistinctUsers = $conn->query($sqlDistinctUsers);
 // $rowDistinctUsers = $resDistinctUsers->fetch_row();
 // $countDistinctUsers=$rowDistinctUsers[0];
