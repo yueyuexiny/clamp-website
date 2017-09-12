@@ -108,7 +108,7 @@ $date2="<input id=\"date2\" name=\"date2\" type=\"text\" class=\"DatePicker\" al
 
 			
 <table width='100%' height='70%'><tr><td align='middle' valign='top'><p>
-<table border='1' class='table table-hover' style='width:100%;'>
+<table border='1' class='table table-hover' style='width:60%;'>
 <tr><td align='left' valign='top' colspan='9' style='font-weight:bold' bgcolor='E6E6FA'>
 			<table>
 			<tr><td>Approve Status : &nbsp; <select name='approveStatus'>
