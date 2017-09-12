@@ -7,6 +7,7 @@ include_once dirname(__FILE__) . '/views/header.php';
 
 
 $_POST["approveStatus"]=isset($_POST["approveStatus"])?$_POST["approveStatus"]:"0";
+$_POST["clampVersion"]=isset($_POST["clampVersion"])?$_POST["clampVersion"]:"0";
 $formDate1=isset($_POST["date1"])?$_POST["date1"]:"";
 $formDate2=isset($_POST["date2"])?$_POST["date2"]:"";
 
@@ -26,7 +27,16 @@ $dateStatus=array(
 				"4"=>"DOWNLOAD_TIME"
 				);
 
-$whereClause=" WHERE ".$approveStatus[$_POST["approveStatus"]];
+$clampVersion=array(
+				"0"=>" (CLAMP_VERSION IS NOT NULL) ",
+				"1"=>" (CLAMP_VERSION ='CLAMP-CMD (Commandline)' OR CLAMP_VERSION='CLAMP-GUI (Commandline)' OR CLAMP_VERSION='CLAMP-CMD') ",
+				"2"=>" (CLAMP_VERSION = 'CLAMP-GUI (MacOS)' OR CLAMP_VERSION='CLAMP-GUI (Mac OS X)' OR CLAMP_VERSION='CLAMP-GUI (Windows)/ Mac') ",
+				"3"=>" (CLAMP_VERSION = 'CLAMP-GUI (Microsoft Windows)' OR CLAMP_VERSION='CLAMP-GUI (Windows)' OR CLAMP_VERSION='CLAMP-GUI (Windows)/ Mac') ",
+				"4"=>" (CLAMP_VERSION='CLAMP-Cancer-Win' OR CLAMP_VERSION='CLAMP-Cancer (Windows)') ",
+				"5"=>" (CLAMP_VERSION='CLAMP-Cancer-Mac') "
+				);
+
+$whereClause=" WHERE ".$approveStatus[$_POST["approveStatus"]]." AND ".$clampVersion[$_POST["clampVersion"]];
 
 $dateField=$dateStatus[$_POST["approveStatus"]];
 $date1=isset($_POST["date1"]) && strlen($_POST["date1"])>0 ? " STR_TO_DATE('".$_POST["date1"]."', '%Y-%m-%d') " : " STR_TO_DATE('0000-00-00', '%Y-%m-%d') ";
@@ -107,6 +117,15 @@ $date2="<input id=\"date2\" name=\"date2\" type=\"text\" class=\"DatePicker\" al
 			<option value='2' <?php echo($_POST["approveStatus"]=="2" ? "selected":"")?>>Request Approved</option>
 			<option value='3' <?php echo($_POST["approveStatus"]=="3" ? "selected":"")?>>Pending for Approval</option>
 			<option value='4' <?php echo($_POST["approveStatus"]=="4" ? "selected":"")?>>Activated</option>
+			</select> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+			<tr><td>Version : &nbsp; <select name='clampVersion'>
+			<option value='0' <?php echo($_POST["clampVersion"]=="0" ? "selected":"")?>>All Versions</option>
+			<option value='1' <?php echo($_POST["clampVersion"]=="1" ? "selected":"")?>>CLAMP-CMD (Commandline)</option>
+			<option value='2' <?php echo($_POST["clampVersion"]=="2" ? "selected":"")?>>CLAMP-GUI (Mac)</option>
+			<option value='3' <?php echo($_POST["clampVersion"]=="3" ? "selected":"")?>>CLAMP-GUI (Win)</option>
+			<option value='4' <?php echo($_POST["clampVersion"]=="4" ? "selected":"")?>>CLAMP Cancer (Win)</option>
+			<option value='5' <?php echo($_POST["clampVersion"]=="5" ? "selected":"")?>>CLAMP Cancer (Mac)</option>
 			</select> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</td>
 			<td>Date : &nbsp; </td>
