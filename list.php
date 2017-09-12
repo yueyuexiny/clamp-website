@@ -119,7 +119,7 @@ $date2="<input id=\"date2\" name=\"date2\" type=\"text\" class=\"DatePicker\" al
 			<option value='4' <?php echo($_POST["approveStatus"]=="4" ? "selected":"")?>>Activated</option>
 			</select> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</td>
-			<tr><td>Version : &nbsp; <select name='clampVersion'>
+			<td>Version : &nbsp; <select name='clampVersion'>
 			<option value='0' <?php echo($_POST["clampVersion"]=="0" ? "selected":"")?>>All Versions</option>
 			<option value='1' <?php echo($_POST["clampVersion"]=="1" ? "selected":"")?>>CLAMP-CMD (Commandline)</option>
 			<option value='2' <?php echo($_POST["clampVersion"]=="2" ? "selected":"")?>>CLAMP-GUI (Mac)</option>
