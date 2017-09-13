@@ -182,6 +182,7 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
                                 <li class="active navitem"><a href="index.php">Home</a></li>
                                 <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
+                                <li class="navitem"><a href="clampdemo.php">Live Demo</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-download">Download <span class="caret"></span></a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu-download">
