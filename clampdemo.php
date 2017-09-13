@@ -3,7 +3,9 @@
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 	<div class="container" align="center">
         <div class="page-header">
-            <h1 class="text-center">CLAMP Demo</h1>
+            <h1 class="text-center">Demo Presentation</h1><br>
+            <h6 class="text-left">* You can input your own ".txt" file into the following box and click "Run Clamp" button to see what Clamp can do. Otherwise, you can use the original sample.
+            </h6>
         
         </div>
         <center>
@@ -40,7 +42,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 
         <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
         
-        <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Submit Text</button>
+        <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run Clamp</button>
         
         </p>
     </form>
@@ -62,7 +64,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 
 
         $('#demoFrame').on("load", function() {
-            $('#load').text("Submit Text");
+            $('#load').text("Run Clamp");
             $('#load').prop("disabled",false);
             $('#load').removeClass("disabled");
         	
