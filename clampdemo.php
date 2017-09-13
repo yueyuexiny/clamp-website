@@ -4,7 +4,7 @@
 	<div class="container" align="center">
         <div class="page-header">
             <h1 class="text-center">Demo Presentation</h1><br>
-            <h6 class="text-left">* You can input your own ".txt" file into the following box and click "Run Clamp" button to see what Clamp can do. Otherwise, you can use the original sample.
+            <h6 class="text-left">* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data!
             </h6>
         
         </div>
@@ -42,7 +42,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 
         <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
         
-        <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run Clamp</button>
+        <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run CLAMP</button>
         
         </p>
     </form>
@@ -64,7 +64,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 
 
         $('#demoFrame').on("load", function() {
-            $('#load').text("Run Clamp");
+            $('#load').text("Run CLAMP");
             $('#load').prop("disabled",false);
             $('#load').removeClass("disabled");
         	
