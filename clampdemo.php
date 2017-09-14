@@ -4,9 +4,9 @@
 	<div class="container" align="center">
         <div class="page-header">
             <h1 class="text-center">Demo Presentation</h1><br>
-            <h6 class="text-left">* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data!
-            </h6>
-
+            <p class="text-left"><span style="color: #337ab7">
+                    <strong>* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data!</strong>
+            </span></p>
         </div>
         <center>
        
@@ -49,7 +49,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
         <p>
         <br>
         
-        
+        <div id="dynamictabstrp" name="dynamictabstrp">
         <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe>
     	</p>
     	</center>
@@ -75,7 +75,10 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
         	var $this = $(this);
         	var theForm = $(this).closest("form");
         	$this.button('loading');
-        	theForm.submit();  
+        	theForm.submit();
+            $('html, body').animate({
+                'scrollTop' : $("#dynamictabstrp").position().top
+            });
          
         });
         </script>
