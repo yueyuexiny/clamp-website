@@ -143,7 +143,7 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
 		
 		});
 	</script>
-<?php	
+<?php
 }
 ?>        
   	          
