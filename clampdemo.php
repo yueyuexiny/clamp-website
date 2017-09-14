@@ -6,7 +6,7 @@
             <h1 class="text-center">Demo Presentation</h1><br>
             <h6 class="text-left">* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data!
             </h6>
-        
+
         </div>
         <center>
        
