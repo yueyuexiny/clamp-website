@@ -5,7 +5,7 @@
         <div class="page-header">
             <h1 class="text-center">Demo Presentation</h1><br>
             <p class="text-left"><span style="color: #337ab7">
-                    <strong>* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data!</strong>
+                    <strong>* Please click the “Run CLAMP” button to get an idea of what CLAMP can do. You can also copy and paste your own text into the sample box to see CLAMP working on your data! </strong>
             </span></p>
         </div>
         <center>
