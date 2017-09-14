@@ -41,15 +41,15 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 </textarea><p>
 
         <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
-        
+        <div id="dynamictabstrp" name="dynamictabstrp">
         <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run CLAMP</button>
-        
-        </p>
+            </div>
+            </p>
     </form>
         <p>
         <br>
         
-        <div id="dynamictabstrp" name="dynamictabstrp">
+
         <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe>
     	</p>
     	</center>
