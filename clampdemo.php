@@ -41,8 +41,10 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
 </textarea><p>
 
         <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
+
         <div id="dynamictabstrp" name="dynamictabstrp">
         <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run CLAMP</button>
+        <input type="button" class="btn btn-primary btn-lg " name="clear" value="Clear Form" onclick="clearForm(this.form);">
             </div>
             </p>
     </form>
@@ -70,7 +72,7 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
         	
         });
 
-        $('.btn').on('click', function() {
+        $('#load').on('click', function() {
             
         	var $this = $(this);
         	var theForm = $(this).closest("form");
@@ -81,7 +83,31 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
             });
          
         });
-        </script>
+
+        function clearForm(oForm) {
+
+            var elements = oForm.elements;
+
+            oForm.reset();
+
+            for(i=0; i<elements.length; i++) {
+
+                field_type = elements[i].type.toLowerCase();
+
+                switch(field_type) {
+
+                    case "textarea":
+
+                        elements[i].value = "";
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+        }
+
+         </script>
         
     <!-- /container -->
 <?php include_once dirname(__FILE__) . '/views/footer.php'; ?>
