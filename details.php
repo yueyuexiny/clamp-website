@@ -481,7 +481,6 @@ Thanks<br>
 													<option value="_1.2.2">1.2.2</option>
 													<option value="_1.2.3">1.2.3</option>
 													<option value="_1.3.0">1.3.0</option>
-													<option value="_1.3.1">1.3.1</option>
 											</select> <br> <input id="vrs" name="vrs" size="25" disabled>
 											<input type="hidden"  id="pwd" name="pwd" value="twgdhbtzhy">
 											</td>
