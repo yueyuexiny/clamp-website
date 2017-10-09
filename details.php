@@ -140,7 +140,7 @@ Please use the link provided below to download $cvrs :<br><br>
  
 <a href='http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id'>http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id </a> <br><br>
  
-The activation code is <b>$code</b> <br><br>
+The activation code is <b>$code</b><br><br>
  
 Please note that the activation code will work for only one instance of CLAMP and will be valid for a $months month period only.  <br>
 
