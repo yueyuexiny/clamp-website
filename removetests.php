@@ -44,7 +44,7 @@ while($row = $res->fetch_assoc()) {
 	$approved=$row['REQUEST_APPROVED']=="Yes" ? "&#10004":"&nbsp;";
 						
 	echo "<tr style='cursor: pointer;' onclick=\"location.href='details.php?id=".$row['REQUEST_ID']."'\">
-						<td >".$count."</td><td >".$row['FIRST_NAME']."</td>
+						<td><input type=button value='Move to Test' onclick='removerequest(".$row['NOTE'].")'></td><td >".$count."</td><td >".$row['FIRST_NAME']."</td>
 						<td>".$row['LAST_NAME']."</td>
 						<td>".$row['EMAIL']."</td>
 						<td>".$row['CLAMP_VERSION']."</td>
@@ -58,15 +58,14 @@ echo "</td></tr></table>";
 
 ?>
 <script>
-function orderer(swt,fld){
-	document.ord.swtch.value=swt;
-	document.ord.field.value=fld;
+function removerequest(id){
+	document.ord.removeid=id;
 	document.ord.submit();
 }
 </script>
 
-<input type="hidden" name="swtch" value="DESC">
-<input type="hidden" name="field" value="request_id">
+<input type="hidden" name="submitted" value="1">
+<input type="hidden" name="removeid" value="">
 <input type="hidden" name="REQUEST_APPROVED" value="">
 </form>
 
