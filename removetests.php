@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 
-if($_POST["submitted"]){
+if(isset($_POST["submitted"])){
 	$updatesql = "update request_form set ISTEST=1 where REQUEST_ID=".$_POST["removeid"];
 	
 	echo "<script>alert($updatesql);</script>";
