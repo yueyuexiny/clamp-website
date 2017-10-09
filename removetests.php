@@ -32,7 +32,7 @@ $res = $conn->query($sql);
 
 			
 ?>
-<form name="ord" action="" method="post">
+<form name="ord" action="removetests.php" method="post">
 
 
 			
@@ -69,6 +69,7 @@ echo "</td></tr></table>";
 <script>
 function removerequest(id){
 	document.ord.removeid=id;
+	alert(id);
 	document.ord.submit();
 }
 </script>
