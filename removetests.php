@@ -31,7 +31,7 @@ $res = $conn->query($sql);
 <table border='1' class='table table-hover' style='width:50%;'>
 <?php 
 echo "<tr style='cursor: pointer; background-color: #0f0f0f; color: #ffffff'><td>#</td>
-		<td onclick=javascript:orderer('".$nextSwitch."','FIRST_NAME')>FIRST NAME</td>
+		<td>&nbsp;</td><td onclick=javascript:orderer('".$nextSwitch."','FIRST_NAME')>FIRST NAME</td>
 		<td onclick=javascript:orderer('".$nextSwitch."','LAST_NAME')>LAST NAME</td>
 		<td onclick=javascript:orderer('".$nextSwitch."','EMAIL')>EMAIL</td>
 		<td onclick=javascript:orderer('".$nextSwitch."','CLAMP_VERSION')>CLAMP VERSION</td>
