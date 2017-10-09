@@ -53,7 +53,7 @@ while($row = $res->fetch_assoc()) {
 	$approved=$row['REQUEST_APPROVED']=="Yes" ? "&#10004":"&nbsp;";
 						
 	echo "<tr style='cursor: pointer;'>
-						<td><input type=button value='Move to Test' onclick='removerequest(".$row['NOTE'].")'></td><td >".$count."</td><td >".$row['FIRST_NAME']."</td>
+						<td><input type=button value='Move to Test' onclick='removerequest(".$row['REQUEST_ID'].")'></td><td >".$count."</td><td >".$row['FIRST_NAME']."</td>
 						<td>".$row['LAST_NAME']."</td>
 						<td>".$row['EMAIL']."</td>
 						<td>".$row['CLAMP_VERSION']."</td>
