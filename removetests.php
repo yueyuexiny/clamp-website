@@ -13,6 +13,15 @@ if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
 }
 
+
+if($_POST["submitted"]){
+	$updatesql = "update request_form set ISTEST=1 where REQUEST_ID=".$_POST["removeid"];
+	
+	echo "<script>alert($updatesql);</script>";
+	//$res = $conn->query($updatesql);
+}
+
+
 $sql = "select * from request_form where ISTEST=0";
 
 
