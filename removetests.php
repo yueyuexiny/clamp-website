@@ -43,7 +43,7 @@ while($row = $res->fetch_assoc()) {
 	$count++;
 	$approved=$row['REQUEST_APPROVED']=="Yes" ? "&#10004":"&nbsp;";
 						
-	echo "<tr style='cursor: pointer;' onclick=\"location.href='details.php?id=".$row['REQUEST_ID']."'\">
+	echo "<tr style='cursor: pointer;'>
 						<td><input type=button value='Move to Test' onclick='removerequest(".$row['NOTE'].")'></td><td >".$count."</td><td >".$row['FIRST_NAME']."</td>
 						<td>".$row['LAST_NAME']."</td>
 						<td>".$row['EMAIL']."</td>
