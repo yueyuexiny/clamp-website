@@ -90,9 +90,9 @@ function sendMailToUser($to,$subject,$body){
     	$mail->Host = 'smtp.uth.tmc.edu';
     	$mail->SMTPAuth = false;
     	$mail->Port = 25;
-    	$mail->setFrom('clampnlp@gmail.com');
+    	$mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
     	$mail->addAddress($to);
-    	$mail->addReplyTo('clampnlp@gmail.com');
+    	$mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
     	$mail->isHTML(true);
     	$mail->Subject = $subject;
     	$mail->Body = $body;
@@ -113,9 +113,9 @@ function sendPlainMailToUser($to,$subject,$body){
         $mail->Host = 'smtp.uth.tmc.edu';
         $mail->SMTPAuth = false;
         $mail->Port = 25;
-        $mail->setFrom('clampnlp@gmail.com');
+        $mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->addAddress($to);
-        $mail->addReplyTo('clampnlp@gmail.com');
+        $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->isHTML(false);
         $mail->Subject = $subject;
         $mail->Body = $body;
