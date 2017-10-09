@@ -68,8 +68,7 @@ echo "</td></tr></table>";
 ?>
 <script>
 function removerequest(id){
-	document.ord.removeid=id;
-	alert(document.ord.removeid);
+	document.ord.removeid.value=id;
 	document.ord.submit();
 }
 </script>
