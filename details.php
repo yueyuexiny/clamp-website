@@ -90,9 +90,9 @@ function sendMailToUser($to,$subject,$body){
     	$mail->Host = 'smtp.uth.tmc.edu';
     	$mail->SMTPAuth = false;
     	$mail->Port = 25;
-    	$mail->setFrom('clampnlp@gmail.com');
+    	$mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
     	$mail->addAddress($to);
-    	$mail->addReplyTo('clampnlp@gmail.com');
+    	$mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
     	$mail->isHTML(true);
     	$mail->Subject = $subject;
     	$mail->Body = $body;
@@ -113,9 +113,9 @@ function sendPlainMailToUser($to,$subject,$body){
         $mail->Host = 'smtp.uth.tmc.edu';
         $mail->SMTPAuth = false;
         $mail->Port = 25;
-        $mail->setFrom('clampnlp@gmail.com');
+        $mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->addAddress($to);
-        $mail->addReplyTo('clampnlp@gmail.com');
+        $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->isHTML(false);
         $mail->Subject = $subject;
         $mail->Body = $body;
@@ -140,7 +140,7 @@ Please use the link provided below to download $cvrs :<br><br>
  
 <a href='http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id'>http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id </a> <br><br>
  
-The activation code is <b>$code</b> <br><br>
+The activation code is <b>$code</b><br><br>
  
 Please note that the activation code will work for only one instance of CLAMP and will be valid for a $months month period only.  <br>
 
@@ -481,7 +481,8 @@ Thanks<br>
 													<option value="_1.2.2">1.2.2</option>
 													<option value="_1.2.3">1.2.3</option>
 													<option value="_1.3.0">1.3.0</option>
-											</select> <br> <input id="vrs" name="vrs" size="25" disabled>
+													<option value="_1.3.1">1.3.1</option>
+											</select> <br> <input id="vrs" name="vrs" size="25">
 											<input type="hidden"  id="pwd" name="pwd" value="twgdhbtzhy">
 											</td>
 										</tr>

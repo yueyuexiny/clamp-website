@@ -166,7 +166,7 @@ function email_team($insertId){
 
 function email_user(){
     $to_sms= $_POST['inputEmail'];
-    $from_email= 'clampnlp@gmail.com';
+    $from_email= 'Anupama.E.Gururaj@uth.tmc.edu';
     $subject = "Thank you for requesting a CLAMP Download";
 
     $headers2 = 'MIME-Version: 1.0' . "\r\n" .
