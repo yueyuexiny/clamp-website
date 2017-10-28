@@ -5,6 +5,24 @@
 <div class="container page-container">
     <br/>
     <div class="section-header">
+        <h1>Reference</h1>
+    </div>
+     <div>
+       <p> Note: Please cite the publication below in study manuscripts using CLAMP. Please inform us of your publication for our reference.
+       <br></p>   
+       <div class="just-padding">
+       <div class="list-group list-group-root well">
+        <p class="list-group-item list-header" >2017 </p>   
+            <div class="list-group">
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ergin Soysal, Jingqi Wang, Min Jiang, Yonghui Wu, Serguei Pakhomov, Hongfang Liu, Hua Xu.  CLAMP – a toolkit for efficiently building customized clinical natural language processing pipelines. JAMIA, Doi: 10.1093/jamia/
+                    <a href="http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
+                </span>
+                </div>
+                </div>    
+    </div>
+    <br/>
+    
+    <div class="section-header">
         <h1>Awards & Publications</h1>
     </div>
 
@@ -13,7 +31,7 @@
             CLAMP is built on award-winning methods. Our team has participated in a number of clinical NLP challenges and top ranked for various tasks (see below). Now we have integrated such proven methods into CLAMP and make them available to the community.
         </p>        
     </div>
-
+ 
     <div class="just-padding">
         <h3 style="margin-bottom: 20px">Challenges</h3>
         <div class="list-group list-group-root well">
@@ -48,12 +66,14 @@
     <div class="just-padding">
         <h3 style="margin-bottom: 20px">Relevant Publications</h3>
         <div class="list-group list-group-root well">
-        <p class="list-group-item list-header" >2017 </p>
+        <p class="list-group-item list-header" >2017 </p>   
             <div class="list-group">
                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ergin Soysal, Jingqi Wang, Min Jiang, Yonghui Wu, Serguei Pakhomov, Hongfang Liu, Hua Xu.  CLAMP – a toolkit for efficiently building customized clinical natural language processing pipelines. JAMIA, Doi: 10.1093/jamia/
                     <a href="http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
                 </span>
                 </div>
+                </div>
+        <div class="list-group list-group-root well">
             <p class="list-group-item list-header" >2016 </p>
             <div class="list-group">
                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Lee H, Zhang Y, Xu J, Moon S, Wang J, Wu Y, and Xu H, UTHealth at SemEval-2016 Task 12: an End-to-End System for Temporal Information Extraction from Clinical Notes. Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016), 1292-1297, San Diego, California, June, 2016.
