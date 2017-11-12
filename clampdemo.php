@@ -45,18 +45,17 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
         <div id="dynamictabstrp" name="dynamictabstrp">
         <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Text">Run CLAMP</button>
         <input type="button" class="btn btn-primary btn-lg " name="clear" value="Clear Form" onclick="clearForm(this.form);">
+        <input type= "hidden" name="Jsonresult">
             </div>
             </p>
     </form>
         <p>
-        <br>
-        
-
+        <br>       
         <iframe src="cd.html" width="1100" height="600" frameborder="0" name="demoFrame" id="demoFrame"></iframe>
     	</p>
     	</center>
         </div>
-        <p>&nbsp;</p>
+        <p>&nbsp;</p>   
          <script>
         function submitForm(){
         	document.demoForm.submit();
@@ -85,22 +84,14 @@ discharge summary, adhd, adderall, attention deficit hyperactivity disorder, moo
         });
 
         function clearForm(oForm) {
-
             var elements = oForm.elements;
-
             oForm.reset();
-
             for(i=0; i<elements.length; i++) {
-
                 field_type = elements[i].type.toLowerCase();
-
                 switch(field_type) {
-
                     case "textarea":
-
                         elements[i].value = "";
                         break;
-
                     default:
                         break;
                 }
