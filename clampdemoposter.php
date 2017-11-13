@@ -104,7 +104,7 @@ tr:nth-child(even) {
         <tr>
             <th>Location_Start</th>
             <th>Location_End</th>
-            <th>Semntic</th>
+            <th>Semantics</th>
             <th>CUI</th>
             <th>Assertion</th>
             <th>Entity</th>
