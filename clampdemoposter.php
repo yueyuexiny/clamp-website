@@ -16,7 +16,7 @@ $opts = array('http' =>
 
 $context  = stream_context_create($opts);
 
-$result = file_get_contents('http://139.52.147.65:9999/clampdemo', false, $context);
+$result = file_get_contents('http://localhost:9999/clampdemo', false, $context);
 $jsonresult = json_decode($result);
 
 ?>
