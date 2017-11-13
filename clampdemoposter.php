@@ -42,6 +42,11 @@ $jsonresult = json_decode($result);
   <script type="text/javascript" src="brat/client/src/visualizer.js"></script>
   
  <style>
+.tab-pane{
+    height:500px;
+    overflow-y:scroll;
+    width:100%;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
