@@ -104,10 +104,10 @@ tr:nth-child(even) {
         <tr>
             <th>Location_Start</th>
             <th>Location_End</th>
+            <th>Semntic</th>
+            <th>CUI</th>
+            <th>Assertion</th>
             <th>Entity</th>
-            <th>Null</th>
-            <th>Status</th>
-            <th>Details</th>
         </tr>
     </thead>
 </table>
