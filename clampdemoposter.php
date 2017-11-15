@@ -16,7 +16,7 @@ $opts = array('http' =>
 
 $context  = stream_context_create($opts);
 
-$result = file_get_contents('http://localhost:9990/clampdemo', false, $context);
+$result = file_get_contents('http://139.52.147.65:9999/clampdemo', false, $context);
 $jsonresult = json_decode($result);
 
 ?>
@@ -122,7 +122,7 @@ tr:nth-child(even) {
       rows = vals.split("\n"),
       columns, i;
       
-  	  for (i = 0; i < rows.length; i++) {
+  	  for (i = 0; i < (rows.length-1); i++) {
       	columns = rows[i].split("\t");
     			tabl.append(
       		'<tr>' + 
