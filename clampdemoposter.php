@@ -81,7 +81,7 @@ tr:nth-child(even) {
 <div class="container" >
 
 
-  <ul class="nav nav-tabs"  style="display:none">
+  <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#xmi">Results.xmi</a></li>
     <li><a data-toggle="tab" href="#txt1">Resutls.txt</a></li>
   </ul>
@@ -101,8 +101,7 @@ tr:nth-child(even) {
               // Array containing locations of the visualisation fonts
               webFontURLs
               );
-      	document.getElementsByClassName("nav nav-tabs")[0].style.display='block';
-       
+      	
         </script>
     <script>
    
