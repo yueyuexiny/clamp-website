@@ -83,7 +83,7 @@ tr:nth-child(even) {
 
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#xmi">Results.xmi</a></li>
-    <li><a data-toggle="tab" href="#txt1">Resutls.txt</a></li>
+    <li><a data-toggle="tab" href="#txt1">Results.txt</a></li>
   </ul>
 
   <div class="tab-content">
