@@ -2,7 +2,7 @@
 // vim:set ft=javascript ts=2 sw=2 sts=2 cindent:
 
 var Visualizer = (function($, window, undefined) {
-    var fontLoadTimeout = 5000; // 5 seconds
+    var fontLoadTimeout = 10; // 0.01 seconds
   
     var DocumentData = function(text) {
       this.text = text;
