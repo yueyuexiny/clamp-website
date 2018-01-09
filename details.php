@@ -247,7 +247,7 @@ Thanks<br>
       try {
         xmlhttp.send();
       } catch (z) {
-        document.getElementById("output").innerHTML = "Network failure";
+        document.getElementById("output").innerHTML = "Network failure"; 
       }
     }
     
