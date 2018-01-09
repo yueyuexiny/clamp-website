@@ -16,7 +16,7 @@ $opts = array('http' =>
 
 $context  = stream_context_create($opts);
 
-$result = file_get_contents('http://localhost:9999/clampdemo', false, $context);
+$result = file_get_contents('http://localhost:9990/clampdemo', false, $context);
 $jsonresult = json_decode($result);
 
 ?>
@@ -78,17 +78,19 @@ tr:nth-child(even) {
 </head>
 <body>
 
-<div class="container">
+<div class="container" >
+
 
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#xmi">Results.xmi</a></li>
-    <li><a data-toggle="tab" href="#txt1">Resutls.txt</a></li>
+    <li><a data-toggle="tab" href="#txt1">Results.txt</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="xmi" class="tab-pane fade in active">
       <div id=brat_block></div>
       <script>
+   
       	Util.embed(
               // id of the div element where brat should embed the visualisations
               'brat_block',
@@ -99,7 +101,13 @@ tr:nth-child(even) {
               // Array containing locations of the visualisation fonts
               webFontURLs
               );
-      </script>
+      	
+        </script>
+    <script>
+   
+    
+    </script>
+              
     </div>
 
     <div id="txt1" class="tab-pane fade">      
@@ -122,7 +130,7 @@ tr:nth-child(even) {
       rows = vals.split("\n"),
       columns, i;
       
-  	  for (i = 0; i < rows.length; i++) {
+  	  for (i = 0; i < (rows.length-1); i++) {
       	columns = rows[i].split("\t");
     			tabl.append(
       		'<tr>' + 
@@ -135,10 +143,7 @@ tr:nth-child(even) {
       	'</tr>'
     		);
      
-  }
-    	 
-
-    	  
+  }    	  
       </script>
     </div>
   </div>
