@@ -239,7 +239,7 @@ Thanks<br>
         }
       };
 
-      var poststring = "http://clamp.uth.edu/licensemgr2/clamplicense?task=gensn&pwd="+pwds+"&lt=" + lt
+      var poststring = "//clamp.uth.edu/licensemgr2/clamplicense?task=gensn&pwd="+pwds+"&lt=" + lt
           + "&m=" + months + "&vrs=" + vrs;
       //alert(poststring);
       xmlhttp.open("POST", poststring, true);
