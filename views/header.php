@@ -2,7 +2,7 @@
 <html lang="en">
     <head>     
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="UTF-8">    
+        <meta charset="UTF-8">     
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title><?php echo isset($pageTitle) ? $pageTitle . " | " : "" ?>CLAMP | Natural Language Processing (NLP) Software</title>
         <meta name="description" content="CLAMP, Clinical Natural Language Processing Software For Medical and Healthcare Annotation. Text mining and machine learning for clinical notes. NLP system with advanced machine learning tools. <?php echo isset($pageDescription) ? $pageDescription . " | " : "" ?>">
@@ -200,11 +200,12 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
                                         <li class="divider"></li>
                                         <li><a href="documentation.php">Manual - Download</a></li>
                                         <li><a href="manual.php">Manual - Online</a></li>
+                                        <!--<li><a href="pipeline-library.php">Piepline Library</a></li>-->
                                     </ul>
                                 </li>
 
                                 <li class="navitem"><a href="support.php">Support</a></li>
-                                <li class="navitem"><a href="pipeline-library.php">Piepline Library</a></li>
+                                
                             </ul>
                         </nav>
                     </div>

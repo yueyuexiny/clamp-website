@@ -29,7 +29,7 @@
             </p>
             <br>-->
             <p class="normal-bold-text">
-                Please note: If you need the source code of CLAMP, please contact
+                Please note: If you need the source code of CLAMP, please contact  
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
             </p>
 

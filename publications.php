@@ -6,13 +6,13 @@
     <br/>
     <div class="section-header">
         <h1>Reference</h1>
-    </div>
+    </div> 
      <div>
        <p> Note: Please cite the publication below in study manuscripts using CLAMP. Please inform us of your publication for our reference.
        <br></p>   
        <div class="just-padding">
        <div class="list-group list-group-root well">
-        <p class="list-group-item list-header" >2017 </p>   
+        <p class="list-group-item list-header" >2017 </p>    
             <div class="list-group">
                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ergin Soysal, Jingqi Wang, Min Jiang, Yonghui Wu, Serguei Pakhomov, Hongfang Liu, Hua Xu.  CLAMP – a toolkit for efficiently building customized clinical natural language processing pipelines. JAMIA, Doi: 10.1093/jamia/ocx132
                     <a href="http://dx.doi.org/10.1093/jamia/ocx132" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
