@@ -24,10 +24,10 @@
             </p>
             <br>
 
-            <p style="color:#b50000 ">
+            <!-- <p style="color:#b50000 ">
                 If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://clamp.uth.edu/cancer.php"> http://clamp.uth.edu/cancer.php</a>
             </p>
-            <br>
+            <br>-->
             <p class="normal-bold-text">
                 Please note: If you need the source code of CLAMP, please contact
                 Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>

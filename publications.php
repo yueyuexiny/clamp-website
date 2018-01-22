@@ -40,6 +40,7 @@
                 <a class="list-group-item list-sub-header">2009 i2b2, medication <span class="badge badge-pill badge-success"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2010 i2b2 problem, treatment, test <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2013 SHARe/CLEF abbreviation <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReactions and modifier concepts <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
             </div>
 
             <p class="list-group-item list-header">NLP Task: Relation extraction</p>
@@ -48,11 +49,13 @@
                 <a href="#" class="list-group-item list-sub-header"> 2015 SemEval Disease-modifier <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
                 <a href="#" class="list-group-item list-sub-header">2015 BioCREATIVE Chemical-induced disease <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2016 SemEvel, Temporal <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReaction-modifier <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
             </div>
 
-            <p class="list-group-item list-header">NLP Task: UMLS encoding</p>
+            <p class="list-group-item list-header">NLP Task: Encoding</p>
             <div class="list-group">
-                <a href="#" class="list-group-item list-sub-header"> 2014 SemEval, disorder <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2014 SemEval, disorder, UMLS encoding <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReaction, MedDRA encoding <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
             </div>
 
             <p class="list-group-item list-header">NLP Task: De-identification</p>
@@ -69,7 +72,10 @@
         <p class="list-group-item list-header" >2017 </p>   
             <div class="list-group">
                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ergin Soysal, Jingqi Wang, Min Jiang, Yonghui Wu, Serguei Pakhomov, Hongfang Liu, Hua Xu.  CLAMP – a toolkit for efficiently building customized clinical natural language processing pipelines. JAMIA, Doi: 10.1093/jamia/
-                    <a href="http://fdslive.oup.com/www.oup.com/pdf/production_in_progress.pdf" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
+                    <a href="http://dx.doi.org/10.1093/jamia/ocx132" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Jun Xu*, Hee-Jin Lee*, Zongcheng Ji*, Jingqi Wang, Qiang Wei, and Hua Xu. UTH_CCB System for Adverse Drug Reaction Extraction from Drug Labels at TAC-ADR 2017. Proceedings of TAC, 2017. (* denotes equal contribution)
+                    <a target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
                 </span>
                 </div>
                 </div>

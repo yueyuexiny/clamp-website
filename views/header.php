@@ -183,13 +183,14 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
                                 <li class="navitem"><a href="users.php">Users</a></li>
                                 <li class="navitem"><a href="publications.php">Publications</a></li>
                                 <li class="navitem"><a href="clampdemo.php">Live Demo</a></li>
-                                <li class="dropdown">
+                                <li class="navitem"><a href="get-clamp.php">Download</a></li>
+                                <!--<li class="dropdown">
                                     <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-download">Download <span class="caret"></span></a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu-download">
                                         <li><a class=submenu href="get-clamp.php"> CLAMP</a></li>
                                         <li><a class=submenu href="cancer.php"> CLAMP-Cancer</a></li>
                                     </ul>
-                                </li>
+                                </li>-->
 
                                 <li class="dropdown">
                                     <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-doc">Documentation <span class="caret"></span></a>
@@ -203,6 +204,7 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
                                 </li>
 
                                 <li class="navitem"><a href="support.php">Support</a></li>
+                                <li class="navitem"><a href="pipeline-library.php">Piepline Library</a></li>
                             </ul>
                         </nav>
                     </div>
