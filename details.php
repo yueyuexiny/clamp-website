@@ -239,7 +239,7 @@ Thanks<br>
         }
       };
 
-      var poststring = "http://clamp.uth.edu/licensemgr2/clamplicense?task=gensn&pwd="+pwds+"&lt=" + lt
+      var poststring = "//clamp.uth.edu/licensemgr2/clamplicense?task=gensn&pwd="+pwds+"&lt=" + lt
           + "&m=" + months + "&vrs=" + vrs;
       //alert(poststring);
       xmlhttp.open("POST", poststring, true);
@@ -247,7 +247,7 @@ Thanks<br>
       try {
         xmlhttp.send();
       } catch (z) {
-        document.getElementById("output").innerHTML = "Network failure";
+        document.getElementById("output").innerHTML = "Network failure"; 
       }
     }
     
@@ -482,6 +482,7 @@ Thanks<br>
 													<option value="_1.2.3">1.2.3</option>
 													<option value="_1.3.0">1.3.0</option>
 													<option value="_1.3.1">1.3.1</option>
+													<option value="_1.4.0">1.4.0</option>
 											</select> <br> <input id="vrs" name="vrs" size="25">
 											<input type="hidden"  id="pwd" name="pwd" value="twgdhbtzhy">
 											</td>
