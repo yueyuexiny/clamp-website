@@ -16,7 +16,7 @@
                         <img src="./img/logo.png" height="100px" alt="Second slide">
                         <span class="ad">New Version CLAMP1.4.0 Release! Please try <a target="_blank" href="new-feature.php">CLAMP</a></span>
                         <br>
-                    </div>
+                    </div> 
                 </div><!-- /header-text -->
             </div>
             <div class="item">
