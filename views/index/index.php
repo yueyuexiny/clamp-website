@@ -13,8 +13,8 @@
                 <!-- Static Header -->
                 <div class="header-text hidden-xs">
                     <div class="col-md-12 text-center">
-                        <img src="./img/clamp-cancer.png" height="100px" alt="Second slide">
-                        <span class="ad">New Release! Please try <a target="_blank" href="cancer.php">CLAMP-Cancer</a></span>
+                        <img src="./img/logo.png" height="100px" alt="Second slide">
+                        <span class="ad">New Version CLAMP1.4.0 Release! Please try <a target="_blank" href="new-feature.php">CLAMP</a></span>
                         <br>
                     </div>
                 </div><!-- /header-text -->
@@ -23,8 +23,8 @@
                 <!-- Static Header -->
                 <div class="header-text hidden-xs">
                     <div class="col-md-12 text-center">
-                        <img src="./img/himss_logo.png" height="100px" alt="Second slide">
-                        <span class="ad">Stop by Booth #702 at HIMSS at San Antonio to know more about CLAMP software.</span>
+                        <img src="./img/himss18-holiday-banner.png" height="100px" alt="Second slide">
+                        <span class="ad">Stop by Booth #13150 at HIMSS 2018 at Las Vegas to know more about CLAMP software.</span>
                     </div>
                 </div><!-- /header-text -->
             </div>
