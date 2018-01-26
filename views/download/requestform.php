@@ -35,6 +35,19 @@
 
 
         </div>
+        <hr />
+        <div class="section-content">
+            <p class="bold">
+                CLAMP 1.4.0 New features:
+            </p><br>
+            <p>• Support reading/writing to databases </p>
+            <p>•	 New concept mapping component </p>
+            <p>•	 Additional built-in pipelines</p>
+            <p>• Online live demo available now</p>
+            <p>• Improvements</p>
+            <p>• Bug fixing</p>
+            <br>
+            </div>
 
         <hr />
 
