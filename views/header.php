@@ -195,12 +195,13 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
                                 <li class="dropdown">
                                     <a href="#" class="navitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="dropdownMenu-doc">Documentation <span class="caret"></span></a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu-doc">
+                                    	   <li><a class=submenu href="new-feature.php">New Features</a></li>
                                         <li><a class=submenu href="tutorial.php">Tutorial</a></li>
                                         <li><a class=submenu href="faq.php">FAQ</a></li>
                                         <li class="divider"></li>
                                         <li><a href="documentation.php">Manual - Download</a></li>
                                         <li><a href="manual.php">Manual - Online</a></li>
-                                        <!--<li><a href="pipeline-library.php">Piepline Library</a></li>-->
+                                        <li><a href="pipeline-library.php">Piepline Library</a></li>
                                     </ul>
                                 </li>
 
