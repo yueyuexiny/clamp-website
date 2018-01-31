@@ -83,7 +83,7 @@
                                  height="500">
                             <figcaption>Online Demo</figcaption>
                         </figure>
-
+						</div>
                 
                 
                 
@@ -97,7 +97,7 @@
 						<br>
 						•	  Improve the accuracy of NER-attribute / test-value / medication-signature pipeline. <br></span> 
 						<br>
-                    		
+                    		</div>
                 
                 
                 
@@ -112,7 +112,7 @@
 						•	  Use bright colors to highlight entities in the online demo. <br></span> 
 						<br>
                     	
-               
+               </div>
                 
                 <br>
                 
@@ -128,8 +128,9 @@
 
 
 				
-     </div>
-
-</div>
-
+     	</div>
+ 	</div>
+	</div>
+	</div>
+	</div>
 <?php include_once dirname(__FILE__) . '/views/footer.php'; ?>
