@@ -57,7 +57,7 @@
 
                         <div class="section-body-manual">
                     		<span class="subtitles-manual">•	Improved concept mapping function</span> 
-                    		<p>Currently tested on MySQL, PostgreSQL, and Oracle. The setup screenshot as below for the reference.</p>                                           
+                    		<p> Besides UMLS CUIs, you can now map different types of concepts to selected terminologies (ICD10, SNOMED-CT, LOINC, RxNorm) .</p>                                           
                         <figure class="figure-manual">
                             <img src="img/new-feature/mapping.png" alt="Mapping Function" width="800"
                                  height="400">
