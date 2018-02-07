@@ -35,6 +35,46 @@
                         </div>
                     </div>
                     <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <span class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen"
+                                   aria-expanded="true" aria-controls="collapseFourteen">
+                                    <strong>&#128293; How to upgrade to CLAMP new version 1.4.0 </strong>
+                                </a>
+                            </span>
+                        </div>
+                        <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFourteen">
+                            <div class="panel-body">
+                                <p>
+                                    <strong class="text-primary">On Windows</strong>, simply copy contents of your previous work folder (i.e. 
+                                    from older Clamp_x.xx.xx_win\workspace\MyPipeline\ contents to new 
+                                    ClampWin_1.4.0\workspace\MyPipeline\ contents) using <strong class="text-primary">Windows Explorer</strong> 
+                                    and <strong class="text-primary">restart CLAMP</strong> if it’s already running. On startup, CLAMP will recognize 
+                                    these projects and import them into your workspace.
+                                    <br>
+                                    <strong class="text-primary">On MacOSX</strong>, similarly copy contents of your previous work folder (i.e. from older 
+                                    ClampMac_x.xx.xx /workspace/MyPipeline/ contents to new ClampMac_1.4.0/workspace/MyPipeline/ 
+                                    contents) using <strong class="text-primary">Finder</strong> and <strong class="text-primary">restart CLAMP</strong> if it’s already running. On startup, CLAMP will 
+                                    recognize these projects and import them into your new workspace.
+                                    <br>
+                                    <br>
+                                    <strong class="text-primary"> Here is the example how to upgrade CLAMP from old version to 1.4.0.</strong>
+                                    <br> 
+									1.	Find your pipeline project from old version folder, for example: 
+									<br>
+                                    <img alt="upgrade1" src="img/upgrade1.png" width="1100" height="400">
+                                    <br>
+                                    2.	Copy them to a new CLAMP 1.4.0 work folder.
+                                    <br>
+                                    <img alt="upgrade2" src="img/upgrade2.png" width="1100" height="400">
+                                    <br>
+                                    3.	Restart CLAMP 1.4.0, CLAMP will recognize these projects and import them into your new workspace.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
                         <div class="panel-heading" role="tab" id="headingFour">
                             <span class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
