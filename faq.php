@@ -376,6 +376,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="panel">
+                        <div class="panel-heading" role="tab" id="headingFifteen">
+                            <span class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseFifteen">
+                                    <strong>How to access to CLAMP Github technical forum about known issue solutions?</strong>
+                                </a>
+                            </span>
+                        </div>
+                        <div id="collapseFifteen" class="panel-collapse collapse" role="tabpanel">
+                            <div class="panel-body">
+                                <p>
+                                    This is our CLAMP-support website: 
+                                    <a href="https://github.com/UTHealth-CCB/clamp-support">https://github.com/UTHealth-CCB/clamp-support</a>                
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
