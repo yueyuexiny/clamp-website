@@ -29,7 +29,7 @@
                     <div class="thumbnail">
                         <h3>CLAMP Demo for Smoking Status</h3>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="420" height="315" src="https://www.youtube.com/embed/SYYyUgnv0uE" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/SYYyUgnv0uE?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div>
                             <span class="label label-primary">Tutorial</span>
@@ -41,7 +41,7 @@
                     <div class="thumbnail">
                         <h3>CLAMP Demo for Lab Test</h3>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="420" height="315" src="https://www.youtube.com/embed/fvGeK1O16qg" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/fvGeK1O16qg?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                         <div>
@@ -50,8 +50,97 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP Dictionary Lookup Tutorial</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/6INZMCLovPY?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <span class="label label-primary">Tutorial</span>
+                        </div>
+                    </div>
+                </div>
+             
             </div>
         </div>
+        <hr />
+        <br />
+        <h3>Short Videos</h3>
+        <br />
+        <div class="tutorials">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>NER Model Development</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/wo-NwvkWknk?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <span class="label label-primary">Short Video</span>
+                            <span class="label" style="background-color: #6253e8">NER</span>
+                        </div>
+					</div>
+					</div>
+					<div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP Demo for Labtest</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/8PYvzswOXog?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <span class="label label-primary">Short Video</span>
+                            <span class="label" style="background-color: #387f38">Lab Test</span>
+                        </div>
+                    </div>
+                </div>
+                	<div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP Corpus Annotation</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/fqlp5giJKwM?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <span class="label label-primary">Short Video</span>
+                            <span class="label" style="background-color: #e06d9e">Corpus</span>
+                        </div>
+                    </div>
+                </div>
+                	<div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP Basic Pipeline Demo</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/RyS1gS2I0-A?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <span class="label label-primary">Short Video</span>
+                            <span class="label" style="background-color: #85bc81">Pipeline</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP NER Attribute Pipeline demo</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/jOPStUSEtRI?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <span class="label label-primary">Short Video</span>
+                            <span class="label" style="background-color: #85bc81">Pipeline</span>
+                            <span class="label" style="background-color: #6253e8">NER</span>
+                        </div>
+                    </div>
+                </div>
+					
+					
+					
+                    </div>
+                </div>
     </div>
 
 
