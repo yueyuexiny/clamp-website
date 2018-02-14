@@ -32,7 +32,8 @@
                             <iframe width="420" height="315" src="https://www.youtube.com/embed/SYYyUgnv0uE?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <span class="label label-primary">Tutorial</span>
+                            <span class="label label-primary">CLAMP</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
 
                     </div>
@@ -45,8 +46,9 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Tutorial</span>
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #387f38">Lab Test</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
                     </div>
                 </div>
@@ -58,7 +60,8 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Tutorial</span>
+                            <span class="label label-primary">CLAMP</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
                     </div>
                 </div>
@@ -77,9 +80,11 @@
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe width="420" height="315" src="https://www.youtube.com/embed/wo-NwvkWknk?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div>
-                            <span class="label label-primary">Short Video</span>
+                        <div>                        
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #6253e8">NER</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
+                            <span class="label" style="background-color: #f3e26e">Machine Learning</span>
                         </div>
 					</div>
 					</div>
@@ -91,8 +96,9 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Short Video</span>
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #387f38">Lab Test</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
                     </div>
                 </div>
@@ -104,8 +110,11 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Short Video</span>
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #e06d9e">Corpus</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
+                            <span class="label" style="background-color: #aae26e">Annotation</span>
+                            <span class="label" style="background-color: #f3e26e">Machine Learning</span>
                         </div>
                     </div>
                 </div>
@@ -117,8 +126,9 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Short Video</span>
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #85bc81">Pipeline</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
                     </div>
                 </div>
@@ -130,9 +140,10 @@
                         </div>
 
                         <div>
-                            <span class="label label-primary">Short Video</span>
+                            <span class="label label-primary">CLAMP</span>
                             <span class="label" style="background-color: #85bc81">Pipeline</span>
                             <span class="label" style="background-color: #6253e8">NER</span>
+                            <span class="label" style="background-color: #aa53e8">NLP</span>
                         </div>
                     </div>
                 </div>
