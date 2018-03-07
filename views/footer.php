@@ -34,7 +34,7 @@
 
             <div class="col-lg-4">
                 <p><strong>Technical Support</strong></p>
-                <p>Jingqi Wang, MS - Analyst Programmer</p>
+                <p>Jingqi Wang, MS - Scientific Programmer</p>
                 <p>
                     <span class="glyphicon glyphicon-envelope"></span>
                     <a href="mailto:jingqi.wang@uth.tmc.edu">jingqi.wang@uth.tmc.edu</a>
