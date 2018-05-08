@@ -57,7 +57,8 @@ $activationMail=false;
 		//var_dump($sqlString);
 	}
 	elseif (isset($_POST["mailBody"])){
-		sendPlainMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody']);
+		$ccMails=$_POST['mailCc'];
+		sendPlainMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody'],$ccMails);
 	}
 
 
@@ -106,7 +107,7 @@ function sendMailToUser($to,$subject,$body){
 }
 
 
-function sendPlainMailToUser($to,$subject,$body){
+function sendPlainMailToUser($to,$subject,$body,$ccMails){
 	
 	$mail = new PHPMailer;
         $mail->isSMTP();
@@ -115,6 +116,12 @@ function sendPlainMailToUser($to,$subject,$body){
         $mail->Port = 25;
         $mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->addAddress($to);
+        if(strlen(trim($ccMails))>0){
+        	$ccms= explode(",",$ccMails);
+        	foreach($ccms as $key=>$value){
+        		$mail->addCC($value);
+        	}
+        }
         $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->isHTML(false);
         $mail->Subject = $subject;
@@ -509,8 +516,8 @@ Thanks<br>
 										</tr>
 										<tr>
 											<td><b>Cc:</b></td>
-											<td><input type="text" size="50" name="mailTo"
-												value="<?php echo $row['EMAIL']?>"></td>
+											<td><input type="text" size="50" name="mailCc"
+												value=""></td>
 										</tr>
 										<tr>
 											<td><b>Subject:</b></td>
