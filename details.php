@@ -508,6 +508,11 @@ Thanks<br>
 												value="<?php echo $row['EMAIL']?>"></td>
 										</tr>
 										<tr>
+											<td><b>Cc:</b></td>
+											<td><input type="text" size="50" name="mailTo"
+												value="<?php echo $row['EMAIL']?>"></td>
+										</tr>
+										<tr>
 											<td><b>Subject:</b></td>
 											<td><input type="text" size="50" name="mailSubject"
 												value="Clamp Info"></td>
