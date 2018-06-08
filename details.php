@@ -145,7 +145,7 @@ Thank you for your interest in the CLAMP software.<br>
 
 Please use the link provided below to download $cvrs :<br><br>
  
-<a href='http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id'>http://clamp.uth.edu/download.php?v=$v&email=$email&id=$id </a> <br><br>
+<a href='https://clamp.uth.edu/download.php?v=$v&email=$email&id=$id'>https://clamp.uth.edu/download.php?v=$v&email=$email&id=$id </a> <br><br>
  
 The activation code is <b>$code</b><br><br>
  
@@ -153,7 +153,7 @@ Please note that the activation code will work for only one instance of CLAMP an
 
 You will need to re-apply and renew your license for CLAMP annually. <br><br>
  
-Please contact us if you have questions or would like to provide feedback at <a href='http://clamp.uth.edu/support.php'>http://clamp.uth.edu/support.php</a> <br>
+Please contact us if you have questions or would like to provide feedback at <a href='https://clamp.uth.edu/support.php'>https://clamp.uth.edu/support.php</a> <br>
  
 We will have CLAMP office hour on Mondays, every alternating week starting February 27th, 2017  at 11.00 am (CST). The next CLAMP office hour is on ".date("F dS , Y",$start_date).", 11.00 am -12.00 noon (CST).<br>
 		
