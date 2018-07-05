@@ -38,13 +38,12 @@
         <hr />
         <div class="section-content">
             <p class="bold">
-                CLAMP 1.4.0 New features:
+                CLAMP 1.5.0 New Features:
             </p><br>
-            <p>• Support reading/writing to databases </p>
-            <p>•	 New concept mapping component </p>
-            <p>•	 Additional built-in pipelines</p>
-            <p>• Online live demo available now</p>
-            <p>• Improvements</p>
+            <p>• Pre-annotation: The model in corpus project will be updated automatically during user’s annotation and give pre-annotated results on new documents. </p>
+            <p>• Java is embedded into the package so that the users don’t have to install/modify their own Java environment. </p>
+            <p>• Compare two folders and show the accuracy file by file.</p>
+            <p>• Usability improvement.</p>
             <p>• Bug fixing</p>
             <br>
             </div>
