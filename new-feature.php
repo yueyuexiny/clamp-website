@@ -25,7 +25,14 @@
             <a href="#" class="back-to-top" style="display: none;">Back to Top</a>
             <div class="col-md-3">
                 <div id="page-wrap">
-                    <ul class="manual-nav">                                             
+                    <ul class="manual-nav">  
+                    	   <li><label class="tree-toggler nav-header">NEW FEATURES IN CLAMP 1.5.0 </label>
+                            <ul class="tree sublist" style="display: block;">
+                                <li><a href="#newfeature1.5.0">NEW FEATURES</a></li>
+                                <li><a href="#improvement1.5.0">FUNCTION IMPROVEMENT</a></li>
+                                <li><a href="#bugfix1.5.0">BUG FIXING</a></li>                               
+                            </ul>
+                            </li>                                             
                         <li><label class="tree-toggler nav-header">NEW FEATURES IN CLAMP 1.4.0 </label>
                             <ul class="tree sublist" style="display: block;">
                                 <li><a href="#newfeature1.4.0">NEW FEATURES</a></li>
@@ -42,9 +49,44 @@
 
             </div>
     <br/>
-    			<div class="col-md-9 manual">
+    			<div class="col-md-9">
+    				
+    				<h1 class="section-header-manual" id="newfeature1.5.0" ><a>CLAMP Version 1.5.0</a></h1><br><br>
     			
-                    <h1 class="section-header-manual" id="newfeature1.4.0">New Features</h1>
+    				<h4 class="section-header-manual" >New Features</h4>
+
+                    <div class="section-body-manual">
+                    		<span class="subtitles-manual">•	CLAMP GUI 1.5.0 version support pre-annotation</span> 
+                    		<p>The model in corpus project gets updated automatically during your annotation and provides pre-annotated results on new documents for faster annotation.</p>                                           
+
+                        <div class="section-body-manual">
+                    		<span class="subtitles-manual">•	CLAMP GUI 1.5.0 version support new flexible evaluation function</span> 
+                    		<p> Users can select any two datasets (e.g., gold standard vs. predicted results) to evaluate system’s performance.</p>                                           
+                        </div>
+				</div>
+                
+                <h4 class="section-header-manual" id="improvement1.5.0">Improvements</h4>
+
+                    <div class="section-body-manual">
+                    		<span class="subtitles-manual">
+                    		•	  Java is embedded into the package so that you don’t have to install/modify your own Java environment.<br>
+             			<br>
+						•	  New editor to modify the ‘typedef.xml’;.<br></span>
+						<br>
+                    		</div>
+                    		
+                <h4 class="section-header-manual" id="bugfix1.5.0">Bug fixing</h4>
+
+                    <div class="section-body-manual">
+                    		<span class="subtitles-manual">
+                    		•	   UI freeze on some Mac OS versions has been fixed now.<br></span> 
+						<br><br>
+                    	
+               </div>
+    					
+    				   	<h1 class="section-header-manual" id="newfeature1.4.0" ><a>CLAMP Version 1.4.0</a></h1><br><br>
+    					
+                    <h4 class="section-header-manual" >New Features</h4>
 
                     <div class="section-body-manual">
                     		<span class="subtitles-manual">•	CLAMP GUI 1.4.0 version support reading/writing database via JDBC driver</span> 
@@ -87,7 +129,7 @@
                 
                 
                 
-                    <h1 class="section-header-manual" id="improvement1.4.0">Improvements</h1>
+                    <h4 class="section-header-manual" id="improvement1.4.0">Improvements</h4>
 
                     <div class="section-body-manual">
                     		<span class="subtitles-manual">
@@ -101,7 +143,7 @@
                 
                 
                 
-                    <h1 class="section-header-manual" id="bugfix1.4.0">Bug fixing</h1>
+                    <h4 class="section-header-manual" id="bugfix1.4.0">Bug fixing</h4>
 
                     <div class="section-body-manual">
                     		<span class="subtitles-manual">

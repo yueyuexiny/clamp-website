@@ -14,7 +14,7 @@
                 <div class="header-text hidden-xs">
                     <div class="col-md-12 text-center">
                         <img src="./img/logo.png" height="100px" alt="Second slide">
-                        <span class="ad">New Version CLAMP1.4.0 Release! Please try <a target="_blank" href="new-feature.php">CLAMP</a></span>
+                        <span class="ad">New Version CLAMP1.5.0 Release! Please try <a target="_blank" href="new-feature.php">CLAMP</a></span>
                         <br>
                     </div> 
                 </div><!-- /header-text -->
