@@ -374,8 +374,8 @@ Thanks<br>
 							<li role="presentation" class="active"><a href="#approval"
 								aria-controls="approval" role="tab" data-toggle="tab">Approval</a></li>
 							<li role="presentation"><a href="#activationCode"
-								aria-controls="activationCode" role="tab" data-toggle="tab">Activation
-									Code</a></li>
+								aria-controls="activationCode" role="tab" data-toggle="tab">Serial
+									Number</a></li>
 							<li role="presentation"><a href="#notes" aria-controls="notes"
 								role="tab" data-toggle="tab">Notes</a></li>
 							<li role="presentation"><a href="#mail" aria-controls="mail"
