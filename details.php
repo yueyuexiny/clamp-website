@@ -72,7 +72,7 @@ $activationMail=false;
 			
 			//$mb=getUserMailBody($_POST["id"],$row["FIRST_NAME"],$_POST["months"],$row["VRS"],$row["EMAIL"],$_POST['activationCode'],$start_date);
 			$mb=$_POST["inputTextArea"];
-			sendMailToUser($row["EMAIL"],"CLAMP download link and activation code",$mb);
+			sendMailToUser($row["EMAIL"],"CLAMP download link and serial number",$mb);
 		}
 				
 	}
@@ -147,9 +147,9 @@ Please use the link provided below to download $cvrs :<br><br>
  
 <a href='https://clamp.uth.edu/download.php?v=$v&email=$email&id=$id'>https://clamp.uth.edu/download.php?v=$v&email=$email&id=$id </a> <br><br>
  
-The activation code is <b>$code</b><br><br>
+The serial number is <b>$code</b><br><br>
  
-Please note that the activation code will work for only one instance of CLAMP and will be valid for a $months month period only.  <br>
+Please note that the serial number will work for only one instance of CLAMP and will be valid for a $months month period only.  <br>
 
 You will need to re-apply and renew your license for CLAMP annually. <br><br>
  
@@ -402,7 +402,7 @@ Thanks<br>
 												value="<?php echo $row['VERSION']?>"></td>
 										</tr>
 										<tr>
-											<td align="right" valign="top"><b>Activation Code : </b></td>
+											<td align="right" valign="top"><b>Serial Number : </b></td>
 											<td><input type="text" size="50" name="activationCode"
 												value="" onchange="importMailVars();"><?php if(strlen($row['ACTIVATION_CODE'])>0){echo "Previous: ".$row['ACTIVATION_CODE'];}?></td>
 										</tr>
