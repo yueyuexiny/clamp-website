@@ -206,7 +206,7 @@
                  <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Šuster S, Daelemans W. CliCR: A Dataset of Clinical Case Reports for Machine Reading Comprehension. arXiv preprint arXiv:1803.09720. 2018 Mar 26.
                 </span>
                 </div>
-    
+    	</div>
 </div>
 
 
