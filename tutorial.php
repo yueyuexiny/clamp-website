@@ -74,6 +74,19 @@
         <br />
         <div class="tutorials">
             <div class="row">
+            	<div class="col-md-6">
+                    <div class="thumbnail">
+                        <h3>CLAMP Basic Functionalities</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/N-4c3DmyUMQ?rel=0 " frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div>                        
+                            <span class="label label-primary">CLAMP</span>
+                        </div>
+					</div>
+					</div>
+            
+            
                 <div class="col-md-6">
                     <div class="thumbnail">
                         <h3>NER Model Development</h3>
