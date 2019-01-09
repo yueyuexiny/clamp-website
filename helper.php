@@ -59,7 +59,7 @@ function postToGitHub($insertId){
 	<tr><td>Last Name</td><td>' . $_POST['inputLName'] . '</td></tr>
 	<tr><td>Email</td><td>' . $email . '</td></tr>
 	<tr><td>Organization</td><td>' . $_POST['inputOrganization'] . '</td></tr>
-	<tr><td>Job Title</td><td>' . $_POST['inputJobTitle'] . '</td></tr>
+	<tr><td>Job Title</td><td>' . str_replace("'", "", $_POST['inputJobTitle']) . '</td></tr>
 	<tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
 	<tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
 	<tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $_POST['clampType'] . '</td></tr>
@@ -128,10 +128,10 @@ function email_team($insertId){
     }
 
     $subject = "New Request from CLAMP website";
-    $to = 'Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,mandana.salimi@uth.tmc.edu';
+    //$to = 'Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,Xinyue.Hu@uth.tmc.edu';
     
     //$to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,mandana.salimi@uth.tmc.edu';
-    //$to = 'firat.tiryaki@uth.tmc.edu';
+    $to = 'Xinyue.Hu@uth.tmc.edu';
     $headers = 'MIME-Version: 1.0' . "\r\n" .
         'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
         'From:' . strip_tags($email)  . "\r\n" .
@@ -148,7 +148,7 @@ function email_team($insertId){
     <tr><td>Last Name</td><td>' . $_POST['inputLName'] . '</td></tr>
     <tr><td>Email</td><td>' . $email . '</td></tr>
     <tr><td>Organization</td><td>' . $_POST['inputOrganization'] . '</td></tr>
-    <tr><td>Job Title</td><td>' . $_POST['inputJobTitle'] . '</td></tr>
+    <tr><td>Job Title</td><td>' . str_replace("'", "", $_POST['inputJobTitle']) . '</td></tr>
     <tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
     <tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
     <tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $_POST['clampType'] . '</td></tr>
