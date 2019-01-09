@@ -59,7 +59,7 @@ function postToGitHub($insertId){
 	<tr><td>Last Name</td><td>' . $_POST['inputLName'] . '</td></tr>
 	<tr><td>Email</td><td>' . $email . '</td></tr>
 	<tr><td>Organization</td><td>' . $_POST['inputOrganization'] . '</td></tr>
-	<tr><td>Job Title</td><td>' . str_replace("'", "", $_POST['inputJobTitle']) . '</td></tr>
+	<tr><td>Job Title</td><td>' . $_POST['inputJobTitle'] . '</td></tr>
 	<tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
 	<tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
 	<tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $_POST['clampType'] . '</td></tr>
@@ -83,7 +83,7 @@ function insertIntoDatabase($host, $username, $password, $db){
 	$organization=$_POST['inputOrganization'];
 	$details=$_POST['inputDetails'];
 	$consent=$_POST['consent'];
-	$job=$_POST['inputJobTitle'];
+	$job=str_replace("'", "", $_POST['inputJobTitle']);
 	switch ($clampversion) {
 		case 'CLAMP-CMD (Commandline)':
 			$v = 'cmd';
@@ -148,7 +148,7 @@ function email_team($insertId){
     <tr><td>Last Name</td><td>' . $_POST['inputLName'] . '</td></tr>
     <tr><td>Email</td><td>' . $email . '</td></tr>
     <tr><td>Organization</td><td>' . $_POST['inputOrganization'] . '</td></tr>
-    <tr><td>Job Title</td><td>' . str_replace("'", "", $_POST['inputJobTitle']) . '</td></tr>
+    <tr><td>Job Title</td><td>' . $_POST['inputJobTitle'] . '</td></tr>
     <tr><td>Please choose the best description of your institution/organization type.</td><td>' . $organizationtype . '</td></tr>
     <tr><td>How would CLAMP be used at your organization?</td><td>' . $useType . '</td></tr>
     <tr><td>Please select the version of CLAMP that you would like to receive</td><td>' . $_POST['clampType'] . '</td></tr>
