@@ -128,10 +128,10 @@ function email_team($insertId){
     }
 
     $subject = "New Request from CLAMP website";
-    //$to = 'Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,Xinyue.Hu@uth.tmc.edu';
+    $to = 'Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,Xinyue.Hu@uth.tmc.edu';
     
     //$to = 'jingqi.wang@uth.tmc.edu,Ergin.Soysal@uth.tmc.edu,Min.Jiang@uth.tmc.edu,Anupama.E.Gururaj@uth.tmc.edu,firat.tiryaki@uth.tmc.edu,mandana.salimi@uth.tmc.edu';
-    $to = 'Xinyue.Hu@uth.tmc.edu';
+    //$to = 'Xinyue.Hu@uth.tmc.edu';
     $headers = 'MIME-Version: 1.0' . "\r\n" .
         'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
         'From:' . strip_tags($email)  . "\r\n" .
