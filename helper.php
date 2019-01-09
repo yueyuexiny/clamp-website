@@ -83,7 +83,7 @@ function insertIntoDatabase($host, $username, $password, $db){
 	$organization=$_POST['inputOrganization'];
 	$details=$_POST['inputDetails'];
 	$consent=$_POST['consent'];
-	$job=str_replace("'", "", $_POST['inputJobTitle']);
+	$job=addslashes($_POST['inputJobTitle']);
 	switch ($clampversion) {
 		case 'CLAMP-CMD (Commandline)':
 			$v = 'cmd';
