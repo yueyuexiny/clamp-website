@@ -80,9 +80,9 @@ function insertIntoDatabase($host, $username, $password, $db){
 	$email=$_POST['inputEmail'];
 	$firstName=$_POST['inputFName'];
 	$lastName=$_POST['inputLName'];
-	$organization=$_POST['inputOrganization'];
+	$organization=addslashes($_POST['inputOrganization']);
 	$details=addslashes($_POST['inputDetails']);
-	$consent=$_POST['consent'];
+	$consent=addslashes($_POST['consent']);
 	$job=addslashes($_POST['inputJobTitle']);
 	switch ($clampversion) {
 		case 'CLAMP-CMD (Commandline)':
