@@ -81,7 +81,7 @@ function insertIntoDatabase($host, $username, $password, $db){
 	$firstName=$_POST['inputFName'];
 	$lastName=$_POST['inputLName'];
 	$organization=$_POST['inputOrganization'];
-	$details=$_POST['inputDetails'];
+	$details=addslashes($_POST['inputDetails']);
 	$consent=$_POST['consent'];
 	$job=addslashes($_POST['inputJobTitle']);
 	switch ($clampversion) {
