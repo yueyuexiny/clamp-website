@@ -67,7 +67,7 @@ function postToGitHub($insertId){
 	<tr><td>Do you consent to the use of your name as a user of our system?</td><td>' . $_POST['consent'] . '</td></tr>
 	<tr><td colspan=\'2\'><a href=\'http://clamp.uth.edu/details.php?id='.$insertId.'\'>http://clamp.uth.edu/details.php?id='.$insertId.'</a></td></tr>
     </table>';
-	$client->api('issue')->create('UTHealth-CCB', 'CLAMP_Customer_followup', array('title' => 'New download request : '.$_POST['inputFName'].' '.$_POST['inputLName'], 'body' => $issueBody));
+	$client->api('issue')->create('clampnlp', 'clamp', array('title' => 'New download request : '.$_POST['inputFName'].' '.$_POST['inputLName'], 'body' => $issueBody));
 }
 
 function insertIntoDatabase($host, $username, $password, $db){
