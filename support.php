@@ -23,7 +23,7 @@
                         <h4>Office Hour <span style="vertical-align: super; color: #ff0000; font-style: italic"> New </span></h4>
                             <p class="p-left">
                             We will have CLAMP office hour on Mondays, every alternating week.<br><br>The next CLAMP office hour is on  <span style= "color: #A52A2A "> <?=date("F dS , Y",$start_date);?> , 11.00 am -12.00 noon (CST)</span>.
-                            <br><br> <span style= "color: #A52A2A ">Today's office hour is cancelled due to AMIA 2018 in San Francisco. </span><br>
+                            <br>
                             <br>The call-in information is provided below:<br><br>
                             Please join the meeting from your computer, tablet or smartphone.
                             <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
