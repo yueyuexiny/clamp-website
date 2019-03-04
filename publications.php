@@ -180,7 +180,7 @@
                 </span>
                  <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Luo, Y., & Szolovits, P. (2018, December). Implementing a Portable Clinical NLP System with a Common Data Model--a Lisp Perspective. In 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 461-466). IEEE.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Preum, S., Shu, S., Hotaki, M., Williams, R., Stankovic, J., & Alemzadeh, H. CognitiveEMS: A Cognitive Assistant System for Emergency Medical Services.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Preum, S., Shu, S., Hotaki, M., Williams, R., Stankovic, J., & Alemzadeh, H. (2018). CognitiveEMS: A Cognitive Assistant System for Emergency Medical Services.
                 </span>
                  <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Yang, X., Bian, J., Gong, Y., Hogan, W. R., & Wu, Y. (2019). MADEx: A System for Detecting Medications, Adverse Drug Events, and Their Relations from Clinical Notes. Drug safety, 1-11.
                 </span>
@@ -204,9 +204,9 @@
                 </span>
                  <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Šuster, S., & Daelemans, W. (2018). Revisiting neural relation classification in clinical notes with external information. In Workshop on Health Text Mining and Information Analysis (LOUHI), workshop at EMNLP (pp. 22-28).
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Whalen, P. E., Muralidharan, A. T., Kiddy, J. R., & Duncan, W. D. Enhancing Semantic Analysis of Pathology Reports.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Whalen, P. E., Muralidharan, A. T., Kiddy, J. R., & Duncan, W. D. (2018). Enhancing Semantic Analysis of Pathology Reports. Proceedings of the 9th International Conference on Biological Ontology (ICBO 2018), Corvallis, Oregon, USA
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Sastry, K. J., & Ketaraju, V. D. S. A Document Ranking Approach based on Weighted-Gene/Protein in Large Biomedical Documents using MapReduce Framework.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Sastry, K. J., & Ketaraju, V. D. S. (2019). A Document Ranking Approach Based on Weighted-Gene/Protein in Large Biomedical Documents Using MapReduce Framework. International journal of simulation: systems, science & technology. 10.5013/IJSSST.a.19.06.26. Rawal, S., Prakash, A., Adhya, S., Kulkarni, S., Anwar, S., Baral, C., & Devarakonda, M. (2019). Developing and Using Special-Purpose Lexicons for Cohort Selection from Clinical Notes. arXiv preprint arXiv:1902.09674.
                 </span>
                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Xu, J., Lee, H. J., Ji, Z., Wang, J., Wei, Q., & Xu, H. (2017). UTH_CCB System for Adverse Drug Reaction Extraction from Drug Labels at TAC-ADR 2017. In TAC.
                 </span>
