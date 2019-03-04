@@ -19,21 +19,13 @@
                     </div> 
                 </div><!-- /header-text -->
             </div>
-            <div class="item">
-                <!-- Static Header -->
-                <div class="header-text hidden-xs">
-                    <div class="col-md-12 text-center">
-                        <img src="./img/himss18-holiday-banner.png" height="100px" alt="Second slide">
-                        <span class="ad">Stop by Booth #13150 at HIMSS 2018 at Las Vegas to know more about CLAMP software.</span>
-                    </div>
-                </div><!-- /header-text -->
-            </div>
+
             <div class="item">
                 <!-- Static Header -->
                 <div class="header-text hidden-xs">
                     <div class="col-md-12 text-center">
                         <img src="./img/challenge.png" height="100" alt="Third slide" >
-                        <span class="ad">Ranked No. 2 in 2016 CEGS N-GRID, de-identification challenge.</span>
+                        <span class="ad">Ranked No. 1 in 2018 n2c2 Shared Task Track 2 drug-modifer, drug-ADE.</span>
                     </div>
                 </div><!-- /header-text -->
             </div>

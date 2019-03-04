@@ -11,13 +11,11 @@
        <p> Note: Please cite the publication below in study manuscripts using CLAMP. Please inform us of your publication for our reference.
        <br></p>   
        <div class="just-padding">
-       <div class="list-group list-group-root well">
-        <p class="list-group-item list-header" >2017 </p>
+
             <div class="list-group">
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ergin Soysal, Jingqi Wang, Min Jiang, Yonghui Wu, Serguei Pakhomov, Hongfang Liu, Hua Xu.  CLAMP – a toolkit for efficiently building customized clinical natural language processing pipelines. JAMIA, Doi: 10.1093/jamia/ocx132
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Soysal, E., Wang, J., Jiang, M., Wu, Y., Pakhomov, S., Liu, H., & Xu, H. (2017). CLAMP–a toolkit for efficiently building customized clinical natural language processing pipelines. Journal of the American Medical Informatics Association, 25(3), 331-336.
                     <a href="http://dx.doi.org/10.1093/jamia/ocx132" target="_blank"  style="text-decoration: underline;float: right">Full text link</a>
                 </span>
-                </div>
                 </div>    
     </div>
     <br/>
@@ -37,25 +35,31 @@
         <div class="list-group list-group-root well">
             <p class="list-group-item list-header" >NLP Task: Named entity recognition </p>
             <div class="list-group">
-                <a class="list-group-item list-sub-header">2009 i2b2, medication <span class="badge badge-pill badge-success"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
-                <a href="#" class="list-group-item list-sub-header"> 2010 i2b2 problem, treatment, test <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
-                <a href="#" class="list-group-item list-sub-header"> 2013 SHARe/CLEF abbreviation <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+           	    <a class="list-group-item list-sub-header"> 2018 n2c2 Shared Task Track 2 drug, modifiers,  Adverse Drug Events (ADE) <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReactions and modifier concepts <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+           	    <a href="#" class="list-group-item list-sub-header"> 2013 SHARe/CLEF abbreviation <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+           	    <a href="#" class="list-group-item list-sub-header"> 2010 i2b2 problem, treatment, test <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
+           	    <a href="#" class="list-group-item list-sub-header">2009 i2b2, medication <span class="badge badge-pill badge-success"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #2</span></a>
+           	    
             </div>
 
             <p class="list-group-item list-header">NLP Task: Relation extraction</p>
             <div class="list-group">
-                <a href="#" class="list-group-item list-sub-header"> 2012 i2b2 Temporal <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
-                <a href="#" class="list-group-item list-sub-header"> 2015 SemEval Disease-modifier <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
-                <a href="#" class="list-group-item list-sub-header">2015 BioCREATIVE Chemical-induced disease <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
-                <a href="#" class="list-group-item list-sub-header"> 2016 SemEvel, Temporal <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2018 n2c2 Shared Task Track 2 drug-modifer, drug-ADE <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReaction-modifier <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2016 SemEvel, Temporal <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2015 BioCREATIVE Chemical-induced disease <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2015 SemEval Disease-modifier <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                <a href="#" class="list-group-item list-sub-header"> 2012 i2b2 Temporal <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i> #1</span></a>
+                
             </div>
 
             <p class="list-group-item list-header">NLP Task: Encoding</p>
             <div class="list-group">
+            
+            		<a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReaction, MedDRA encoding <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
                 <a href="#" class="list-group-item list-sub-header"> 2014 SemEval, disorder, UMLS encoding <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
-                <a href="#" class="list-group-item list-sub-header"> 2017 TAC-ADR, AdverseReaction, MedDRA encoding <span class="badge"><i class="fa fa-trophy fa-1x" aria-hidden="true" style="margin-right: 5px"></i>#1</span></a>
+                
             </div>
 
             <p class="list-group-item list-header">NLP Task: De-identification</p>
@@ -66,7 +70,7 @@
     </div>
 
 
-    <div class="just-padding">
+    <!--  <div class="just-padding">
         <h3 style="margin-bottom: 20px">Relevant Publications</h3>
         <div class="list-group list-group-root well">
         <p class="list-group-item list-header" >2017 </p>   
@@ -149,62 +153,94 @@
                 </div>
             </div>
         </div>
+        -->
         
     <div class="section-header">
-        <h1>Projects using CLAMP</h1>
+        <h1>Publications citing CLAMP</h1>
     		</div> 
     		<div class="just-padding">
     			<div class="list-group">
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Du J, Zhang Y, Luo J, Jia Y, Wei Q, Tao C, Xu H. Extracting psychiatric stressors for suicide from social media using deep learning. BMC medical informatics and decision making. 2018 Jul;18(2):43. https://doi.org/10.1186/s12911-018-0632-8 
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Du, J., Zhang, Y., Luo, J., Jia, Y., Wei, Q., Tao, C., & Xu, H. (2018). Extracting psychiatric stressors for suicide from social media using deep learning. BMC medical informatics and decision making, 18(2), 43. 
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Lee HJ, Zhang Y, Jiang M, Xu J, Tao C, Xu H. Identifying direct temporal relations between time and events from clinical notes. BMC medical informatics and decision making. 2018 Jul;18(2):49. https://doi.org/10.1186/s12911-018-0627-5
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Malty, A. M., Jain, S. K., Yang, P. C., Harvey, K., & Warner, J. L. (2018). Computerized approach to creating a systematic ontology of hematology/oncology regimens. JCO clinical cancer informatics, 2, 1-11.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Preum S, Shu S, Hotaki M, Williams R, Stankovic J, Alemzadeh H. CognitiveEMS: A Cognitive Assistant System for Emergency Medical Services. 
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Chen, Q., Du, J., Kim, S., Wilbur, W. J., & Lu, Z. (2018). Combining rich features and deep learning for finding similar sentences in electronic medical records. Proceedings of the BioCreative/OHNLP Challenge.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Malty AM, Jain SK, Yang PC, Harvey K, Warner JL. Computerized Approach to Creating a Systematic Ontology of Hematology/Oncology Regimens. JCO Clinical Cancer Informatics. 2018 May 11;2:1-1.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Li, Y., Yao, L., Mao, C., Srivastava, A., Jiang, X., & Luo, Y. (2018, December). Early prediction of acute kidney injury in critical care setting using clinical notes. In 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 683-686). IEEE.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Chen Q, Du J, Kim S, Wilbur WJ, Lu Z. Combining rich features and deep learning for finding similar sentences in electronic medical records.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Lee, H. J., Zhang, Y., Jiang, M., Xu, J., Tao, C., & Xu, H. (2018). Identifying direct temporal relations between time and events from clinical notes. BMC medical informatics and decision making, 18(2), 49.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Sushil M, Šuster S, Luyckx K, Daelemans W. Patient representation learning and interpretable evaluation using clinical notes. Journal of biomedical informatics. 2018 Aug 1;84:103-13.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Boag, W., Sergeeva, E., Kulshreshtha, S., Szolovits, P., Rumshisky, A., & Naumann, T. (2018). CliNER 2.0: Accessible and Accurate Clinical Concept Extraction. arXiv preprint arXiv:1803.02245.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Xu J, Lee HJ, Ji Z, Wang J, Wei Q, Xu H. UTH_CCB System for Adverse Drug Reaction Extraction from Drug Labels at TAC-ADR 2017.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Sushil, M., Šuster, S., Luyckx, K., & Daelemans, W. (2018). Patient representation learning and interpretable evaluation using clinical notes. Journal of biomedical informatics, 84, 103-113.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Šuster S, Sushil M, Daelemans W. Revisiting neural relation classification in clinical notes with external information.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Caufield, J. H., Liem, D. A., Garlid, A. O., Zhou, Y., Watson, K., Bui, A. A., ... & Ping, P. (2018). A Metadata Extraction Approach for Clinical Case Reports to Enable Advanced Understanding of Biomedical Concepts. Journal of visualized experiments: JoVE, (139).
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Van Le D, Montgomery J, Kirkby KC, Scanlan J. Risk prediction using natural language processing of electronic mental health records in an inpatient forensic psychiatry setting. Journal of biomedical informatics. 2018 Oct 1;86:49-58.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Van Le, D., Montgomery, J., Kirkby, K. C., & Scanlan, J. (2018). Risk prediction using natural language processing of electronic mental health records in an inpatient forensic psychiatry setting. Journal of biomedical informatics, 86, 49-58.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Tang L, Xu J, Hu X, Wei Q, Xu H. Building a Biomedical Chinese-English Parallel Corpus from MEDLINE. MultilingualBIO: Multilingual Biomedical Text Processing. 2018 May 8:8.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Luo, Y., & Szolovits, P. (2018, December). Implementing a Portable Clinical NLP System with a Common Data Model--a Lisp Perspective. In 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 461-466). IEEE.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Redman JS, Natarajan Y, Hou JK, Wang J, Hanif M, Feng H, Kramer JR, Desiderio R, Xu H, El-Serag HB, Kanwal F. Accurate Identification of Fatty Liver Disease in Data Warehouse Utilizing Natural Language Processing. Digestive diseases and sciences. 2017 Oct 1;62(10):2713-8.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Preum, S., Shu, S., Hotaki, M., Williams, R., Stankovic, J., & Alemzadeh, H. CognitiveEMS: A Cognitive Assistant System for Emergency Medical Services.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Chen X, Gururaj AE, Ozyurt B, Liu R, Soysal E, Cohen T, Tiryaki F, Li Y, Zong N, Jiang M, Rogith D. DataMed–an open source discovery index for finding biomedical datasets. Journal of the American Medical Informatics Association. 2018 Jan 13;25(3):300-8.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Yang, X., Bian, J., Gong, Y., Hogan, W. R., & Wu, Y. (2019). MADEx: A System for Detecting Medications, Adverse Drug Events, and Their Relations from Clinical Notes. Drug safety, 1-11.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Shin S, Hwang SG, Park H, Lee JH, Kwon SW, Rim KS, Kim G. Diagnostic Performance of Controlled Attenuation Parameter for Hepatic Steatosis in Patient with Chronic Liver Disease, Retrospectively. Gastroenterology. 2017 Apr 1;152(5):S1115.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Caufield, J. H., Zhou, Y., Garlid, A. O., Setty, S. P., Liem, D. A., Cao, Q., ... & Zhang, L. (2018). A reference set of curated biomedical data and metadata from clinical case reports. Scientific data, 5, 180258.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Karrar A, Kim S, Mohammad M, Addanki S, Abdelatif D, Tan D, Hassan M, Shaikh T, Felix S, Younoszai Z, Jeffers T. Lower Levels of Hepatokines Angiopoietin-Like 4 and RBP-4 are Independently Associated with Non-Alcoholic Steatohepatitis (NASH). Gastroenterology. 2017 Apr 1;152(5):S1115.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Luo, Y. F., Sun, W., & Rumshisky, A. (2018, June). A Hybrid Method for Normalization of Medical Concepts in Clinical Narrative. In 2018 IEEE International Conference on Healthcare Informatics (ICHI) (pp. 392-393). IEEE.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang Y, Li HJ, Wang J, Cohen T, Roberts K, Xu H. Adapting Word Embeddings from Multiple Domains to Symptom Recognition from Psychiatric Notes. AMIA Summits on Translational Science Proceedings. 2018;2017:281.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Chen, X., Gururaj, A. E., Ozyurt, B., Liu, R., Soysal, E., Cohen, T., ... & Rogith, D. (2018). DataMed–an open source discovery index for finding biomedical datasets. Journal of the American Medical Informatics Association, 25(3), 300-308.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Fleet SE, LeDuc CA, Leibel RL. Elucidating the Role of ILDR2 in the Unfolded Protein Response and its Effect on Nonalcoholic Steatohepatitis. Gastroenterology. 2017 Apr 1;152(5):S1114-5.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Van Le, D., Montgomery, J., Kirkby, K. C., & Scanlan, J. (2018). Risk prediction using natural language processing of electronic mental health records in an inpatient forensic psychiatry setting. Journal of biomedical informatics, 86, 49-58.
+                </span>       
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Balyan, R., Crossley, S. A., Brown III, W., Karter, A. J., McNamara, D. S., Liu, J. Y., ... & Schillinger, D. (2019). Using natural language processing and machine learning to classify health literacy from secure messages: The ECLIPPSE study. PloS one, 14(2), e0212488.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Dakhoul L, Cummings OW, Weber R, Vuppalanchi R. Use of Vibration-Controlled Transient Elastography (VCTE) with Simultaneous Liver Stiffness Measurement (LSM) and Controlled Attenuation Parameter (CAP) in Patients Referred for Suspected Non-Alcoholic Fatty Liver Disease (NAFLD): A Prospective Study. Gastroenterology. 2017 Apr 1;152(5):S1115-6.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang, S., Dev, S., Voyles, J., & Rao, A. S. (2018, December). Attention-Based Multi-Task Learning in Pharmacovigilance. In 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 2324-22328). IEEE.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang OR, Zhang Y, Xu J, Roberts K, Zhang XY, Xu H. Interweaving Domain Knowledge and Unsupervised Learning for Psychiatric Stressor Extraction from Clinical Notes. InInternational Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems 2017 Jun 27 (pp. 396-406). Springer, Cham.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Shi, J., Zheng, M., Yao, L., & Ge, Y. (2018). Developing a healthcare dataset information resource (DIR) based on Semantic Web. BMC medical genomics, 11(5), 102.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Weng WH, Wagholikar KB, McCray AT, Szolovits P, Chueh HC. Medical subdomain classification of clinical notes using a machine learning-based natural language processing approach. BMC medical informatics and decision making. 2017 Dec;17(1):155.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ngwenya, M. (2018). Health systems data interoperability and implementation (Doctoral dissertation).
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Shi J, Zheng M, Yao L, Ge Y. DIR—A semantic information resource for healthcare datasets. InBioinformatics and Biomedicine (BIBM), 2017 IEEE International Conference on 2017 Nov 13 (pp. 805-810). IEEE.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Naumann, T. T. J. (2018). Leveraging text representations for clinical predictive tasks (Doctoral dissertation, Massachusetts Institute of Technology).
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Lee HJ, Zhang Y, Roberts K, Xu H. Leveraging existing corpora for de-identification of psychiatric notes using domain adaptation. InAMIA Annual Symposium Proceedings 2017 (Vol. 2017, p. 1070). American Medical Informatics Association.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Šuster, S., & Daelemans, W. (2018). Revisiting neural relation classification in clinical notes with external information. In Workshop on Health Text Mining and Information Analysis (LOUHI), workshop at EMNLP (pp. 22-28).
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Lee HJ, Wu Y, Zhang Y, Xu J, Xu H, Roberts K. A hybrid approach to automatic de-identification of psychiatric notes. Journal of biomedical informatics. 2017 Nov 1;75:S19-27.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Whalen, P. E., Muralidharan, A. T., Kiddy, J. R., & Duncan, W. D. Enhancing Semantic Analysis of Pathology Reports.
                 </span>
-                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang Y, Zhang O, Wu Y, Lee HJ, Xu J, Xu H, Roberts K. Psychiatric symptom recognition without labeled data using distributional representations of phrases and on-line knowledge. Journal of biomedical informatics. 2017 Nov 1;75:S129-37.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Sastry, K. J., & Ketaraju, V. D. S. A Document Ranking Approach based on Weighted-Gene/Protein in Large Biomedical Documents using MapReduce Framework.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Si Y, Weng C. An OMOP CDM-based Relational Database of Clinical Research Eligibility Criteria. Studies in health technology and informatics. 2017;245:950.
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Xu, J., Lee, H. J., Ji, Z., Wang, J., Wei, Q., & Xu, H. (2017). UTH_CCB System for Adverse Drug Reaction Extraction from Drug Labels at TAC-ADR 2017. In TAC.
                 </span>
-                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Šuster S, Daelemans W. CliCR: A Dataset of Clinical Case Reports for Machine Reading Comprehension. arXiv preprint arXiv:1803.09720. 2018 Mar 26.
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Newman-Griffis, D., & Zirikly, A. (2018). Embedding Transfer for Low-Resource Medical Named Entity Recognition: A Case Study on Patient Mobility. arXiv preprint arXiv:1806.02814.
                 </span>
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Luo, Y. F., Sun, W., & Rumshisky, A. (2019). MCN: A Comprehensive Corpus for Medical Concept Normalization. Journal of Biomedical Informatics, 103132.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Tang, L., Xu, J., Hu, X., Wei, Q., & Xu, H. (2018). Building a Biomedical Chinese-English Parallel Corpus from MEDLINE. MultilingualBIO: Multilingual Biomedical Text Processing, 8.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>GUAN, M. (2018). INCORPORATING EMR AND GENOMIC DATA USING NLP AND MACHINE LEARNING TO REFINE CANCER TREATMENT (Doctoral dissertation, WAKE FOREST UNIVERSITY).
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Redman, J. S., Natarajan, Y., Hou, J. K., Wang, J., Hanif, M., Feng, H., ... & Kanwal, F. (2017). Accurate identification of fatty liver disease in data warehouse utilizing natural language processing. Digestive diseases and sciences, 62(10), 2713-2718.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Rawal, S., Prakash, A., Adhya, S., Kulkarni, S., Anwar, S., Baral, C., & Devarakonda, M. (2019). Developing and Using Special-Purpose Lexicons for Cohort Selection from Clinical Notes. arXiv preprint arXiv:1902.09674.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Karrar, A., Kim, S., Mohammad, M., Addanki, S., Abdelatif, D., Tan, D., ... & Jeffers, T. (2017). Lower Levels of Hepatokines Angiopoietin-Like 4 and RBP-4 are Independently Associated with Non-Alcoholic Steatohepatitis (NASH). Gastroenterology, 152(5), S1115.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Shin, S., Hwang, S. G., Park, H., Lee, J. H., Kwon, S. W., Rim, K. S., & Kim, G. (2017). Diagnostic Performance of Controlled Attenuation Parameter for Hepatic Steatosis in Patient with Chronic Liver Disease, Retrospectively. Gastroenterology, 152(5), S1115.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Névéol, A., & Zweigenbaum, P. (2018). Expanding the Diversity of Texts and Applications: Findings from the Section on Clinical Natural Language Processing of the International Medical Informatics Association Yearbook. Yearbook of medical informatics, 27(01), 193-198.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Dalianis, H. (2018). Computational Methods for Text Analysis and Text Classification. In Clinical Text Mining (pp. 83-96). Springer, Cham.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang, Y., Li, H. J., Wang, J., Cohen, T., Roberts, K., & Xu, H. (2018). Adapting Word Embeddings from Multiple Domains to Symptom Recognition from Psychiatric Notes. AMIA Summits on Translational Science Proceedings, 2017, 281.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Dakhoul, L., Cummings, O. W., Weber, R., & Vuppalanchi, R. (2017). Use of Vibration-Controlled Transient Elastography (VCTE) with Simultaneous Liver Stiffness Measurement (LSM) and Controlled Attenuation Parameter (CAP) in Patients Referred for Suspected Non-Alcoholic Fatty Liver Disease (NAFLD): A Prospective Study. Gastroenterology, 152(5), S1115-S1116.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Fleet, S. E., LeDuc, C. A., & Leibel, R. L. (2017). Elucidating the Role of ILDR2 in the Unfolded Protein Response and its Effect on Nonalcoholic Steatohepatitis. Gastroenterology, 152(5), S1114-S1115.
+                </span>
+                 <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Ngwenya, M., & Bankole, F. (2019, January). Mining and representing unstructured nicotine use data in a structured format for secondary use. In Proceedings of the 52nd Hawaii International Conference on System Sciences.
+                </span>
+                <span class="list-group-item" style="padding-bottom: 25px"> <span class="glyphicon glyphicon-file"></span>Zhang, O. R., Zhang, Y., Xu, J., Roberts, K., Zhang, X. Y., & Xu, H. (2017, June). Interweaving Domain Knowledge and unsupervised learning for psychiatric stressor extraction from clinical notes. In International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (pp. 396-406). Springer, Cham.
+                </span>
+                
                 </div>
     	</div>
 </div>

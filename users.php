@@ -1,7 +1,28 @@
 <?php $pageTitle = "CLAMP Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
+<?php include_once dirname(__FILE__) . '/statistics.php'; ?>
+<html lang="en">
+<head>
 
+  
+ <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+</style>
+</head>
+
+<body>       
 <div class="container page-container">
     <br/>
     <div class="section-header">
@@ -9,15 +30,42 @@
     </div>
 
     <div>
+     <p> 
+            Currently we have 
+            <span style="color: #337ab7; font-size:50px" > <strong> <?php echo $organizationCount;?></strong></span> unique organizations and
+            <span style="color: #337ab7; font-size:50px"> <strong> <?php echo $userCount;?></strong></span> users in total.
+        </p>
         <p>
             Many of the world’s most dynamic healthcare institutions, academic labs, and NLP users find CLAMP 
             make their annotation and NLP tasks more effective. 
-            Over 100 users in more than 50 sites already use CLAMP.
-        </p>
-        <p>These are some of the CLAMP users actively using it for their NLP and Machine Learning tasks.</p>
+            Over 100 users in more than 50 sites already use CLAMP. </p><br><br>
+          
     </div>
-
-
+	
+	<table class="table">              
+        <?php
+        $i = 0;
+        $file = fopen("organization-list.csv", "r");
+        while (!feof($file)){   
+            $data = fgets($file);
+            echo "<tr>";
+            echo "<td><strong>" . $data. "</strong></td>";
+            $data = fgets($file);
+            echo "<td><strong>" . $data. "</strong></td>";
+            $data = fgets($file);
+            echo "<td><strong>" . $data. "</strong></td>";
+            echo "<tr>";                         
+            $i++;
+        }
+        fclose($file);
+        ?>
+	</table>
+	
+	
+</div>
+</body>
+</html>
+<!--  
     <div id="customers-logo" class="row">
         <div class="col-md-3 col-sm-4 col-xs-6">
             <img src="img/clients/UTH.jpg" alt="University of Texas Health Science Center." class="thumbnail"/>
@@ -95,7 +143,13 @@
             <img src="img/clients/VanderbiltUniversity.jpg" alt="Vanderbilt University" class="thumbnail"/>
         </div>
     </div>
+-->
 
-</div>
+	
+
+
+
+
+
 
 <?php include_once dirname(__FILE__) . '/views/footer.php'; ?>

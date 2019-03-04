@@ -249,7 +249,7 @@
                                 <figcaption>Clamp CMD</figcaption>
                             </figure>
                         </div>
-                   <li>Then execute <code>Run ./activation.sh</code> in Terminal, enter your email address and SN which 
+                   <li>Then execute <code>./activation.sh</code> in Terminal, enter your email address and SN which 
                    registered in CLAMP website and the activation code your received from CLAMP team.  </li>
                    <li>Use editor tool to open run_ner_pipeline.sh file, change the UMLS user name and password to your credential. </li>
                    <li>Run <code>./run_ner_pipeline.sh</code> in Terminal. </li>
@@ -263,13 +263,13 @@
                    <ol class="manual-numbers">
                    <li>Open Command Prompt in Windows </li>
                    <li>Find the path which CLAMP CMD installed</li>
-                   <li>Then execute Run <code>./activation.bat</code> in Command Prompt, enter your email address and 
+                   <li>Then execute Run <code>.\activation.bat</code> in Command Prompt, enter your email address and 
                    SN which registered in CLAMP website and the activation code your received from CLAMP team.   </li>
                    <li>Use editor tool to open run_ner_pipeline.bat file, change the UMLS user name and password to your credential. </li>
-                   <li>Run <code>./run_ner_pipeline.bat</code> in Command Prompt.</li>
+                   <li>Run <code>.\run_ner_pipeline.bat</code> in Command Prompt.</li>
                    <li>Then go to output folder to copy few of xml files paste to Clamp GUI version pipeline output folder, then open it to check. </li>
                    <li>Use editor tool to open run_attribute_pipeline.bat file, change the UMLS user name and password to your credential. </li>
-                   <li>Run <code>./run_attribute_pipeline.bat</code> in Command Prompt. </li>
+                   <li>Run <code>.\run_attribute_pipeline.bat</code> in Command Prompt. </li>
                    <li>Then go to output folder to copy few of xml files paste to Clamp GUI version pipeline output folder, then open it to check.  </li>
 					
 				</ol>

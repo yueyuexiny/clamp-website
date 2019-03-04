@@ -12,6 +12,7 @@
        
         <form action="clampdemoposter.php" method="POST" target="demoFrame" name="demoForm">
         <textarea cols="50" rows="20" name="demotext">Sample Type / Medical Specialty:  Discharge Summary
+Sample Type / Medical Specialty:  Discharge Summary
 Sample Name: Psychiatric Discharge Summary - 1
 Description:  Discharge summary of a patient with mood swings and oppositional and defiant behavior.
 (Medical Transcription Sample Report)
@@ -35,9 +36,7 @@ CONDITIONS ON DISCHARGE:  The patient had appropriate mood and was not engaging 
 Height: 5 foot 8 inches.  Weight: 134.  Blood pressure: 120/54.  Pulse: 104.  Respirations: 18.  Temperature: 99.
 PROGNOSIS:   Guarded.
 DISCHARGE PLAN:    As recommended by the treatment team, the patient was discharged to an RTC (Residential Treatment Center) Program to North Star RTC.  He was transferred by personal staff of that institution.
-DISCHARGE INSTRUCTIONS/MEDICATIONS:  The patient is to continue treatment at North Star RTC.  Discharge medications are Adderall XR 30 mg p.o. a.m., Depakote 250 mg p.o. t.i.d., Zoloft 55 mg p.o. q. a.m.  The prescription was given to the patient's representative.  As other instructions, the patient may continue treatment at North Star RTC with at least once a week family session.  The patient's representative and the patient both acknowledged that they understand all the medications prescribed and how to administer them, and the importance of the next level of care and continuing treatment.  If he experiences any side effects or has any concerns regarding his behavior, safety, immediately contact North Star Hospital.
-Keywords:
-discharge summary, adhd, adderall, attention deficit hyperactivity disorder, mood swings, odd, oppositional and defiant behavior, zoloft, adolescent, homicidal ideation, impulsive behavior, oppositional behavior, psychoeducational, psychotropic medications, oppositional and defiant, depressed, psychiatric, axis,
+DISCHARGE INSTRUCTIONS/MEDICATIONS:  The patient is to continue treatment at North Star RTC.  Discharge medications are Adderall XR 30 mg p.o. q. a.m., Depakote 250 mg p.o. t.i.d., Zoloft 55 mg p.o. q. a.m.  The prescription was given to the patient's representative.  As other instructions, the patient may continue treatment at North Star RTC with at least once a week family session.  The patient's representative and the patient both acknowledged that they understand all the medications prescribed and how to administer them, and the importance of the next level of care and continuing treatment.  If he experiences any side effects or has any concerns regarding his behavior, safety, immediately contact North Star Hospital.
 </textarea><p>
 
         <!--input class="btn btn-info"  type="button" onclick="submitForm();" value="SUBMIT" name="submitButton"-->
