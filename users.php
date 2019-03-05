@@ -30,15 +30,16 @@ td, th {
     </div>
 
     <div>
-     <p> 
-            Currently we have 
-            <span style="color: #337ab7; font-size:50px" > <strong> <?php echo $organizationCount;?></strong></span> unique organizations and
-            <span style="color: #337ab7; font-size:50px"> <strong> <?php echo $userCount;?></strong></span> users in total.
+     <p align="center">            
+            Currently, 
+            <span style="color: #337ab7; font-size:80px"> <strong> <?php echo $userCount;?></strong></span> users from
+            <span style="color: #337ab7; font-size:80px" > <strong> <?php echo $organizationCount;?></strong></span> organizations.
         </p>
         <p>
             Many of the world’s most dynamic healthcare institutions, academic labs, and NLP users find CLAMP 
-            make their annotation and NLP tasks more effective. 
-            Over 100 users in more than 50 sites already use CLAMP. </p><br><br>
+            make their annotation and NLP tasks more effective. </p>
+            
+        <p>Organizations using CLAMP include: </p><br><br>
           
     </div>
 	
@@ -49,11 +50,11 @@ td, th {
         while (!feof($file)){   
             $data = fgets($file);
             echo "<tr>";
-            echo "<td><strong>" . $data. "</strong></td>";
+            echo "<td>" . $data. "</td>";
             $data = fgets($file);
-            echo "<td><strong>" . $data. "</strong></td>";
+            echo "<td>" . $data. "</td>";
             $data = fgets($file);
-            echo "<td><strong>" . $data. "</strong></td>";
+            echo "<td>" . $data. "</td>";
             echo "<tr>";                         
             $i++;
         }
