@@ -38,6 +38,13 @@
         <hr />
         <div class="section-content">
             <p class="bold">
+                CLAMP 1.5.1 New Features:
+            </p><br>
+            <p>• Bug fixing</p>
+            <p>• Optimize the running speed of the comprehensive clinical pipeline.</p>
+            <br>
+        <div class="section-content">
+            <p class="bold">
                 CLAMP 1.5.0 New Features:
             </p><br>
             <p>• Pre-annotation: The model in corpus project will be updated automatically during user’s annotation and give pre-annotated results on new documents. </p>
@@ -45,8 +52,8 @@
             <p>• Compare two folders and show the accuracy file by file.</p>
             <p>• Usability improvement.</p>
             <p>• Bug fixing</p>
-            <br>
             </div>
+            <br>
 
         <hr />
 
