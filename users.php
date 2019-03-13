@@ -22,8 +22,8 @@ td, th {
 
 .number-position{
     position: absolute;
-    top: 49%;
-    left: 31%;
+    top: 47%;
+    left: 28%;
    
 }
 
