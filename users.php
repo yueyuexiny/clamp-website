@@ -19,6 +19,14 @@ td, th {
     padding: 8px;
 }
 
+
+.number-position{
+    position: absolute;
+    top: 49%;
+    left: 31%;
+   
+}
+
 </style>
 </head>
 
@@ -30,19 +38,28 @@ td, th {
     </div>
 
     <div>
-     <p align="center">            
-            Currently, 
-            <span style="color: #337ab7; font-size:80px"> <strong> <?php echo $userCount;?></strong></span> users from
-            <span style="color: #337ab7; font-size:80px" > <strong> <?php echo $organizationCount;?></strong></span> organizations.
-        </p>
-        <p>
-            Many of the world’s most dynamic healthcare institutions, academic labs, and NLP users find CLAMP 
-            make their annotation and NLP tasks more effective. </p>
-            
-        <p>Organizations using CLAMP include: </p><br><br>
-          
+     <p>
+            Many of the world’s most dynamic healthcare institutions, academic labs, and NLP scientists use CLAMP to make their annotation and NLP tasks more effective. </p>
+    
+    <div class="row">  
+    <div class="col-md-6 col-sm-6 col-xs-6">
+  		<img src="img/stats-background.png" alt="background of stats" style="width:100%;">
+  		<div class= "number-position"><span style="color: #337ab7; font-size:80px"> <strong> <?php echo $userCount;?> users</strong></span></div>
+  		</div>
+  		<div class="col-md-6 col-sm-6 col-xs-6">
+  		<img src="img/stats-background.png" alt="background of stats" style="width:100%;">
+  		<div class= "number-position"><span style="color: #337ab7; font-size:80px" > <strong> <?php echo $organizationCount;?> Orgs</strong></span></div>
+  		</div>
+
+          </div>
+        
+		</div>
+	<br>
+	<h3> Example organizations: </h3>
+	<br><br>
     </div>
-	
+    
+	<div class= "container">
 	<table class="table">              
         <?php
         $i = 0;
@@ -66,7 +83,7 @@ td, th {
 </div>
 </body>
 </html>
-<!--  
+ <!-- 
     <div id="customers-logo" class="row">
         <div class="col-md-3 col-sm-4 col-xs-6">
             <img src="img/clients/UTH.jpg" alt="University of Texas Health Science Center." class="thumbnail"/>
@@ -144,7 +161,7 @@ td, th {
             <img src="img/clients/VanderbiltUniversity.jpg" alt="Vanderbilt University" class="thumbnail"/>
         </div>
     </div>
--->
+ -->
 
 	
 

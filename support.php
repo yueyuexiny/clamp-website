@@ -20,8 +20,8 @@
                 <div class="col-md-12">
                     <div style="text-align: center">
                         <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
-                        <h4>Office Hour <span style="vertical-align: super; color: #ff0000; font-style: italic"> New </span></h4>
-                            <p class="p-left">
+                        <h4>Office Hour</h4>
+                            <p class="p-left" style="font-size: 18px">
                             We will have CLAMP office hour on Mondays, every alternating week.<br><br>The next CLAMP office hour is on  <span style= "color: #A52A2A "> <?=date("F dS , Y",$start_date);?> , 11.00 am -12.00 noon (CST)</span>.
                             <br>
                             <br>The call-in information is provided below:<br><br>

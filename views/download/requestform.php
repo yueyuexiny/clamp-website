@@ -20,7 +20,7 @@
                 <br/><br>
                 CLAMP is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review, which typically takes 2-3 days.. For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.
+                the version you are requesting and activation code after review, which typically takes 2-3 days. For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.
             </p>
             <br>
 
@@ -38,7 +38,7 @@
         <hr />
         <div class="section-content">
             <p class="bold">
-                CLAMP 1.5.1 New Features:
+                Updates in CLAMP 1.5.1:
             </p><br>
             <p>• Bug fixing</p>
             <p>• Optimize the running speed of the comprehensive clinical pipeline.</p>
@@ -92,7 +92,7 @@
                             style="color: #b50000;">*</label></label>
                     <div>
                         <div>
-                            <label class="radio-inline"> <input type="radio" name="orgType" value="Commercial" checked required>Commercial</label>
+                            <label class="radio-inline"> <input type="radio" name="orgType" value="Commercial"  required>Commercial</label>
                             <label class="radio-inline"> <input type="radio" name="orgType" value="Non-profit" required>Non-profit</label>
                         </div>
                         <div>
@@ -105,13 +105,16 @@
                     <label>How would CLAMP be used at your organization? <label style="color: #b50000;">*</label></label>
                     <div>
                         <div>
-                            <label class="radio-inline"> <input type="radio" name="useType" value="Operational" checked required>Operational</label>
+                            <label class="radio-inline"> <input type="radio" name="useType" value="Operational" required >Operational</label>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Research" required> Research</label>
                             <label class="radio-inline"> <input type="radio" name="useType" value="Educational" required> Educational</label>
                         </div>
                         <div>
-                            <label class="radio-inline"> <input type="radio" name="useType" value="Other" required> Other</label>
+                            <label class="radio-inline"> <input type="radio" name="useType" value="Other"  required> Other</label>
                             <label for="useTypeOther" class="sr-only">Specify other use</label><input class="text-inline input-md" type="text" data-other="useType" name="useTypeOther" id="useTypeOther">
+                        </div>
+                        <div class="invalid-feedback">
+                          Please choose a reason.
                         </div>
                     </div>
                 </div>
@@ -128,7 +131,7 @@
                     </label>
                     <div>
                         <label class="radio-inline">
-                            <input type="radio" name="clampType" value="CLAMP-CMD (Commandline)" checked required>
+                            <input type="radio" name="clampType" value="CLAMP-CMD (Commandline)" required>
                             CLAMP-CMD (Commandline)
                         </label>
                         <br />
