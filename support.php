@@ -25,12 +25,12 @@
                             We will have CLAMP office hour on Mondays, every alternating week.<br><br>The next CLAMP office hour is on  <span style= "color: #A52A2A "> <?=date("F dS , Y",$start_date);?> , 11.00 am -12.00 noon (CST)</span>.
                             <br>
                             <br>The call-in information is provided below:<br><br>
-                            Please join the meeting from your computer, tablet or smartphone.
-                            <a target="_blank" href=" https://global.gotomeeting.com/join/379685837">GoToMeeting</a><br><br>
-                            You can also dial in using your phone.<br>
-                            United States: +1 (872) 240-3311<br>
-                            Access Code: 379-685-837<br><br>
-                            First GoToMeeting? Try a <a target="_blank" href="http://help.citrix.com/getready">test session</a>
+                            Join the meeting:
+                            <a target="_blank" href=" https://uthealth.webex.com/mw3300/mywebex/default.do?service=1&siteurl=uthealth&nomenu=true&main_url=%2Fmc3300%2Fe.do%3Fsiteurl%3Duthealth%26AT%3DMI%26EventID%3D787113527%26UID%3D0%26Host%3DQUhTSwAAAAS6cwStsaqejbRnvthiQG1EJyLN5Td3ZVz1I5laajFTUjeHoVDNEPKjIoXQGuYDQkj3HNY1rps79eKRyjE5aUp60%26FrameSet%3D2%26MTID%3Dm78e40e01a5a7ca5b9777dbd68ae085f1">Webex</a><br><br>
+                            You can also join by phone.<br>
+                            United States Toll (San Jose): +1-240-454-0887 <br>
+                            United States Toll Free: 1-844-621-3956 <br>
+                            Meeting number (access Code): 800 536 859<br><br>
                         </p>
                     </div>
                 </div>
