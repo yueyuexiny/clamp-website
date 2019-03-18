@@ -20,10 +20,17 @@ td, th {
 }
 
 
-.number-position{
+.number-position-orgs{
     position: absolute;
     top: 47%;
-    left: 28%;
+    left: 25%;
+   
+}
+
+.number-position-request{
+    position: absolute;
+    top: 47%;
+    left: 18%;
    
 }
 
@@ -43,12 +50,12 @@ td, th {
     
     <div class="row">  
     <div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background.png" alt="background of stats" style="width:115%;">
-  		<div class= "number-position"><span style="color: #337ab7; font-size:7vmin"> <strong> <?php echo $userCount;?> users</strong></span></div>
+  		<img src="img/stats-background.png" alt="background of stats" style="width:80%;">
+  		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php echo $userCount;?> requests</strong></span></div>
   		</div>
   		<div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background.png" alt="background of stats" style="width:115%;">
-  		<div class= "number-position"><span style="color: #337ab7; font-size:7vmin" > <strong> <?php echo $organizationCount;?> Orgs</strong></span></div>
+  		<img src="img/stats-background.png" alt="background of stats" style="width:80%;">
+  		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:4vmin" > <strong> <?php echo $organizationCount;?> Orgs</strong></span></div>
   		</div>
 
           </div>
