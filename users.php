@@ -31,8 +31,14 @@ td, th {
     position: absolute;
     top: 42%;
     left: 28%;
-   
 }
+
+.responsive {
+    width:40%;
+    height:auto;
+    
+}
+   
 
 </style>
 </head>
@@ -50,11 +56,11 @@ td, th {
     
     <div class="row">  
     <div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background_1.png" alt="background of stats" style="width:110%;">
+  		<img src="img/stats-background_1.png" alt="background of stats"  class="responsive">
   		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php echo $userCount;?> requests</strong></span></div>
   		</div>
   		<div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background_1.png" alt="background of stats" style="width:110%;">
+  		<img src="img/stats-background_1.png" alt="background of stats" class="responsive">
   		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:3.8vmin" > <strong> <?php echo $organizationCount;?> organizations</strong></span></div>
   		</div>
 

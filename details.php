@@ -484,7 +484,13 @@ Thanks<br>
 													<option value="Win">Win</option>
 											</select> <select name="c3" onchange="createClampVersion();">
 													<option value="">--</option>
-													<option value="_1.5.1">1.5.1</option>
+													<!-- <option value="_1.2.2">1.2.2</option>
+													<option value="_1.2.3">1.2.3</option>
+													<option value="_1.3.0">1.3.0</option>
+													<option value="_1.3.1">1.3.1</option> -->
+													<option value="_1.4.0">1.4.0</option>
+													<option value="_1.5.0">1.5.0</option>
+													<option style="color:red" value="_1.5.1">1.5.1</option>
 											</select> <br> <input id="vrs" name="vrs" size="25">
 											<input type="hidden"  id="pwd" name="pwd" value="twgdhbtzhy">
 											</td>
