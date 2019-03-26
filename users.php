@@ -172,11 +172,9 @@ td, th {
         </div>
         <div class="col-md-3 col-sm-4 col-xs-6">
             <img src="img/clients/VanderbiltUniversity.jpg" alt="Vanderbilt University" class="thumbnail"/>
-        </div> 
+        </div>
     </div>
  -->
- 
- 
 
 	
 
