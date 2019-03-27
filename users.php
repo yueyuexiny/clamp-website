@@ -1,7 +1,7 @@
 <?php $pageTitle = "CLAMP Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
-<?php #include_once dirname(__FILE__) . '/statistics.php'; ?>
+<?php include_once dirname(__FILE__) . '/statistics.php'; ?>
 <html lang="en">
 <head>
 
@@ -32,8 +32,6 @@ td, th {
     top: 42%;
     left: 20%;
 }
-
-
 
 
 
