@@ -1,7 +1,7 @@
 <?php $pageTitle = "CLAMP Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
-<?php include_once dirname(__FILE__) . '/statistics.php'; ?>
+<?php #include_once dirname(__FILE__) . '/statistics.php'; ?>
 <html lang="en">
 <head>
 
@@ -23,22 +23,19 @@ td, th {
 .number-position-orgs{
     position: absolute;
     top: 42%;
-    left: 23%;
+    right: 20%;
    
 }
 
 .number-position-request{
     position: absolute;
     top: 42%;
-    left: 28%;
+    left: 20%;
 }
 
-.responsive {
-    width:40%;
-    height:auto;
-    
-}
-   
+
+
+
 
 </style>
 </head>
@@ -53,25 +50,24 @@ td, th {
     <div>
      <p>
             Many of the world’s most dynamic healthcare institutions, academic labs, and NLP scientists use CLAMP to make their annotation and NLP tasks more effective. </p>
-    
+    <br><br>
     <div class="row">  
-    <div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background_1.png" alt="background of stats"  class="responsive">
-  		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php echo $userCount;?> requests</strong></span></div>
+    <div class="col-md-6 col-sm-6 col-xs-6">  		
+  		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php echo $userCount;?> Requests</strong></span></div>
   		</div>
-  		<div class="col-md-6 col-sm-6 col-xs-6">
-  		<img src="img/stats-background_1.png" alt="background of stats" class="responsive">
-  		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:3.8vmin" > <strong> <?php echo $organizationCount;?> organizations</strong></span></div>
+  		<div class="col-md-6 col-sm-6 col-xs-6"> 
+  		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:4vmin" > <strong> <?php echo $organizationCount;?> Organizations</strong></span></div>
   		</div>
  
           </div>
-         
+     
 		</div>
+	<br><br><br>
 	<br>
 	<h3> Example organizations: </h3>
 	<br><br>
     </div>
-     
+
 	<div class= "container">
 	<table class="table">              
         <?php
