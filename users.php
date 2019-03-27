@@ -71,7 +71,7 @@ td, th {
 	<h3> Example organizations: </h3>
 	<br><br>
     </div>
-    
+     
 	<div class= "container">
 	<table class="table">              
         <?php
