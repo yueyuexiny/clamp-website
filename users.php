@@ -63,7 +63,7 @@ td, th {
   		<img src="img/stats-background_1.png" alt="background of stats" class="responsive">
   		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:3.8vmin" > <strong> <?php echo $organizationCount;?> organizations</strong></span></div>
   		</div>
-
+ 
           </div>
         
 		</div>
