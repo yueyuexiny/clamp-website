@@ -1,7 +1,7 @@
 <?php $pageTitle = "CLAMP Current Users" ?>
 <?php $pageDescription = "Natural Language Processing Tool Documentation. Clamp Current Users." ?>
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
-<?php include_once dirname(__FILE__) . '/statistics.php'; ?>
+<?php #include_once dirname(__FILE__) . '/statistics.php'; ?>
 <html lang="en">
 <head>
 
@@ -51,10 +51,10 @@ td, th {
     <br><br>
     <div class="row">  
     <div class="col-md-6 col-sm-6 col-xs-6">  		
-  		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php echo $userCount;?> Requests</strong></span></div>
+  		<div class= "number-position-request"><span style="color: #337ab7; font-size:4vmin"> <strong> <?php #echo $userCount;?> 2345 Requests</strong></span></div>
   		</div>
   		<div class="col-md-6 col-sm-6 col-xs-6"> 
-  		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:4vmin" > <strong> <?php echo $organizationCount;?> Organizations</strong></span></div>
+  		<div class= "number-position-orgs"><span style="color: #337ab7; font-size:4vmin" > <strong> <?php #echo $organizationCount;?> 234 Organizations</strong></span></div>
   		</div>
  
           </div>
