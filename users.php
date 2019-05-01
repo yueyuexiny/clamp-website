@@ -61,6 +61,9 @@ td, th {
      
 		</div>
 	<br><br><br>
+	<div style="width:75%;">
+		<canvas id="canvas"></canvas>
+	</div>
 	<script>
 var config = {
 	type: 'line',
