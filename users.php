@@ -51,10 +51,10 @@ td, th {
     <br><br>
     <div class="row">  
     <div class="col-md-6 col-sm-6 col-xs-6">  		
-  		<div class= "number-position-request"> <button type="button" class="btn btn-lg btn-primary" disabled> <?php echo $userCount;?> Requests</button></div>
+  		<div class= "number-position-request"> <button type="button" class="btn btn-lg btn-primary btn-block" disabled> <?php echo $userCount;?> Requests</button></div>
   		</div>
   		<div class="col-md-6 col-sm-6 col-xs-6"> 
-  		<div class= "number-position-orgs"> <button type="button" class="btn btn-lg btn-primary" disabled> <?php echo $organizationCount;?> Organizations</button></div>
+  		<div class= "number-position-orgs"> <button type="button" class="btn btn-lg btn-primary btn-block" disabled> <?php echo $organizationCount;?> Organizations</button></div>
   		</div>
  
           </div>
