@@ -44,7 +44,7 @@ $valuesJSArray="[".implode(",",$chartValues)."]";
 
 $chartScript="
 		var config = {
-			type: 'line',
+			type: 'bar',
 			data: {
 				labels: $labelsJSArray,
 				datasets: [{
