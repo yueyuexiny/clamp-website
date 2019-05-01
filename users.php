@@ -54,7 +54,7 @@ td, th {
   		<button type="button" style="padding: 2% 0;" class="btn btn-lg btn-primary btn-block active" role="button" aria-pressed="true"> <span style="font-size:30px;"><i style="color:orange;" class="fa fa-download" aria-hidden="true"></i>  <?php echo $userCount;?> Requests</span></button>
   		</div>
   		
-  		<div class="col-md-2 col-sm-2 col-xs-2"> <button type="button" style="background-color:white; padding: 2% 0;" class="btn btn-block"><span style="font-size:30px;"> <i>from</i> </span></button></div>
+  		<div class="col-md-1 col-sm-1 col-xs-1"> <button type="button" style="background-color:white; padding: 2% 0;" class="btn btn-block"><span style="font-size:30px;"> <i>from</i> </span></button></div>
   		
   		<div class="col-md-5 col-sm-5 col-xs-5"> 
   		<button type="button" style="padding: 2% 0;" class="btn btn-lg btn-primary btn-block active" role="button" aria-pressed="true"><span style="font-size:30px;"><i style="color:orange;" class="fa fa-university" aria-hidden="true"></i>  <?php echo $organizationCount;?> Organizations</span></button>
