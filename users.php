@@ -61,7 +61,7 @@ td, th {
      
 		</div>
 	<br><br><br>
-	<div style="width:100%;">
+	<div style="width:75%;" align="center">
 		<canvas id="canvas"></canvas>
 	</div>
 	<script>
