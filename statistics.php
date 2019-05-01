@@ -49,8 +49,8 @@ $chartScript="
 				labels: $labelsJSArray,
 				datasets: [{
 					label: 'Filled',
-					backgroundColor: window.chartColors.red,
-					borderColor: window.chartColors.red,
+					backgroundColor: navy,
+					borderColor: orange,
 					data: $valuesJSArray,
 					fill: true,
 				}]
@@ -59,7 +59,7 @@ $chartScript="
 				responsive: true,
 				title: {
 					display: true,
-					text: 'Chart.js Line Chart'
+					text: ''
 				},
 				tooltips: {
 					mode: 'index',
