@@ -48,39 +48,10 @@ $chartScript="
 			data: {
 				labels: $labelsJSArray,
 				datasets: [{
-					label: 'Unfilled',
-					fill: false,
-					backgroundColor: window.chartColors.blue,
-					borderColor: window.chartColors.blue,
-					data: $valuesJSArray,
-				}, {
-					label: 'Dashed',
-					fill: false,
-					backgroundColor: window.chartColors.green,
-					borderColor: window.chartColors.green,
-					borderDash: [5, 5],
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					],
-				}, {
 					label: 'Filled',
 					backgroundColor: window.chartColors.red,
 					borderColor: window.chartColors.red,
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					],
+					data: $valuesJSArray,
 					fill: true,
 				}]
 			},
