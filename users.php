@@ -62,7 +62,7 @@ td, th {
 		</div>
 	<br><br><br>
 	<center>
-	<div style="width:75%;" align="center">
+	<div style="width:80%;" align="center">
 		<canvas id="canvas"></canvas>
 	</div>
 	</center>

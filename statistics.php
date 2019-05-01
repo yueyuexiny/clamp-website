@@ -49,7 +49,7 @@ $chartScript="
 				labels: $labelsJSArray,
 				datasets: [{
 					label: 'Requests per month',
-					backgroundColor: '#eff5f5',
+					backgroundColor: '#d0e1e1',
 					borderColor: 'navy',
 					data: $valuesJSArray,
 					fill: true,
