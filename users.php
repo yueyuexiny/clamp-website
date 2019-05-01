@@ -61,6 +61,9 @@ td, th {
      
 		</div>
 	<br><br><br>
+	<script>
+	echo $chartScript;
+	</script>
 	<br>
 	<h3> Example organizations: </h3>
 	<br><br>
