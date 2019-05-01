@@ -49,8 +49,8 @@ $chartScript="
 				labels: $labelsJSArray,
 				datasets: [{
 					label: 'Filled',
-					backgroundColor: navy,
-					borderColor: orange,
+					backgroundColor: 'navy',
+					borderColor: 'orange',
 					data: $valuesJSArray,
 					fill: true,
 				}]
