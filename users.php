@@ -51,7 +51,7 @@ td, th {
     <br><br>
     <div class="row">  
     <div class="col-md-6 col-sm-6 col-xs-6">  		
-  		<button type="button" style="padding: 10% 0;" class="btn btn-lg btn-primary btn-block" disabled> <?php echo $userCount;?> Requests</button>
+  		<button type="button" style="padding: 10% 0;" class="btn btn-lg btn-primary btn-block" disabled> <span style="font-size:50px;"><?php echo $userCount;?> Requests</span></button>
   		</div>
   		<div class="col-md-6 col-sm-6 col-xs-6"> 
   		<button type="button" style="padding: 10% 0;" class="btn btn-lg btn-primary btn-block" disabled> <?php echo $organizationCount;?> Organizations</button>
