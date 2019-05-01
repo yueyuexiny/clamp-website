@@ -61,9 +61,11 @@ td, th {
      
 		</div>
 	<br><br><br>
+	<center>
 	<div style="width:75%;" align="center">
 		<canvas id="canvas"></canvas>
 	</div>
+	</center>
 	<script>
 <?php echo $chartScript;?>
 	</script>
