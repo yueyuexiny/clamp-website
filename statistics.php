@@ -81,7 +81,7 @@ $chartScript="
 						display: true,
 						scaleLabel: {
 							display: true,
-							labelString: 'Value'
+							labelString: 'Requests'
 						}
 					}]
 				}
