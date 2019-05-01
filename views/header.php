@@ -145,6 +145,26 @@ if (strpos($_SERVER['REQUEST_URI'], "list.php") !== false){
 	</script>
 <?php
 }
+
+if (strpos($_SERVER['REQUEST_URI'], "users.php") !== false){
+
+?>
+
+<script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+
+	<script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+	<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
+
+<?php	
+	
+}
+
 ?>        
   	          
     
