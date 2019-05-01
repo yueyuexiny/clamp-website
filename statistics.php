@@ -48,8 +48,8 @@ $chartScript="
 			data: {
 				labels: $labelsJSArray,
 				datasets: [{
-					label: 'Filled',
-					backgroundColor: 'orange',
+					label: 'Requests per month',
+					backgroundColor: '#99ccff',
 					borderColor: 'navy',
 					data: $valuesJSArray,
 					fill: true,
