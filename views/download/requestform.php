@@ -23,9 +23,9 @@
                 the version you are requesting and activation code after review, which typically takes 2-3 days. 
                 <!-- For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.-->
                 <br>
-                <p>
+                <br>
                 If you are a commercial entity or plan to use CLAMP for operational purposes, please contact <a href="http://www.melaxtech.com/">Melax Technologies Inc</a> for your licensing needs.
-                </p>
+                
             </p>
             <br>
 
