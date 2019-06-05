@@ -23,7 +23,7 @@
                 the version you are requesting and activation code after review, which typically takes 2-3 days. 
                 <!-- For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.-->
                 <br>
-                If you need commercial license, please refer to <a href="http://www.melaxtech.com/">www.melaxtech.com</a>
+                If you are a commercial entity or plan to use CLAMP for operational purposes, please contact <a href="http://www.melaxtech.com/">Melax Technologies Inc</a> for your licensing needs.
                 
             </p>
             <br>
@@ -38,13 +38,14 @@
         </div>
         <hr />
         <div class="section-content">
+        <!--
             <p class="bold">
                 Updates in CLAMP 1.5.1:
             </p><br>
             <p>• Bug fixing</p>
             <p>• Optimize the running speed of the comprehensive clinical pipeline.</p>
             <br>
-        <!--
+        
         <div class="section-content">
             <p class="bold">
                 CLAMP 1.5.0 New Features:
