@@ -44,6 +44,7 @@
             <p>• Bug fixing</p>
             <p>• Optimize the running speed of the comprehensive clinical pipeline.</p>
             <br>
+        <!--
         <div class="section-content">
             <p class="bold">
                 CLAMP 1.5.0 New Features:
@@ -53,7 +54,8 @@
             <p>• Compare two folders and show the accuracy file by file.</p>
             <p>• Usability improvement.</p>
             <p>• Bug fixing</p>
-            </div>
+        </div>
+        -->
             <br>
 
         <hr />
