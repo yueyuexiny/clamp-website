@@ -20,7 +20,11 @@
                 <br/><br>
                 CLAMP is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review, which typically takes 2-3 days. For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.
+                the version you are requesting and activation code after review, which typically takes 2-3 days. 
+                <!-- For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.-->
+                <br>
+                If you need commercial license, please refer to <a href="http://www.melaxtech.com/">www.melaxtech.com</a>
+                
             </p>
             <br>
 
@@ -29,8 +33,7 @@
             </p>
             <br>-->
             <p class="normal-bold-text">
-                Please note: If you need the source code of CLAMP, please contact 
-                Dr. Anupama E. Gururaj at <a href="mailto:Anupama.E.Gururaj@uth.tmc.edu">Anupama.E.Gururaj@uth.tmc.edu</a>
+                Please note:  
             </p>
 
 
@@ -120,9 +123,9 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="inputDetails">Please provide more details about your project (at least 250 characters) <label
+                    <label for="inputDetails">Please provide more details about your project (at least 150 characters) <label
                             style="color: #b50000;">*</label> </label>
-                    <textarea class="form-control" id="inputDetails" rows="5" name="inputDetails" required="" minlength="250"></textarea>
+                    <textarea class="form-control" id="inputDetails" rows="5" name="inputDetails" required="" minlength="150"></textarea>
                 </div>
 
                 <div class="form-group">
