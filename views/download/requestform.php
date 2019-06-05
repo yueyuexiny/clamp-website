@@ -36,7 +36,7 @@
 
 
         </div>
-        <hr />
+        
         <div class="section-content">
         <!--
             <p class="bold">
