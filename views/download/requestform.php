@@ -32,9 +32,7 @@
                 If you need the <b>CLAMP-Cancer</b> version, please visit: <a href="http://clamp.uth.edu/cancer.php"> http://clamp.uth.edu/cancer.php</a>
             </p>
             <br>-->
-            <p class="normal-bold-text">
-                Please note:  
-            </p>
+            
 
 
         </div>
