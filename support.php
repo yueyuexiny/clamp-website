@@ -22,7 +22,7 @@
                         <img src="img/office.png" alt="CLAMP Office Hour" class="img-circle img-thumbnail" style="margin-bottom: 20px">
                         <h4>Office Hour</h4>
                             <p class="p-left" style="font-size: 18px">
-                            We will have CLAMP office hour on Mondays, every alternating week.<br><br>The next CLAMP office hour is on  <span style= "color: #A52A2A "> <?=date("F dS , Y",$start_date);?> , 11.00 am -12.00 noon (CST)</span>.
+                            We will have CLAMP office hour on Mondays, every alternating week.<br><br>The next CLAMP office hour is on  <span style= "color: #A52A2A "><!--  <?=date("F dS , Y",$start_date);?> --> July 1st , 2019 , 11.00 am -12.00 noon (CST)</span>.
                             <br>
                             <br>The call-in information is provided below:<br><br>
                             Join the meeting:
