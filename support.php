@@ -3,7 +3,7 @@
 <?php include_once dirname(__FILE__) . '/views/header.php'; ?>
 <?php
         $now=strtotime("today");    
-        $start_date = strtotime("1 July 2019");
+        $start_date = strtotime("27 February 2017");
         do{
                 $start_date = strtotime("next Monday",strtotime("next Monday",$start_date));
         } while($start_date < $now || (($start_date==$now) && date("H")>="12"));
