@@ -57,6 +57,7 @@ $activationMail=false;
 		//var_dump($sqlString);
 	}
 	elseif (isset($_POST["mailBody"])){
+		var_dump($_POST);
 		$ccMails=$_POST['mailCc'];
 		sendPlainMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody'],$ccMails);
 	}
