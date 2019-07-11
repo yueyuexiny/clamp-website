@@ -1,5 +1,5 @@
 <?php
-error_reporting( E_ALL );
+//error_reporting( E_ALL );
 include ("requestformadmin.php");
 include ("config.php");
 require 'PHPMailerAutoload.php';
@@ -58,7 +58,7 @@ $activationMail=false;
 		//var_dump($sqlString);
 	}
 	elseif (isset($_POST["mailBody"])){
-		var_dump($_POST);
+		//var_dump($_POST);
 		$ccMails=$_POST['mailCc'];
 		sendPlainMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody'],$ccMails);
 	}
