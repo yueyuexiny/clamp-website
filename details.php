@@ -1,5 +1,4 @@
 <?php
-//error_reporting( E_ALL );
 include ("requestformadmin.php");
 include ("config.php");
 require 'PHPMailerAutoload.php';
@@ -58,9 +57,8 @@ $activationMail=false;
 		//var_dump($sqlString);
 	}
 	elseif (isset($_POST["mailBody"])){
-		//var_dump($_POST);
 		$ccMails=$_POST['mailCc'];
-		sendMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody']);
+		sendPlainMailToUser($_POST['mailTo'],$_POST['mailSubject'],$_POST['mailBody'],$ccMails);
 	}
 
 
@@ -110,7 +108,7 @@ function sendMailToUser($to,$subject,$body){
 
 
 function sendPlainMailToUser($to,$subject,$body,$ccMails){
-	var_dump($to,$subject,$body,$ccMails);
+	
 	$mail = new PHPMailer;
         $mail->isSMTP();
         $mail->Host = 'smtp.uth.tmc.edu';
@@ -118,14 +116,14 @@ function sendPlainMailToUser($to,$subject,$body,$ccMails){
         $mail->Port = 25;
         $mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->addAddress($to);
-        /*if(strlen(trim($ccMails))>0){
+        if(strlen(trim($ccMails))>0){
         	$ccms= explode(",",$ccMails);
         	foreach($ccms as $key=>$value){
         		$mail->addCC($value);
         	}
-        }*/
+        }
         $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
-        //$mail->isHTML(false);
+        $mail->isHTML(false);
         $mail->Subject = $subject;
         $mail->Body = $body;
 
