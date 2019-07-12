@@ -118,12 +118,12 @@ function sendPlainMailToUser($to,$subject,$body,$ccMails){
         $mail->Port = 25;
         $mail->setFrom('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->addAddress($to);
-        if(strlen(trim($ccMails))>0){
+        /*if(strlen(trim($ccMails))>0){
         	$ccms= explode(",",$ccMails);
         	foreach($ccms as $key=>$value){
         		$mail->addCC($value);
         	}
-        }
+        }*/
         $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
         $mail->isHTML(false);
         $mail->Subject = $subject;
