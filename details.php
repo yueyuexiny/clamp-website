@@ -110,7 +110,7 @@ function sendMailToUser($to,$subject,$body){
 
 
 function sendPlainMailToUser($to,$subject,$body,$ccMails){
-	
+	var_dump($to,$subject,$body,$ccMails);
 	$mail = new PHPMailer;
         $mail->isSMTP();
         $mail->Host = 'smtp.uth.tmc.edu';
