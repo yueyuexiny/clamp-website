@@ -125,7 +125,7 @@ function sendPlainMailToUser($to,$subject,$body,$ccMails){
         	}
         }*/
         $mail->addReplyTo('Anupama.E.Gururaj@uth.tmc.edu');
-        $mail->isHTML(false);
+        //$mail->isHTML(false);
         $mail->Subject = $subject;
         $mail->Body = $body;
 
