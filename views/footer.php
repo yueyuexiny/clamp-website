@@ -32,7 +32,7 @@
                 </p>
             </div>
 
-            <div class="col-lg-4">
+            <!--div class="col-lg-4">
                 <p><strong>Technical Support</strong></p>
                 <p>Jingqi Wang, MS - Scientific Programmer</p>
                 <p>
@@ -42,6 +42,19 @@
                 <p>
                     <span class="glyphicon glyphicon-earphone"></span>
                     <span>713-500-3620</span>
+                </p>
+            </div-->
+            
+            <div class="col-lg-4">
+                <p><strong>Technical Support</strong></p>
+                <p>Firat Tiryaki - Scientific Programmer</p>
+                <p>
+                    <span class="glyphicon glyphicon-envelope"></span>
+                    <a href="mailto:firat.tiryaki@uth.tmc.edu">firat.tiryaki@uth.tmc.edu</a>
+                </p>
+                <p>
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    <span>713-500-3934</span>
                 </p>
             </div>
         </div>
