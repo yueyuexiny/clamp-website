@@ -20,7 +20,7 @@
                 <br/><br>
                 CLAMP is free for academic use/research purposes.
                 Please fill up the form below with your project information. We will send you the download link to
-                the version you are requesting and activation code after review, which typically takes 2-3 days. 
+                the version you are requesting and activation code after review, which typically takes 2-3 business days. 
                 <!-- For commercial users, please fill up this form so we will get in touch with you to ascertain your needs and discuss appropriate licensing of CLAMP.-->
                 <br>
                 <br>
